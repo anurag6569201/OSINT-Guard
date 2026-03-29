@@ -17,6 +17,11 @@
   --amber-soft: rgba(217, 119, 6, 0.08);
   --code-bg: #f0f2f8;
 
+  /* Intelligence dashboard — platform accents */
+  --intel-x: #0f172a;
+  --intel-ig: #db2777;
+  --intel-li: #0a66c2;
+
   --sans: 'DM Sans', system-ui, sans-serif;
   --heading: 'DM Sans', system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
@@ -51,6 +56,11 @@
     --amber: #fbbf24;
     --amber-soft: rgba(251, 191, 36, 0.1);
     --code-bg: rgba(255, 255, 255, 0.04);
+
+    --intel-x: #e2e8f0;
+    --intel-ig: #f472b6;
+    --intel-li: #60a5fa;
+
     color-scheme: dark;
   }
 }

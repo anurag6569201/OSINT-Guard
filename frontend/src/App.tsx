@@ -1,9 +1,11 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { ExecutiveSummary } from './components/ExecutiveSummary'
 import { InferenceTable } from './components/InferenceTable'
+import { IntelligenceDashboard } from './components/IntelligenceDashboard'
 import { MethodologyFooter } from './components/MethodologyFooter'
 import { PatternOfLifeTimeline } from './components/PatternOfLifeTimeline'
 import { SpearPhishingSims } from './components/SpearPhishingSims'
+import { DatasetProvider } from './context/DatasetProvider'
 import './App.css'
 
 function Nav() {
@@ -53,16 +55,19 @@ function Nav() {
 
 function App() {
   return (
-    <div className="app">
-      <Nav />
-      <main>
-        <ExecutiveSummary />
-        <PatternOfLifeTimeline />
-        <InferenceTable />
-        <SpearPhishingSims />
-        <MethodologyFooter />
-      </main>
-    </div>
+    <DatasetProvider>
+      <div className="app">
+        <Nav />
+        <main>
+          <ExecutiveSummary />
+          <IntelligenceDashboard />
+          <PatternOfLifeTimeline />
+          <InferenceTable />
+          <SpearPhishingSims />
+          <MethodologyFooter />
+        </main>
+      </div>
+    </DatasetProvider>
   )
 }
 

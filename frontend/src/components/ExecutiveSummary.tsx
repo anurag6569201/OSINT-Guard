@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useDatasets } from '../context/useDatasets'
 import { executive, TARGET_NAME } from '../data/osintDummy'
 
 function AnimatedNumber({ target }: { target: number }) {
@@ -38,6 +39,8 @@ const fadeUp = {
 }
 
 export function ExecutiveSummary() {
+  const { targetName } = useDatasets()
+  const displayName = targetName ?? TARGET_NAME
   const pct = (executive.riskScore / executive.riskMax) * 100
 
   const chips = [
@@ -66,7 +69,7 @@ export function ExecutiveSummary() {
             variants={fadeUp}
             custom={1}
           >
-            {TARGET_NAME}
+            {displayName}
           </motion.h1>
 
           <motion.p className="hero__sub" variants={fadeUp} custom={2}>

@@ -1,0 +1,290 @@
+[{
+  "basic_info": {
+    "fullname": "Anurag Singh",
+    "first_name": "Anurag",
+    "last_name": "Singh",
+    "headline": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "public_identifier": "anurag6569",
+    "profile_url": "https://linkedin.com/in/anurag6569",
+    "profile_picture_url": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "about": "Full Stack Developer with 2 years of experience specializing in React.js, Django, and architecting scalable solutions with High-Level Design (HLD). My work is backed by a portfolio of 25+ projects and deep, hands-on experience in Microsoft Azure and Azure AI Foundry. Balancing my B.Tech at IIIT Bhubaneswar with professional roles, I am passionate about building efficient and intelligent software.",
+    "location": {
+      "country": "India",
+      "city": "Maihar, Madhya Pradesh",
+      "full": "Maihar, Madhya Pradesh, India",
+      "country_code": "IN"
+    },
+    "creator_hashtags": [],
+    "is_creator": false,
+    "is_influencer": false,
+    "is_premium": false,
+    "open_to_work": false,
+    "created_timestamp": 1688701738692,
+    "show_follower_count": false,
+    "background_picture_url": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM",
+    "urn": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "follower_count": 3288,
+    "connection_count": 3291,
+    "current_company": "",
+    "current_company_urn": "",
+    "top_skills": [
+      "Django",
+      "Full-Stack Development",
+      "Data Analysis",
+      "Machine Learning",
+      "Microsoft Azure"
+    ],
+    "email": null
+  },
+  "experience": [
+    {
+      "title": "Founding Engineer",
+      "company": "Clario",
+      "location": "San Francisco, CA",
+      "description": "AI for private market insights.",
+      "duration": "Aug 2025 - Jan 2026 · 6 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Aug"
+      },
+      "end_date": {
+        "year": 2026,
+        "month": "Jan"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/search/results/all/?keywords=Clario",
+      "employment_type": "Full-time",
+      "location_type": "Remote"
+    },
+    {
+      "title": "C4GT'25 @Beckn Collective",
+      "company": "Code for GovTech (C4GT)",
+      "location": "Delhi, India",
+      "description": "Beckn Collective: No-Code AI-Enabled UI Builder (Coding & AI)",
+      "duration": "Jun 2025 - Oct 2025 · 5 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Jun"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "Oct"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/81648334/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQEQiN0HsbM6Cw/company-logo_400_400/B56ZyuZn6bHUAc-/0/1772452479117/code_for_govtech_logo?e=1776297600&v=beta&t=5TKWs24ijF82DxggXtVhwzn1tIdxiDGw_FifNdUicF4",
+      "employment_type": "Part-time",
+      "location_type": "Remote",
+      "skills": [
+        "Full-Stack Development and Genai"
+      ],
+      "company_id": "81648334",
+      "skills_url": "https://www.linkedin.com/in/anurag6569/overlay/urn:li:fsd_profilePosition:(ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A,2655007819)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Aveti Learning",
+      "location": "Bhubaneswar, Odisha, India",
+      "description": "Genai, Fastapi",
+      "duration": "Jan 2025 - Feb 2025 · 2 mos",
+      "start_date": {
+        "year": 2025,
+        "month": "Jan"
+      },
+      "end_date": {
+        "year": 2025,
+        "month": "Feb"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/71966964/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQFjl9nsEBNRRw/company-logo_400_400/company-logo_400_400/0/1678285347241/aveti_learning_logo?e=1776297600&v=beta&t=6nJkzZx7Hk4ivrL0z18AiNC9eIEGRPTANFf7S3xtSiw",
+      "employment_type": "Internship",
+      "location_type": "Remote",
+      "company_id": "71966964"
+    },
+    {
+      "title": "Open Source Contributor",
+      "company": "GirlScript Summer of Code",
+      "location": "India",
+      "duration": "May 2024 - Aug 2024 · 4 mos",
+      "start_date": {
+        "year": 2024,
+        "month": "May"
+      },
+      "end_date": {
+        "year": 2024,
+        "month": "Aug"
+      },
+      "is_current": false,
+      "company_linkedin_url": "https://www.linkedin.com/company/14488336/",
+      "company_logo_url": "https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_400_400/company-logo_400_400/0/1630597186826/girlscriptsoc_logo?e=1776297600&v=beta&t=o7NgQtfI4DDMaBhL6ZVs0SOjdhqg62gY-Gi31p6gxnU",
+      "employment_type": "Self-employed",
+      "location_type": "Remote",
+      "skills": [
+        "Django and Full-Stack Development"
+      ],
+      "company_id": "14488336",
+      "skills_url": "https://www.linkedin.com/in/anurag6569/overlay/urn:li:fsd_profilePosition:(ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A,2401566737)/skill-associations-details?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A"
+    }
+  ],
+  "education": [
+    {
+      "school": "International Institute of Information Technology, Bhubaneswar",
+      "degree": "Bachelor of Technology - BTech, Electrical and Electronics Engineering",
+      "degree_name": "Bachelor of Technology - BTech",
+      "field_of_study": "Electrical and Electronics Engineering",
+      "duration": "Aug 2023 - Aug 2027",
+      "school_linkedin_url": "https://www.linkedin.com/company/15101352/",
+      "school_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQJUmQF0PFoQ/company-logo_400_400/company-logo_400_400/0/1631353883053?e=1776297600&v=beta&t=Mvosm17PWOlusDmIVtBtqQ4OaEpmfJchVK0fqtX6sn0",
+      "start_date": {
+        "year": 2023,
+        "month": "Aug"
+      },
+      "end_date": {
+        "year": 2027,
+        "month": "Aug"
+      },
+      "school_id": "15101352"
+    },
+    {
+      "school": "ALLEN Career Institute",
+      "degree": "jee / jee advance",
+      "degree_name": "jee / jee advance",
+      "duration": "Aug 2022 - Jun 2023",
+      "school_linkedin_url": "https://www.linkedin.com/search/results/all/?keywords=ALLEN+Career+Institute",
+      "start_date": {
+        "year": 2022,
+        "month": "Aug"
+      },
+      "end_date": {
+        "year": 2023,
+        "month": "Jun"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mr-analyzer",
+      "description": "A project using numpy, pandas, matplotlib and seaborne and machine learning where I have showcase my multiple projects of ml and data science with having various algo used in those. \n1- whatsApp chat analyzer (data science) \n2- rockmine prediction (ml) \n3- diabetes prediction (ml) \n4- movie recommendations (ml)\n5- mcq creator (genai) \n6- asktoaske (genai)",
+      "is_current": false
+    },
+    {
+      "name": "Sanitas",
+      "description": "Sanitas is a new tool that could revolutionize the healthcare industry. It provides a simplified record of active daily diseases around you using maps, graphs, charts and other data visualization techniques. With this data, we can predict pandemics, epidemics, and contagious diseases. \n\nWhat's more, we can even predict diseases that may arise in a place in advance and help people improve their health and save lives by taking appropriate measures. The potential impact of Sanitas is enormous, and we're excited to see what the future holds for this innovative tool.",
+      "is_current": false
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google solution challenge",
+      "issuer": "GDSC",
+      "issued_date": "Issued Apr 2024"
+    },
+    {
+      "name": "D3 Hackathon",
+      "issuer": "IIIT Bhubanswar",
+      "issued_date": "Issued Oct 2023"
+    }
+  ],
+  "featured": [
+    {
+      "type": "post",
+      "description": "🏆 Victory at Odoo X Mindbend Hackathon 2025! 🏆\n\nThrilled to share that Team Visora has emerged as the WINNER 🥇 at the Odoo X MINDBEND, NIT Surat 24-hour Hackathon organized by Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, on April 5-6, 2025!\nOut of 55 finalist teams, we secured Rank 1, winning a ₹45,000 cash prize, an Odoo internship opportunity, and an exclusive visit to Odoo's headquarters! \n\nLeading this incredible journey alongside my amazing teammate Anirudha Sahu, the experience was nothing short of phenomenal. But the excitement didn’t stop at the hackathon! On April 7, we visited Odoo HQ at Infocity, Gandhinagar, one of its 22 global headquarters, where we had the honor of meeting and learning from esteemed judges, mentors, and our Honorable Chief Guest, Vijender Singh Chauhan:\n✨ K Theja\n✨ Shardul Dave\n\nThe mentorship, insights, and exposure we gained—from diving into the Odoo ecosystem to interacting with Odoo’s developers and seeing cutting-edge innovation firsthand—were truly invaluable!\n\nA massive thank you to Odoo, Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, MINDBEND, NIT Surat, and all the organizers for this incredible opportunity. This is just the beginning, and we’re excited for what’s ahead! \n\n#Odoo #HackathonChampion #Mindbend2025 #TeamVisora #TechInnovation #StartupJourney #OdooHQ",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7315727359209312257?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7315727359209312257%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQFq5Pn9Tm5Gpg/feedshare-shrink_2048_1536/B56ZYavLOYGcAo-/0/1744205306870?e=1776297600&v=beta&t=W46LQs7zKYa3z3lWI2GUFWrKMXGrnlWUv6zQdgz6D9U",
+      "social_counts": {
+        "likes": 130,
+        "comments": 23,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 118
+          },
+          {
+            "type": "praise",
+            "count": 10
+          },
+          {
+            "type": "empathy",
+            "count": 1
+          },
+          {
+            "type": "interest",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "link",
+      "title": "anurag6569201 - Overview",
+      "description": "GitHub",
+      "url": "https://github.com/anurag6569201",
+      "image_url": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEh6kLRzePuLg/articleshare-shrink_800/articleshare-shrink_800/0/1766375278413?e=1775419200&v=beta&t=XRgwaT3f45xI6DYI8Su1uuI81BByB68_D8PChV07vXs"
+    },
+    {
+      "type": "post",
+      "description": "From concept to a fully deployed application, I'm incredibly proud to launch 𝐆𝐫𝐞𝐚𝐛𝐲.𝐜𝐥𝐨𝐮𝐝! \n\n𝐋𝐢𝐯𝐞 𝐒𝐢𝐭𝐞: https://greaby.cloud\n\nDriven by passion, I built this scalable performance optimized and accurate real-world application from the ground up, with a flexible architecture that allows effortless integration of future AI services.\n\n𝐆𝐫𝐞𝐚𝐛𝐲.𝐜𝐥𝐨𝐮𝐝 𝐢𝐬 𝐚𝐧 𝐚𝐥𝐥-𝐢𝐧-𝐨𝐧𝐞 𝐀𝐈 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦 , 𝐨𝐟𝐟𝐞𝐫𝐢𝐧𝐠 𝐭𝐨𝐨𝐥𝐬 𝐟𝐨𝐫 𝐫𝐞𝐚𝐥𝐢𝐬𝐭𝐢𝐜 𝐯𝐨𝐢𝐜𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧, 𝐡𝐢𝐠𝐡𝐥𝐲 𝐚𝐜𝐜𝐮𝐫𝐚𝐭𝐞 𝐭𝐫𝐚𝐧𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧, 𝐚𝐧𝐝 𝐧𝐞𝐚𝐫-𝐩𝐞𝐫𝐟𝐞𝐜𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐭𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐢𝐨𝐧 — 𝐚𝐥𝐥 𝐰𝐡𝐢𝐥𝐞 𝐩𝐫𝐞𝐬𝐞𝐫𝐯𝐢𝐧𝐠 𝐭𝐡𝐞 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐚𝐧𝐝 𝐟𝐨𝐫𝐦𝐚𝐭𝐭𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭.\n\nBuilding this was a fantastic technical challenge. My goal was to create a seamless user experience using the cutting edge technology and tools.\n\n𝐁𝐚𝐜𝐤𝐞𝐧𝐝: Python, Django, Django REST Framework\n𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝: React, Vite, TanStack Query, Tailwind CSS, shadcn/ui\n𝐀𝐬𝐲𝐧𝐜 & 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞:Celery, Redis, Django Channels (WebSockets)\n𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 & 𝐂𝐚𝐜𝐡𝐞: PostgreSQL, Azure Cache for Redis\n𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭:Azure App Service (Backend), Vercel (Frontend)\n𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞: Real-time WebSocket notifications for asynchronous AI tasks, providing a dynamic and responsive user experience.\n𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧𝐬: Azure Cognitive Services, Razorpay API, Azure Blob Storage.\n\nI handled everything from the initial database design to the final deployment configuration.\n\nI would be honored if you'd take a look at the live version. All feedback is welcome!\n\n#𝐖𝐞𝐛𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 #𝐂𝐥𝐨𝐮𝐝𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 #𝐏𝐲𝐭𝐡𝐨𝐧𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 #𝐑𝐞𝐚𝐜𝐭𝐃𝐞𝐯 #𝐃𝐣𝐚𝐧𝐠𝐨 #𝐀𝐳𝐮𝐫𝐞 #𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨𝐏𝐫𝐨𝐣𝐞𝐜𝐭 #𝐀𝐈  #𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫\n#ProductLaunch #AIPlatform #FullStackDevelopment #BuiltWithDjango #ReactJS #VoiceGeneration #SpeechToText #AzureCloud #IndieHacker #StartupJourney \n",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7352741660184760321?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7352741660184760321%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQFI7IEJ25ijjA/feedshare-shrink_2048_1536/B56ZgoviIjHUAo-/0/1753030210402?e=1776297600&v=beta&t=pFcfGZExS_h0ctgxQUP7_CLLurV5tQIIv8y41gZ6Os4",
+      "social_counts": {
+        "likes": 54,
+        "comments": 4,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 52
+          },
+          {
+            "type": "praise",
+            "count": 1
+          },
+          {
+            "type": "appreciation",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "Excited to kick off my journey as a Software Engineer Intern at Aveti Learning! At Aveti Learning, we believe in making learning a choice, not a constraint, and we're committed to bringing education in vernacular languages. I'm thrilled to join a team dedicated to creating interactive, grade-appropriate digital content that enhances classroom teaching. Looking forward to contributing my skills and gaining valuable experience in this dynamic environment! #SoftwareEngineer #Internship #AvetiLearning \n",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7289195845709709312?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7289195845709709312%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQFXf56tL_h8zg/feedshare-shrink_1280/B56ZShs_XEHwAk-/0/1737879714514?e=1776297600&v=beta&t=pl3LvIC0XC_6WQzo3kA44zWYaEXmm1C3qdh4hakD_Vg",
+      "social_counts": {
+        "likes": 68,
+        "comments": 3,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 63
+          },
+          {
+            "type": "praise",
+            "count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "description": "🌟 Exciting News! 🌟\nSanitas, has been selected to be a part of Microsoft for Startups Founders Hub.\n\nWith Sanitas, we can predict pandemics, epidemics, and contagious diseases by analyzing data on maps, graphs, and charts. This could revolutionize the healthcare industry and improve public health outcomes. Being chosen for this prestigious program is a testament to the hard work and dedication of mine. 💪\n\nI want to express my gratitude to Ehtisham Mohd  and Rajesh Kumar Jena for their support and guidance throughout this journey. And a big thank you to Microsoft Startup for this incredible opportunity!\n\n#Sanitas #MicrosoftStartup #HealthcareInnovation #StartupSuccess #Grateful #ExcitingTimesAhead ",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7181305175893004288?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7181305175893004288%29",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E22AQEnM4Sb2VTOKw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1712156573562?e=1776297600&v=beta&t=eHy5vQJeDT52oHhecTPxktX8L1OMZTg7bcRdQgcvItc",
+      "social_counts": {
+        "likes": 50,
+        "comments": 10,
+        "reaction_counts": [
+          {
+            "type": "like",
+            "count": 44
+          },
+          {
+            "type": "praise",
+            "count": 6
+          }
+        ]
+      }
+    }
+  ]
+}]
