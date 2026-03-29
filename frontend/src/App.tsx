@@ -1,11 +1,36 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import { fetchHealth } from './lib/api'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [apiStatus, setApiStatus] = useState<
+    'loading' | 'ok' | 'error'
+  >('loading')
+  const [apiDetail, setApiDetail] = useState<string | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    fetchHealth()
+      .then((data) => {
+        if (!cancelled) {
+          setApiStatus('ok')
+          setApiDetail(data.service)
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setApiStatus('error')
+          setApiDetail(null)
+        }
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   return (
     <>
@@ -21,6 +46,17 @@ function App() {
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>
         </div>
+        <p
+          className={`api-status api-status--${apiStatus}`}
+          role="status"
+          aria-live="polite"
+        >
+          {apiStatus === 'loading' && 'Checking API…'}
+          {apiStatus === 'ok' &&
+            `Backend: connected (${apiDetail ?? 'ok'})`}
+          {apiStatus === 'error' &&
+            'Backend: unreachable — start Django on port 8000'}
+        </p>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)}

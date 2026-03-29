@@ -1,3 +1,29 @@
+.api-status {
+  margin: 0 0 8px;
+  font-size: 15px;
+  max-width: 28rem;
+  text-align: center;
+  line-height: 1.35;
+}
+
+.api-status--loading {
+  color: var(--text);
+}
+
+.api-status--ok {
+  color: var(--accent);
+}
+
+.api-status--error {
+  color: #c2410c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .api-status--error {
+    color: #fb923c;
+  }
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
