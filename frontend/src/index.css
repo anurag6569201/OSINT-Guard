@@ -1,111 +1,92 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --bg: #f6f7fb;
+  --bg-2: #ffffff;
+  --bg-3: #eef0f7;
+  --text: #4a5568;
+  --text-h: #0d1117;
+  --text-dim: #9aa5b4;
+  --border: rgba(0, 0, 0, 0.07);
+  --border-mid: rgba(0, 0, 0, 0.11);
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.08);
+  --teal: #0d9488;
+  --teal-soft: rgba(13, 148, 136, 0.1);
+  --red: #dc2626;
+  --red-soft: rgba(220, 38, 38, 0.07);
+  --amber: #d97706;
+  --amber-soft: rgba(217, 119, 6, 0.08);
+  --code-bg: #f0f2f8;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --heading: 'DM Sans', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
+  font: 17px/1.5 var(--sans);
+  letter-spacing: 0.01em;
+  color-scheme: light;
   color: var(--text);
-  background: var(--bg);
+  background-color: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
+    --bg: #08090f;
+    --bg-2: #0e1018;
+    --bg-3: #13161f;
+    --text: #8892a8;
+    --text-h: #eaecf3;
+    --text-dim: #3f4858;
+    --border: rgba(255, 255, 255, 0.055);
+    --border-mid: rgba(255, 255, 255, 0.1);
+    --accent: #4f8ef7;
+    --accent-soft: rgba(79, 142, 247, 0.1);
+    --teal: #2dd4bf;
+    --teal-soft: rgba(45, 212, 191, 0.1);
+    --red: #f87171;
+    --red-soft: rgba(248, 113, 113, 0.1);
+    --amber: #fbbf24;
+    --amber-soft: rgba(251, 191, 36, 0.1);
+    --code-bg: rgba(255, 255, 255, 0.04);
+    color-scheme: dark;
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
+  width: 100%;
   min-height: 100svh;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  min-height: 100svh;
+  background: var(--bg);
+  overflow-x: hidden;
 }
 
-h1,
-h2 {
+h1, h2, h3, h4 {
   font-family: var(--heading);
-  font-weight: 500;
   color: var(--text-h);
+  margin: 0;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
 p {
   margin: 0;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
