@@ -1,0 +1,2728 @@
+[{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D4D22AQHwwdiolisMCA/feedshare-shrink_2048_1536/B4DZsjxQcyIsAw-/0/1765831678990?e=1776297600&v=beta&t=1l-loAhviXfbRgNI6EtEc0bKqAZQRgzfXcsLv591xtk"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7406434882517807104",
+  "url": "https://www.linkedin.com/posts/anurag6569_sva-identity-zeroknowledge-activity-7406434882517807104-WCAW?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "3mo",
+  "shareUrn": "urn:li:share:7406434881188208640",
+  "text": "Identity on the internet has evolved in silos:\n • 1Password (for Zero-Knowledge Privacy)\n • Google (for OAuth Convenience)\n • DigiLocker (for Government Verification)\n • Stripe (for Developer Experience)\n\nBut all of them missed the biggest crisis of the AI era: 𝗧𝗵𝗲 𝗕𝗼𝘁𝘀 and 𝗙𝗮𝗸𝗲 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝘀.\n\nYou can store a password securely, and you can log in quickly, but neither proves you are a real human.\n\nWith Sva, we are merging these four philosophies into a single protocol:\n\n • From the 𝗨𝗫 world: We took the OAuth 2.0 standard. (𝘖𝘯𝘦-𝘤𝘭𝘪𝘤𝘬 𝘭𝘰𝘨𝘪𝘯 𝘴𝘪𝘨𝘶𝘱).\n • From the 𝗗𝗲𝘃 world: We built it API-first. (𝘋𝘳𝘰𝘱-𝘪𝘯 𝘪𝘯𝘵𝘦𝘨𝘳𝘢𝘵𝘪𝘰𝘯 𝘭𝘪𝘬𝘦 𝘚𝘵𝘳𝘪𝘱𝘦).\n • From the 𝗣𝗿𝗶𝘃𝗮𝗰𝘆 world: We took the Zero-Knowledge Vault. (𝘞𝘦 𝘤𝘢𝘯'𝘵 𝘴𝘦𝘦 𝘺𝘰𝘶𝘳 𝘥𝘢𝘵𝘢).\n • From the 𝗧𝗿𝘂𝘀𝘁 world: We integrated Government Verification. (𝘙𝘦𝘢𝘭-𝘸𝘰𝘳𝘭𝘥 𝘱𝘳𝘰𝘰𝘧 𝘷𝘪𝘢 𝘋𝘪𝘨𝘪𝘓𝘰𝘤𝘬𝘦𝘳).\n\nThe Sva Innovation? Proof of Personhood.\nBy linking your digital identity to a verified government ID (𝘸𝘪𝘵𝘩𝘰𝘶𝘵 𝘴𝘵𝘰𝘳𝘪𝘯𝘨 𝘪𝘵), Sva acts as a firewall for the internet.\n\n✅ Verified Humans pass through instantly.\n❌ AI Bots and Fraud Farms hit a brick wall.\n\nWe aren't just managing credentials anymore. We are verifying humanity.\n\n#Sva #Identity #ZeroKnowledge #CyberSecurity #Bots #AI #Startup #BuildInPublic",
+  "attributes": [],
+  "comments": [],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Yuvraj",
+        "lastName": "Singh",
+        "occupation": "Building cluster in my dorm room (smolcluster), smolhub and NeatRL| Ex- TurboML, IISERK, UMD, AIISC | @HackHarvard @HackPrinceton ’24 | YESIST12 ’24 Finalist | LLM x RL",
+        "id": "1173995927",
+        "publicId": "yuvraj-singh9886",
+        "trackingId": "+3X2sjWIRpOVuXR5b6jPpw==",
+        "profileId": "ACoAAEX5wZcBkTjxYc4i6ANqQLKvmZNlk3qpIP4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGXqXbp2AWm8w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728920609052?e=1776297600&v=beta&t=YkLaqEKQvqmQpTFviPVB7UnzSUuWkq2K9NVZ43d7lyY",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEoZbFpjdoEiw/profile-displaybackgroundimage-shrink_350_1400/B4DZwYhzn.KUAY-/0/1769938043256?e=1776297600&v=beta&t=3hcZiPAdNgBVg114W2sM4v-bMikxhoqbozu7gKadv2Q"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Shubh",
+        "lastName": "Verma",
+        "occupation": "Ex - Intern @ ISRO | CSE Undergrad @ IIIT-BH | Deep Learning | Computer Vision | Data Science",
+        "id": "1191099840",
+        "publicId": "vermashubh2005",
+        "trackingId": "yJ219klTSmmQAdeM9BQ+jQ==",
+        "profileId": "ACoAAEb-vcABjcyqkA_GlxVKthYpMod32ebFOYY",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEK9AEZjlgICw/profile-displayphoto-crop_800_800/B56ZqCzlsuHYAI-/0/1763131153825?e=1776297600&v=beta&t=YLyZCiEiYAhqiSljFKvnQKos3fXaXlNMVcMIEAnzD_o",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGuEwSl-Rxpkw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727602249000?e=1776297600&v=beta&t=Gy5FwEmhGXBLDrDtuWCDerYzA72uP_BEerH3QJNuRSM"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "vinod",
+        "lastName": "kumar",
+        "occupation": "Tech & Innovation Enthusiast | Learning Full-stack Development",
+        "id": "1561089494",
+        "publicId": "vinod-kumar-332980376",
+        "trackingId": "wEtG0fS7RWGwJMIhPjPrVg==",
+        "profileId": "ACoAAF0MVdYBsvJwRQav4bAjeCNUNJbOxC-Smd4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHfJrCGmp0mBA/profile-framedphoto-shrink_800_800/B56Zk8kIrVHcAk-/0/1757657730108?e=1775426400&v=beta&t=mxtEZnv9eEmPhfuF2eQDxap6Lm50kN509iPAFGyO4cc"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Nabin",
+        "lastName": "Agrawal",
+        "occupation": "IIIT Bhubaneswar CSE'27 || C/C++ || Passionate about DSA & Problem-Solving (LeetCode) || Aspiring Web Developer || Full stack web developer",
+        "id": "1129826325",
+        "publicId": "nabin-agrawal-819462276",
+        "trackingId": "VYjoFSEXTJG+aBPSAC0sZA==",
+        "profileId": "ACoAAENXyBUB2L793e--vGi_4JN_AIshC8-fN1g",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEuai05CdX6ew/profile-displayphoto-shrink_800_800/B56ZdTN4tgGsAg-/0/1749447843626?e=1776297600&v=beta&t=AQneCBOWaDt5EpRO0DMzBk3UpxaPqC8LMxlyHBCAWzk",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFr8wUGBw5dcA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1739214976243?e=1776297600&v=beta&t=P4o7QAzOi18E_a41uROnenblICdk1fgN9cj_S3rmU9c"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Archi",
+        "lastName": "Shaw",
+        "occupation": "👩‍💻 KIIT’27",
+        "id": "1134245757",
+        "publicId": "archi-shaw-279a34277",
+        "trackingId": "s0y3ycaeROqwQql9jU+/gA==",
+        "profileId": "ACoAAEObN30B2nZucBIyhPGJdrQJMODixeY1bQ0",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEtXZSRqIYfxA/profile-displayphoto-crop_800_800/B56Zydf3N5KQAI-/0/1772168903027?e=1776297600&v=beta&t=RsdyVgsSbAx44dcV3U0cXUyyKaalKG-8rxlpawQCjHc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQG7qMoSocIKTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1731874389844?e=1776297600&v=beta&t=5tmoNzWdY5UDhtrrPT4SMmzyj7Ll-_TF80o_x5Z7jPw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "VAIBHAV",
+        "lastName": "BANSAL",
+        "occupation": "Aspiring Strategy Consultant | McKinsey Forward | 4× National Ideathon Finalist | National Case Finalist @IIM Nagpur @IIT BHU",
+        "id": "1502389501",
+        "publicId": "vaibhavbansal56",
+        "trackingId": "cQC3VH1oQWK23HNFUOikJQ==",
+        "profileId": "ACoAAFmMpP0BF_FwQFh-jur2R96d67i9THZ-JBw",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGoLy6qJ9_pEA/profile-displayphoto-crop_800_800/B56ZrE3FpSJQAI-/0/1764239368688?e=1776297600&v=beta&t=kODCVo9yxaM5PPGvaeQJHBYdVU7TZVLbWNDDveFpTSM"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abir",
+        "lastName": "Banerjee",
+        "occupation": "Pre Final Year CSE @IIIT Bhubaneswar • Ex SDE Intern @Creuto • Full Stack and Software Architecture",
+        "id": "1315213261",
+        "publicId": "abir-banerjee-951566308",
+        "trackingId": "dO38AKURSbqBhPfyQvpdzA==",
+        "profileId": "ACoAAE5kj80BwRli94D1SnzfVXG7qU79iPa1GRE",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D35AQEV7yf9EradAQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1732931448640?e=1775426400&v=beta&t=jd3bS918rz1cqd1JznCeYqGLBF76qJlQ0ec3rz0FE9s",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQFduW4zUgFczQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719354579451?e=1776297600&v=beta&t=IUSZTPKrssgEVw_E1l929OFjCh0dbJD7UBJSLY7JNRo"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Navya",
+        "lastName": "Jain",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1383185833",
+        "publicId": "navya-jain-921286327",
+        "trackingId": "qXnHIF0mSsKotmPkFU5rgw==",
+        "profileId": "ACoAAFJxvakBdk2SOumi6GIXpASo3O9vYUJmCKQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aman ",
+        "lastName": "Singh",
+        "occupation": "IIIT-Bhubaneswar",
+        "id": "1174664246",
+        "publicId": "aman-singh-672486289",
+        "trackingId": "hfVnbUthQlSZqPu6ZWJhVg==",
+        "profileId": "ACoAAEYD9DYBBYsxlVK98quDBWDZB-tBLx4kyvI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHy7BsLAUUQNw/profile-displayphoto-shrink_800_800/B56ZVDGRs5HEAc-/0/1740587475487?e=1776297600&v=beta&t=uUoXD92O_UNvH2cut09KWzs-7RVwG1LR2X4I_CHby6k",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCzy4-0rtBTg/profile-displaybackgroundimage-shrink_350_1400/B56Zlsk4xvIAAY-/0/1758463234481?e=1776297600&v=beta&t=jnASPcfw4jgEd-AC-OGXcHj98ftp9AgM6WJ1CF0EZWU"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 16,
+  "numComments": 0,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1765831680898,
+  "postedAtISO": "2025-12-15T20:48:00.898Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D4D22AQF6IUhoc2yY3Q/feedshare-shrink_2048_1536/B4DZsddQ1fHQAw-/0/1765725795744?e=1776297600&v=beta&t=RMxG7Xhuibse7xN6mIdtQeLRdJPdZwZACd8CGxT9mpI"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7405990774645022720",
+  "url": "https://www.linkedin.com/posts/anurag6569_ai-deadinternet-cybersecurity-activity-7405990774645022720-Atwb?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "3mo",
+  "shareUrn": "urn:li:share:7405990773504176128",
+  "text": "We are fast approaching the age of the \"𝘿𝙚𝙖𝙙 𝙄𝙣𝙩𝙚𝙧𝙣𝙚𝙩.\"\n𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀, 𝗱𝗲𝗲𝗽𝗳𝗮𝗸𝗲𝘀, and sophisticated 𝗯𝗼𝘁𝘀 are making it impossible to know if the \"𝙥𝙚𝙧𝙨𝙤𝙣\" you are interacting with is real.\n\nThe current defenses aren't working:\n❌ CAPTCHAs are failing (AI is too smart now).\n❌ Uploading your Government ID to every random site is a privacy nightmare.\n\nWe are stuck between \"𝗕𝗼𝘁 𝗖𝗵𝗮𝗼𝘀\" and \"𝗧𝗼𝘁𝗮𝗹 𝗦𝘂𝗿𝘃𝗲𝗶𝗹𝗹𝗮𝗻𝗰𝗲.\"\nI believe we need a third option: Proof of Personhood without the data trade-off.\n\nWhat are your thoughts? Is there a way to solve bots without giving up our privacy?\n\n#AI #DeadInternet #CyberSecurity #Identity #TechTrends",
+  "attributes": [],
+  "comments": [],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Atharva",
+        "lastName": "Rahate",
+        "occupation": "Data Engineer | Agentic AI Engineer | ML, Gen AI, Agentic AI | AI Production Systems | Python, SQL | 2x Databricks Certified | Data Platforms & Architecture | Technical Leadership & System Designs",
+        "id": "1102761590",
+        "publicId": "atharvarahate",
+        "trackingId": "Rtr4yi31RgG2MhBDE2VL+Q==",
+        "profileId": "ACoAAEG6znYBlGVJYTsnMrqcLnDA5ZVQejB_JDM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGjq0VYD3V2fw/profile-displayphoto-crop_800_800/B56Ztk4o9RIcAI-/0/1766924130458?e=1776297600&v=beta&t=V4pxQn1MP9GGZs02tPVi8vz2VOrq7yrmzoAqQRXXJ8Y",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQF9ellLfC6g5Q/profile-displaybackgroundimage-shrink_350_1400/B56Zy4kVfHIsAY-/0/1772623060766?e=1776297600&v=beta&t=tWxB4IIFIBFdiqebJIPND7lj7q6F3Wal3rcHYNtLUD4"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Manish",
+        "lastName": "Khosla",
+        "occupation": "Freelancer, Flutter developer ||Figma UI&UX designer || 3d modeling || App developer || IIIT BH'27",
+        "id": "1194057864",
+        "publicId": "manish-khosla-860a79293",
+        "trackingId": "eLolyVAJRtKeZR5pvovYHA==",
+        "profileId": "ACoAAEcr4IgBDMzc8xQFgVfGUPxa3iKdrGwwLAo",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFcKKkDjCRUkg/profile-displayphoto-crop_800_800/B56Zsv2lCPHYAI-/0/1766034397730?e=1776297600&v=beta&t=tOwZVNTyyGc94RSeQpoEJ0s57FfUZMZwrCqZT_yjmNY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Vipul",
+        "lastName": "Choudhary",
+        "occupation": "|Beginner in ML|DSA|",
+        "id": "1180770447",
+        "publicId": "vipul-choudhary-29353028b",
+        "trackingId": "r3BJ/8i0TtassS3o+fPqnQ==",
+        "profileId": "ACoAAEZhII8BCIJyXgOkuUa7NguW-zTd8jdIWN4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQH4ZIW51rRzjg/profile-displayphoto-crop_800_800/B56ZkW0M35H8AM-/0/1757024409270?e=1776297600&v=beta&t=53wYAQOkEXlIo62rUbKpewadtYZbZz7seGmkfZgqSSw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Sandeep",
+        "lastName": "Kumar",
+        "occupation": "IIITBBSR'27 student || CSE|| tech Enthusiasts|| C / C++ || Front End Developer || JavaScript ||",
+        "id": "1143611647",
+        "publicId": "sandeep-kumar-367bb027a",
+        "trackingId": "ZR8zS1mPRm+oZV4t2Axjmg==",
+        "profileId": "ACoAAEQqIP8BHi3-f-y2QM-EGHNYqXfUG3JnYKE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQH9HImy9gbdZw/profile-displayphoto-shrink_800_800/B56Zbjb67tH4Ac-/0/1747572470462?e=1776297600&v=beta&t=DWj21SRqlR8PmF8LWxM3Nk-w4fEelhvZqU32w0l76I0",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGzqu9PP4vZDQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1695155616794?e=1776297600&v=beta&t=1wF-2_3Daq-QWLcI5X-fI4I6vBzMHx-aifWqrA2hEmQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priyabrata",
+        "lastName": "Das",
+        "occupation": "Pre-Final Year Student @IIIT-BH • Full Stack Developer",
+        "id": "1061951083",
+        "publicId": "priyabrata-das-03778b257",
+        "trackingId": "A/Ts0CwLThaaks1sBMO6tw==",
+        "profileId": "ACoAAD9MFmsBr9BJge2tROUchQ6fla1p1bz6u6U",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHWO-zIj6My0A/profile-framedphoto-shrink_800_800/B56ZiuindAHQAg-/0/1755274967241?e=1775426400&v=beta&t=fS1NBgqmJnh_C8jmscIYc-B-Wg01fBF4hz6g-gltfqw"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Sanjivanee",
+        "lastName": "Mohanty",
+        "occupation": "VSSUT'27 || ETC Undergraduate || JNV CTC'22",
+        "id": "1302240666",
+        "publicId": "sanjivanee-mohanty-5b614b304",
+        "trackingId": "NiDxSaDvTEK2TDFr53vPVg==",
+        "profileId": "ACoAAE2enZoB5vfjMuttRvW8Hkf7XgLxqV23FPw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQGAck_5uyDKRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718247471306?e=1776297600&v=beta&t=N5BOefvbM4N3M4m9ZlHk8csg8KFUXoaTbBetIDQpy1U",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQGm8BPe0r27nA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719346275553?e=1776297600&v=beta&t=RHtF0nc2a5gqpZluONftBDF9uo9D-AP2cP11zGGR7MY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Fahmi",
+        "lastName": "Milan",
+        "occupation": "Software Engineer | Technology Lead | Vice President @ EXERCISE FTUI | University of Indonesia @ UI | Awardee Outstanding Delegate @ NUS & NTU",
+        "id": "1093837886",
+        "publicId": "milannfahmi",
+        "trackingId": "SnZa8bvGSYWby9a1yqhH5w==",
+        "profileId": "ACoAAEEypD4Bax-GxyJxVschRDbR2SJky4r-fag",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGA43rF-VxDaA/profile-displayphoto-crop_800_800/B56Zq579NGJQAI-/0/1764056094297?e=1776297600&v=beta&t=Lek6GriSsswBMc1m665nRuimf3WOKKBlFGG1Y7y2vPw",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQF_s6nRJhICsw/profile-displaybackgroundimage-shrink_350_1400/B56Zq56A4TIYAg-/0/1764055585649?e=1776297600&v=beta&t=j_m-BBSJhvNIvHdTqXAXnuSHp1uaLREb7I3xSU8xDeI"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ganta",
+        "lastName": "Ashish",
+        "occupation": "3rd yr Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1351282160",
+        "publicId": "ganta-ashish-ba865b318",
+        "trackingId": "Ab9nVRaWTcO43n7I7gSSJA==",
+        "profileId": "ACoAAFCK7fABK2hwikqO1OkGSMpjeeAWd-PJSxM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQF434U40PULDw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1720895349765?e=1775426400&v=beta&t=qMqr0AoIX_F_SvCUjN3QkHRop6LPMSmBlV3jK4pc2BI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEMBB8ojc00RQ/profile-displaybackgroundimage-shrink_350_1400/B56ZbS3nPQG4AY-/0/1747294517223?e=1776297600&v=beta&t=GdgPoJJ-m-0OnsnGIOgTA19IQlUqt64AzV7F-llmrhU"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Naira",
+        "lastName": "M",
+        "occupation": "Learning out loud Student | Public Speaking Society President | Aspiring Founder, Testing Ideas That Scare Me | Seeking a Co-Founder Who Thrives on Chaos",
+        "id": "1573408259",
+        "publicId": "naira-m",
+        "trackingId": "EzviOXHkSoy8tc6hDmyc8w==",
+        "profileId": "ACoAAF3ITgMB8hi9coR2NWCstncM8d_F17GrZzc",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQFtgIiL_HGoiA/profile-displayphoto-crop_800_800/B4EZjNwkaLHIAI-/0/1755798718680?e=1776297600&v=beta&t=KymbYXKlf5oiyc0iewhCpMgMwo3UOidx-axYH0wYzOA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQHqXHau_DHtDA/profile-displaybackgroundimage-shrink_350_1400/B4EZjNywfkHIAc-/0/1755799292697?e=1776297600&v=beta&t=9DTgNY5lqRpcs6Lj76rXLWLmGAw6ppMXIvgfzVXNhls"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 18,
+  "numComments": 0,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1765725797330,
+  "postedAtISO": "2025-12-14T15:23:17.330Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQFi18z3Gez2MA/feedshare-shrink_2048_1536/B56ZrubiN2L4Aw-/0/1764936798788?e=1776297600&v=beta&t=Zis9D0Ae3-wOGfYtN8pmEx-TAlDVSPEgM1KY64nRG6g"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7402681482231885824",
+  "url": "https://www.linkedin.com/posts/anurag6569_sva-buildinpublic-dataprivacy-activity-7402681482231885824-KhXe?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "3mo",
+  "shareUrn": "urn:li:share:7402681480998752256",
+  "text": "𝗟𝗮𝘀𝘁 𝘄𝗲𝗲𝗸, I announced Sva and my mission to fix the 𝘪𝘯𝘵𝘦𝘳𝘯𝘦𝘵’𝘴 𝘣𝘳𝘰𝘬𝘦𝘯 𝘵𝘳𝘶𝘴𝘵 𝘭𝘢𝘺𝘦𝘳. Since then, I’ve been analyzing the first batch of responses from my market research survey.\n\nThe early data around 𝟭𝟯𝟬 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲𝘀 highlights a massive contradiction in how we live online:\n\n𝗧𝗵𝗲 𝗕𝗲𝗵𝗮𝘃𝗶𝗼𝗿: Almost 100% of respondents rely on \"Continue with Google\" or social logins. We crave speed.\n\n𝗧𝗵𝗲 𝗘𝗺𝗼𝘁𝗶𝗼𝗻: When asked about data breaches, the responses swing wildly between \"Anxious\" (changing passwords immediately) and \"Resigned\" (assuming leaks are inevitable).\n\n𝗧𝗵𝗶𝘀 𝗰𝗼𝗻𝗳𝗶𝗿𝗺𝘀 𝗺𝘆 𝗰𝗼𝗿𝗲 𝗵𝘆𝗽𝗼𝘁𝗵𝗲𝘀𝗶𝘀: We aren't giving up our data because we don't care. We're doing it because we feel like we have no other choice.\n\n𝙏𝙝𝙚 𝙘𝙪𝙧𝙧𝙚𝙣𝙩 𝙞𝙣𝙩𝙚𝙧𝙣𝙚𝙩 𝙛𝙤𝙧𝙘𝙚𝙨 𝙮𝙤𝙪 𝙩𝙤 𝙘𝙝𝙤𝙤𝙨𝙚: 𝘾𝙤𝙣𝙫𝙚𝙣𝙞𝙚𝙣𝙘𝙚 𝙊𝙍 𝘾𝙤𝙣𝙩𝙧𝙤𝙡.\n\nWith 𝗦𝘃𝗮, I’m building a protocol where you get both. A one-click login (convenience) backed by a Zero-Knowledge Vault (control).\n\nI’m still gathering data to refine the MVP. If you haven't yet, I’d love your honest take on the state of digital identity. It takes 3 minutes.\n\nLink in comments 👇\n\n#Sva #BuildInPublic #DataPrivacy #StartupJourney #Identity #BuildInPublic #Entrepreneurship #StartupIndia #SaaS #FounderJourney #StudentFounder #TechStartups",
+  "attributes": [],
+  "comments": [
+    {
+      "time": 1764936892338,
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7402681482231885824?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7402681482231885824%2C7402681867277410304%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287402681867277410304%2Curn%3Ali%3Aactivity%3A7402681482231885824%29",
+      "text": "https://survey.getsva.com/",
+      "entities": [],
+      "pinned": false,
+      "author": {
+        "firstName": "Anurag",
+        "lastName": "Singh",
+        "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+        "id": "1153664604",
+        "publicId": "anurag6569",
+        "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+        "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM",
+        "distance": "OUT_OF_NETWORK"
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Raj",
+        "lastName": "Mathur",
+        "occupation": "Ex SDE Intern @SmartOrbit || Backend Developer || SpringBoot || MERN || Microservices || Knight @LeetCode (1948) || Open Source Contributor || GeoHack Asia Winner ’24",
+        "id": "1063427852",
+        "publicId": "raj-mathur-778181258",
+        "trackingId": "2KZckLehQYKuUJKqNr8WIw==",
+        "profileId": "ACoAAD9inwwB7Eow7a_6T8ogvzXf0TT56jEDAos",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGjsRt9vuvFlQ/profile-framedphoto-shrink_800_800/B56ZvprYOnIoAg-/0/1769152021638?e=1775426400&v=beta&t=zotVToDPZPBipHkUUcNz5zffgJvtqB7pMN72tuALa8o",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFuq9J5gc9ZPA/profile-displaybackgroundimage-shrink_350_1400/B56ZcbVTkIGQAg-/0/1748510260187?e=1776297600&v=beta&t=y5qs6UzBh-obLfpdNbGQMQWm0jC0Ug0r35nV2JjRGlk"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Manishka",
+        "lastName": "Mall",
+        "occupation": "Front-End Developer | React js |",
+        "id": "1293564000",
+        "publicId": "manishka-mall-340266301",
+        "trackingId": "PPdUTyKqQByv2xInedaY7A==",
+        "profileId": "ACoAAE0aOGAB2lIChMDX0L96GlnW8B3OfofzVEo",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQF-XFh9zitAJg/profile-displayphoto-shrink_800_800/B4EZdJTj6eGcAc-/0/1749281555373?e=1776297600&v=beta&t=ZFeWT4zCQ9bfcWflgKurwqk5f3gdIMWtUmGwbrxW-IM"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priyabrata",
+        "lastName": "Das",
+        "occupation": "Pre-Final Year Student @IIIT-BH • Full Stack Developer",
+        "id": "1061951083",
+        "publicId": "priyabrata-das-03778b257",
+        "trackingId": "A/Ts0CwLThaaks1sBMO6tw==",
+        "profileId": "ACoAAD9MFmsBr9BJge2tROUchQ6fla1p1bz6u6U",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHWO-zIj6My0A/profile-framedphoto-shrink_800_800/B56ZiuindAHQAg-/0/1755274967241?e=1775426400&v=beta&t=fS1NBgqmJnh_C8jmscIYc-B-Wg01fBF4hz6g-gltfqw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Vipul",
+        "lastName": "Choudhary",
+        "occupation": "|Beginner in ML|DSA|",
+        "id": "1180770447",
+        "publicId": "vipul-choudhary-29353028b",
+        "trackingId": "r3BJ/8i0TtassS3o+fPqnQ==",
+        "profileId": "ACoAAEZhII8BCIJyXgOkuUa7NguW-zTd8jdIWN4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQH4ZIW51rRzjg/profile-displayphoto-crop_800_800/B56ZkW0M35H8AM-/0/1757024409270?e=1776297600&v=beta&t=53wYAQOkEXlIo62rUbKpewadtYZbZz7seGmkfZgqSSw"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Sanjivanee",
+        "lastName": "Mohanty",
+        "occupation": "VSSUT'27 || ETC Undergraduate || JNV CTC'22",
+        "id": "1302240666",
+        "publicId": "sanjivanee-mohanty-5b614b304",
+        "trackingId": "NiDxSaDvTEK2TDFr53vPVg==",
+        "profileId": "ACoAAE2enZoB5vfjMuttRvW8Hkf7XgLxqV23FPw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQGAck_5uyDKRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718247471306?e=1776297600&v=beta&t=N5BOefvbM4N3M4m9ZlHk8csg8KFUXoaTbBetIDQpy1U",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQGm8BPe0r27nA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719346275553?e=1776297600&v=beta&t=RHtF0nc2a5gqpZluONftBDF9uo9D-AP2cP11zGGR7MY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Arkaprabha",
+        "lastName": "Paul",
+        "occupation": "Data Science & Finance Enthusiast | Blockchain & DeFi Analyst | IIT Madras BS (Data Science & Applications)",
+        "id": "1022545298",
+        "publicId": "arkaprabha-paul-902546246",
+        "trackingId": "y/HsgIlXTUa0frsBIHYQ+g==",
+        "profileId": "ACoAADzyzZIBzh2-ah9sF96Hlozyzjg8Wyz-ESY",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQG2Mzp5WPtJWA/profile-displayphoto-shrink_800_800/B56ZblshIEH0Ac-/0/1747610376042?e=1776297600&v=beta&t=_YYQTvEX0Al6ELld6xBfaNkVY8B8pHb1d40P_Uc4NpA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGiejcAMFhG7Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1721587838404?e=1776297600&v=beta&t=n_dGOQh2W6kJ1Y810_Ql3uAVJO8XDtuPGnGJepU5UG4"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Snehasagar",
+        "lastName": "Sahu",
+        "occupation": "Electrical and Electronics Engineering Student | Seeking Summer Internship 2026 | Passionate about IoT | Learning full stack with gen ai | July 2027 Graduation",
+        "id": "937178074",
+        "publicId": "snehasagar-sahu-50aa38221",
+        "trackingId": "cnsToG/FT8iVyhXtGMJXMw==",
+        "profileId": "ACoAADfcM9oBSG9ZbSImep3xGUYbzRrrqyWCOd4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQFQog8h7UZSRQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1713937467791?e=1775426400&v=beta&t=WlkxMlNblrfJdZ_640riaW0oHnmrNVBISlUMyOvxjPI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHGLKI8PL96zQ/profile-displaybackgroundimage-shrink_350_1400/B4DZt0A5hNKQAs-/0/1767177952725?e=1776297600&v=beta&t=mZ0Yi0jkCc8YCa2tfgHyHw7FiNBFTIREgvSQ52JS7-0"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Dipak Samadhan",
+        "lastName": "Mundhe",
+        "occupation": "Java Full Stack Developer | MERN Stack | React & React Native | Spring Boot | Seeking Software Dev Roles",
+        "id": "1071997515",
+        "publicId": "dipakmundhe",
+        "trackingId": "Pa6opFF+QCy2uyxfg2US+A==",
+        "profileId": "ACoAAD_lYksBKMeW_eWAWCUQWoOGCx2H9HIOOPc",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGPsPX5a9cvcA/profile-displayphoto-shrink_800_800/B56ZXiKnr6GsAc-/0/1743256190618?e=1776297600&v=beta&t=A5LD5jsfqTjndQBgYA0tUH4hKKPL_y6EXPpPlcjP4XM",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFZ06QOv5IxmA/profile-displaybackgroundimage-shrink_350_1400/B56ZY1yfUJGcAY-/0/1744659152097?e=1776297600&v=beta&t=gif7c_TlVvvu5mgIFmMkOnEpWjsuqn0crIWwq30q_zU"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pattanayak",
+        "occupation": "Ex-SDE intern @Stealth || COMPOSIT’24 🥉|| DS’24 Finalist || Contributor @Hacktoberfest || Solana/RUST",
+        "id": "1095938343",
+        "publicId": "aditya-pattanayak-6b303b267",
+        "trackingId": "WSOEidYtTEyO7CFztdrxmQ==",
+        "profileId": "ACoAAEFSsScBGLpk-OCEJmBGau5tkWcm-J6d7_Y",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQH1yv9lm9zuhw/profile-framedphoto-shrink_800_800/B56Zm1XA64IYAg-/0/1759684333517?e=1775426400&v=beta&t=4jdscDS3HaneLdxlYoTGd3yifdKrVOYushjAftlTeLc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCf6hZ7-NSag/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718457793273?e=1776297600&v=beta&t=Z-SF0NlIQ_5pERFKaIZx47OJluQXuT83QI6YVf96SQg"
+      }
+    }
+  ],
+  "numShares": 1,
+  "numLikes": 32,
+  "numComments": 1,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1764936800535,
+  "postedAtISO": "2025-12-05T12:13:20.535Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQEOAN6C1dOxjA/feedshare-shrink_1280/B56Zqds1BLIYAw-/0/1763582367456?e=1776297600&v=beta&t=XIBRPfB3L1VK-iltCDMudsOlWxNxDhDWBp7TA4Vnagw"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7397000585918660608",
+  "url": "https://www.linkedin.com/posts/anurag6569_sva-buildinpublic-identity-activity-7397000585918660608-58qe?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "4mo",
+  "shareUrn": "urn:li:share:7397000584706473985",
+  "text": "I've spent the last few months obsessed with a single, foundational problem: the internet's trust layer is broken.\n\nWe live in a world of endless passwords, constant data breaches, and a rising tide of bots and AI-generated content that makes it impossible to know who is real.\n\nI believe the solution requires a shift from platform-centric identity to user-sovereign identity.\n\nThat's why I'm building Sva.\nIt's a massive mission, and I'll be sharing my journey, my learnings, and the challenges along the way right here. Follow along if you're interested in the future of digital trust. \n\n#Sva #BuildInPublic #Identity #public #privacy #protection #security #developer #zeroknowledge",
+  "attributes": [],
+  "comments": [],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Kapil",
+        "lastName": "Shivhare",
+        "occupation": "Attended International Institute of Information Technology, Bhubaneswar",
+        "id": "1193834463",
+        "publicId": "kapil-shivhare-513990293",
+        "trackingId": "zJZvNXYjSTiQhQIu2Epf+w==",
+        "profileId": "ACoAAEcod98Bxv_mPalBXgvOZqu7F3zkAZg_rc0",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFoujn9yDxSDQ/profile-displayphoto-shrink_800_800/B56Zb3L3GMHUAg-/0/1747903833632?e=1776297600&v=beta&t=yY0vGX4shG43BCw_KyJL0kihtBnQiJOgJE4OQ3n28TA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Shreya",
+        "lastName": "Dutta",
+        "occupation": "AEA at DAO,Sribhumi | Merit Rank Holder | Computer Science Graduate(AUS 2025) | Java • HTML • CSS • JavaScript • Firebase • MySQL •GitHub •Netlify | Database-Driven Systems | Creator of Free Study Notes Website",
+        "id": "1131394720",
+        "publicId": "shreya-dutta-394a9a276",
+        "trackingId": "E7wIG4TARCqWI2o4wjWp4Q==",
+        "profileId": "ACoAAENvtqABSqXf-8zIzGpIvkMFn71F0d7BQ60",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHJyEWZeY1FBg/profile-displayphoto-crop_800_800/B56ZvaFhZpJ4AI-/0/1768890444258?e=1776297600&v=beta&t=2NcMrjBAsLAT18fljSEV8XHyx9k8ECeezn1kaoH0Vig",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEiP8GLIzHn9w/profile-displaybackgroundimage-shrink_350_1400/B56ZxR.LcsKcAY-/0/1770901781360?e=1776297600&v=beta&t=hzOQ5iziED6WLaqpvVLRAKVEmVQ0gQ_rBd9wfJtSeBw"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Sanjivanee",
+        "lastName": "Mohanty",
+        "occupation": "VSSUT'27 || ETC Undergraduate || JNV CTC'22",
+        "id": "1302240666",
+        "publicId": "sanjivanee-mohanty-5b614b304",
+        "trackingId": "NiDxSaDvTEK2TDFr53vPVg==",
+        "profileId": "ACoAAE2enZoB5vfjMuttRvW8Hkf7XgLxqV23FPw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQGAck_5uyDKRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718247471306?e=1776297600&v=beta&t=N5BOefvbM4N3M4m9ZlHk8csg8KFUXoaTbBetIDQpy1U",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQGm8BPe0r27nA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719346275553?e=1776297600&v=beta&t=RHtF0nc2a5gqpZluONftBDF9uo9D-AP2cP11zGGR7MY"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pattanayak",
+        "occupation": "Ex-SDE intern @Stealth || COMPOSIT’24 🥉|| DS’24 Finalist || Contributor @Hacktoberfest || Solana/RUST",
+        "id": "1095938343",
+        "publicId": "aditya-pattanayak-6b303b267",
+        "trackingId": "WSOEidYtTEyO7CFztdrxmQ==",
+        "profileId": "ACoAAEFSsScBGLpk-OCEJmBGau5tkWcm-J6d7_Y",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQH1yv9lm9zuhw/profile-framedphoto-shrink_800_800/B56Zm1XA64IYAg-/0/1759684333517?e=1775426400&v=beta&t=4jdscDS3HaneLdxlYoTGd3yifdKrVOYushjAftlTeLc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCf6hZ7-NSag/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718457793273?e=1776297600&v=beta&t=Z-SF0NlIQ_5pERFKaIZx47OJluQXuT83QI6YVf96SQg"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Mohit",
+        "lastName": "Goyal",
+        "occupation": "ML Researcher @RAAPID · AI Agent Dev @C3aLabs · Dev Ambassador @MiniMax AI LLM Fine-tuning · Agentic Systems · RAG | arXiv + IEEE Published | 13x Hackathon Winner 🏆",
+        "id": "1149153464",
+        "publicId": "mohit-goyal09",
+        "trackingId": "62lc+VsbQyGnQbszQ+h4YA==",
+        "profileId": "ACoAAER-sLgBSR0HGNUdJp9phR4D8dsvfRaIwwU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFiB_Mq4FHeSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713889078244?e=1776297600&v=beta&t=Zb4E9XykvLcOpl-L6a7M1sGwsj7Di9CI2IYI93IedDU",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGM01Z2v6YwJQ/profile-displaybackgroundimage-shrink_350_1400/B56ZlhHeTuHkAY-/0/1758270982006?e=1776297600&v=beta&t=YUZn99MwALoNAD8pprztyFareHO_wh_IJZsAL_xJyQw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Dumpala",
+        "lastName": "Rushik",
+        "occupation": "AI/ML||Final year||CSE|| IIIT Bh ’26 🎓",
+        "id": "1113166746",
+        "publicId": "dumpala-rushik-876969270",
+        "trackingId": "wtb1sJGhR2K+wDwu7LYyGQ==",
+        "profileId": "ACoAAEJZk5oBd9QCXgRFD7Hpi84uwHQsgpv8Ncg",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHsZSFY9zLnRA/profile-displayphoto-crop_800_800/B56ZjmV9N4HMAI-/0/1756211174303?e=1776297600&v=beta&t=1Z0XvoKilqqZebuR-raptf-nskA4xk9CZAIuvp4hxaM",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHYV6YSHLnHcQ/profile-displaybackgroundimage-shrink_350_1400/B56Zjit.rkIAAY-/0/1756150361840?e=1776297600&v=beta&t=oIOSOEbf1CUMVkLGdxl9yWcxnEqH4AL1UbAc8Mnfyzw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abhishek",
+        "lastName": "Kumar",
+        "occupation": "Research Analyst @ Prolific Research | Primary & Secondary Research,Consumer Insights!! अंतः अस्ति प्रारंभः!!( The end is the beginning).....",
+        "id": "591456144",
+        "publicId": "abhikumar1997",
+        "trackingId": "UKjHfeL0TjmO515mz7QxMQ==",
+        "profileId": "ACoAACNA55AB7sm4-E3jT95Vu1CVrWXtLuMFpxo",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQEpIJLBEryLmA/profile-displayphoto-crop_800_800/B4DZuTJupvIEAI-/0/1767700363647?e=1776297600&v=beta&t=dM8iHkxE58ZOldISoXuIGPwty7-gtFvgNxIcNBm36ng",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEJqigiJFM00A/profile-displaybackgroundimage-shrink_350_1400/B4DZexsYfDHAAc-/0/1751032899581?e=1776297600&v=beta&t=qCSYXdX11IADeDhmeCT2Z5HrCaFY0-YrWorFGTya0nQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priya",
+        "lastName": "Mahapatra",
+        "occupation": "IIITBBSR'27",
+        "id": "1273871874",
+        "publicId": "priya-mahapatra-45674a2b6",
+        "trackingId": "BrL1rAX8TLKhWYlUQjG8aw==",
+        "profileId": "ACoAAEvtvgIBddGQg_P1GWA1eTFKN6omg2TOhMs"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ehtisham",
+        "lastName": "Md",
+        "occupation": "SDE Intern @Param.ai | Building Scalable & AI-Driven Web Apps | Full-Stack & Backend",
+        "id": "1027763969",
+        "publicId": "ehtishaam",
+        "trackingId": "9OKM5vfzTi+6/kgBza5RPw==",
+        "profileId": "ACoAAD1CbwEBvhejZ51YSx6BeaEaQXxlYO0OmhM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGImKJLf2wFQQ/profile-displayphoto-crop_800_800/B56ZwivyaUJoAI-/0/1770109480444?e=1776297600&v=beta&t=qP2VJw5jUPDH8Z7sbKLwGz3vHHG5WGaZcNEnI3rf_10",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQE4cmihyt84yQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1678015888786?e=1776297600&v=beta&t=bQvmXmBWxJ3LQ8YxygLFz9vIplxkudBiXe40olpfYJ0"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 25,
+  "numComments": 0,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1763582369308,
+  "postedAtISO": "2025-11-19T19:59:29.308Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "isActivity": false,
+  "urn": "urn:li:activity:7386123725710004225",
+  "url": "https://www.linkedin.com/posts/anurag6569_im-happy-to-share-that-ive-been-working-activity-7386123725710004225-LZHM?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "5mo",
+  "shareUrn": "urn:li:ugcPost:7386123725022277632",
+  "text": "I’m happy to share that I’ve been working as a Software Development Engineer at a Stealth AI Startup for the past 3 months — and still continuing the journey!\n\nThese months have been full of learning — from optimization, data extraction, and feature development to system maintenance — every task has helped me grow faster and think deeper.\n\nExcited to keep building and learning ahead!",
+  "attributes": [],
+  "comments": [
+    {
+      "time": 1762449433822,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386123725022277632?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7386123725022277632%2C7392248710073782272%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287392248710073782272%2Curn%3Ali%3AugcPost%3A7386123725022277632%29",
+      "text": "Congratulations! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Rajesh Kumar",
+        "lastName": "Jena",
+        "occupation": "Ex @Oracle @ISRO @EquityBrain || Expert CodeForces || Codechef 4⭐1886 || Leetcode knight 1900 ||CodeStudio 3091",
+        "id": "902381727",
+        "publicId": "rajesh-kj",
+        "trackingId": "XDSgIGyRS6ONfk2i599dMg==",
+        "profileId": "ACoAADXJQJ8B2LPIfrHLdF2V24Htl26ohrH3thA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHoGDRfQodGEg/profile-displayphoto-crop_800_800/B4DZxvw8RGG8AI-/0/1771401628782?e=1776297600&v=beta&t=p-0JMvEB0LocJsz9bpt9oEAo1bGJMhKKQcmcADPrjjA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCRmspio79NA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711804508062?e=1776297600&v=beta&t=6hPRlwW61GmNgMzCgqRhhpFK5ivHGA-jv9B21K-JzSQ",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1762396534902,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386123725022277632?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7386123725022277632%2C7392026835921879040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287392026835921879040%2Curn%3Ali%3AugcPost%3A7386123725022277632%29",
+      "text": "Congratulations! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Satish Kumar",
+        "lastName": "Meher",
+        "occupation": "C/C++ ll JS/TS || Fullstack Web Developer || NodeJs ll ReactJs ll Pg/My SQL ll NoSQL ll System Designing ll Microservices ll AWS ll DevOps ll GenAI ll LangChain ll LangGraph ll IIIT-BH || CE 27’",
+        "id": "1151304953",
+        "publicId": "satish-kumar-meher-5356a0281",
+        "trackingId": "Bwc0IsskQTO737vllU10Zw==",
+        "profileId": "ACoAAESfhPkByNnZ-Tl5TU7ymXR0Edi4Z1Cn4gE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHgdoRrKHf7fQ/profile-framedphoto-shrink_800_800/B56ZVUxDUFHEAk-/0/1740883900204?e=1775426400&v=beta&t=2tpB1WnZ77K1Qgsj3dZmrtFBtVxnCGIUvPi0x0EAPWA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGx1Mxn_f5ORg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718676180623?e=1776297600&v=beta&t=GtWlacmxOxp9pSi9GD6iyb4cEIbOBGkey1oWB72mY4U",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1761420621568,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386123725022277632?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7386123725022277632%2C7387933558721429506%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287387933558721429506%2Curn%3Ali%3AugcPost%3A7386123725022277632%29",
+      "text": "Wishing you the best Anurag bhai 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Ganta",
+        "lastName": "Ashish",
+        "occupation": "3rd yr Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1351282160",
+        "publicId": "ganta-ashish-ba865b318",
+        "trackingId": "SXtprIHoSQ2IzMwmt860ng==",
+        "profileId": "ACoAAFCK7fABK2hwikqO1OkGSMpjeeAWd-PJSxM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQF434U40PULDw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1720895349765?e=1775426400&v=beta&t=qMqr0AoIX_F_SvCUjN3QkHRop6LPMSmBlV3jK4pc2BI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEMBB8ojc00RQ/profile-displaybackgroundimage-shrink_350_1400/B56ZbS3nPQG4AY-/0/1747294517223?e=1776297600&v=beta&t=GdgPoJJ-m-0OnsnGIOgTA19IQlUqt64AzV7F-llmrhU",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1761036929176,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386123725022277632?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7386123725022277632%2C7386324236186849280%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287386324236186849280%2Curn%3Ali%3AugcPost%3A7386123725022277632%29",
+      "text": "Congratulations! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Sana",
+        "lastName": "Memon",
+        "occupation": "Lead Generation & Client Acquisition Specialist | Helping Businesses Grow with Digital Solutions",
+        "id": "1012769899",
+        "publicId": "sana-memon-837211243",
+        "trackingId": "fXITzqZhSFWs0IzOoaLATg==",
+        "profileId": "ACoAADxdpGsB7F4Qp_2ul36QvFZaXtqIQDD7_Kw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHsSF5pPeJ2zg/profile-displayphoto-crop_800_800/B4DZn12.p1IgAI-/0/1760766455918?e=1776297600&v=beta&t=5F96z43uuxVAwxR-cpB7OQGsN1m_k-2-mO3LKTegNq4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQH6RoM2fx-P6g/profile-displaybackgroundimage-shrink_350_1400/B4DZn120qlHsAY-/0/1760766414750?e=1776297600&v=beta&t=lZADa7akWSItCYT9mcBWk4cekyaS2FXBQEOLpXgg4W0",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1760994870186,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386123725022277632?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7386123725022277632%2C7386147827997011968%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287386147827997011968%2Curn%3Ali%3AugcPost%3A7386123725022277632%29",
+      "text": "🎉 Excited for you",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Yuvraj",
+        "lastName": "Singh",
+        "occupation": "Building cluster in my dorm room (smolcluster), smolhub and NeatRL| Ex- TurboML, IISERK, UMD, AIISC | @HackHarvard @HackPrinceton ’24 | YESIST12 ’24 Finalist | LLM x RL",
+        "id": "1173995927",
+        "publicId": "yuvraj-singh9886",
+        "trackingId": "VxeYL2vjR6a1B876QQSTPQ==",
+        "profileId": "ACoAAEX5wZcBkTjxYc4i6ANqQLKvmZNlk3qpIP4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGXqXbp2AWm8w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728920609052?e=1776297600&v=beta&t=YkLaqEKQvqmQpTFviPVB7UnzSUuWkq2K9NVZ43d7lyY",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEoZbFpjdoEiw/profile-displaybackgroundimage-shrink_350_1400/B4DZwYhzn.KUAY-/0/1769938043256?e=1776297600&v=beta&t=3hcZiPAdNgBVg114W2sM4v-bMikxhoqbozu7gKadv2Q",
+        "distance": "OUT_OF_NETWORK"
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Rahul Kumar",
+        "lastName": "Padhy",
+        "occupation": "AI Engineer – LLMs, RAG & Agents | Building GenAI @ Burns & McDonnell | Ex-UJM France, Accordion | IIT (BHU)",
+        "id": "862961269",
+        "publicId": "rahul-kumar-padhy-a71006201",
+        "trackingId": "JUpatGlsTA6rdwZCkpWdag==",
+        "profileId": "ACoAADNvvnUBr3nFLhekm4yn9R3209rUDheUsxE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFl8XsVi5M3Mw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728199141023?e=1776297600&v=beta&t=nSdV36-usGmasW4wRHk15JWf2EUJFySb9J1PCDTNzoQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Rajesh Kumar",
+        "lastName": "Jena",
+        "occupation": "Ex @Oracle @ISRO @EquityBrain || Expert CodeForces || Codechef 4⭐1886 || Leetcode knight 1900 ||CodeStudio 3091",
+        "id": "902381727",
+        "publicId": "rajesh-kj",
+        "trackingId": "HOay3cqcQc++95j83yjIvw==",
+        "profileId": "ACoAADXJQJ8B2LPIfrHLdF2V24Htl26ohrH3thA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHoGDRfQodGEg/profile-displayphoto-crop_800_800/B4DZxvw8RGG8AI-/0/1771401628782?e=1776297600&v=beta&t=p-0JMvEB0LocJsz9bpt9oEAo1bGJMhKKQcmcADPrjjA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCRmspio79NA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711804508062?e=1776297600&v=beta&t=6hPRlwW61GmNgMzCgqRhhpFK5ivHGA-jv9B21K-JzSQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Satish Kumar",
+        "lastName": "Meher",
+        "occupation": "C/C++ ll JS/TS || Fullstack Web Developer || NodeJs ll ReactJs ll Pg/My SQL ll NoSQL ll System Designing ll Microservices ll AWS ll DevOps ll GenAI ll LangChain ll LangGraph ll IIIT-BH || CE 27’",
+        "id": "1151304953",
+        "publicId": "satish-kumar-meher-5356a0281",
+        "trackingId": "vPpioT1CRre/0tva1/w4Sw==",
+        "profileId": "ACoAAESfhPkByNnZ-Tl5TU7ymXR0Edi4Z1Cn4gE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHgdoRrKHf7fQ/profile-framedphoto-shrink_800_800/B56ZVUxDUFHEAk-/0/1740883900204?e=1775426400&v=beta&t=2tpB1WnZ77K1Qgsj3dZmrtFBtVxnCGIUvPi0x0EAPWA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGx1Mxn_f5ORg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718676180623?e=1776297600&v=beta&t=GtWlacmxOxp9pSi9GD6iyb4cEIbOBGkey1oWB72mY4U"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Swayam Sarans",
+        "lastName": "Behera",
+        "occupation": "Attended International Institute of Information Technology, Bhubaneswar",
+        "id": "1183725075",
+        "publicId": "swayam-sarans",
+        "trackingId": "tt7lAOFuSFex1Nd+w7yZyQ==",
+        "profileId": "ACoAAEaONhMBVq7Kjsy5KQKmxWmGGuPSa4zYVmw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQEkQ5unkpM38w/profile-displayphoto-crop_800_800/B4DZxY3TWIHwAQ-/0/1771017430864?e=1776297600&v=beta&t=jWaGDErOI_a469S9Gh7F0LULCwLYX9X_PyL9vEbn6Vk",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHAW2EfI2Re1w/profile-displaybackgroundimage-shrink_350_1400/B4DZxa.HmGJ8AY-/0/1771052761777?e=1776297600&v=beta&t=aRX5y8J2LjE2Qrrhdb8aEqvWYHT4wWCORbpzeEy2TWY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aryan",
+        "lastName": "Kumar",
+        "occupation": "13 Year Old Entrepreneur & Student || Web Developer & N8N AI Engineer || 2× Hackathon Winner 🏆 || Founder @ HydroxFlow || IITD EDC - Blueprint & IITB Tatva - EPB Finalist ✨ || Winner @ PitchPulse 🥇",
+        "id": "1427517346",
+        "publicId": "skylooperr",
+        "trackingId": "C0MHC0SCQUeFciG7cYZJCA==",
+        "profileId": "ACoAAFUWL6IBIdVDAt_qs5w9xC5FembhhoOjIJg",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHsRpmo4HpFUA/profile-displayphoto-crop_800_800/B56Z06oo1AK4AM-/0/1774805228362?e=1776297600&v=beta&t=mQd2OIrfOzD4lOwU_uyIrpbB2bkVgo8IrxmkgXlkPHE",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHxq61Kb-dZ8g/profile-displaybackgroundimage-shrink_350_1400/B56Z06pTilGYAY-/0/1774805401349?e=1776297600&v=beta&t=DIawoo-1nfiAtUSBcTRYDZ799YHDAIL-Jm7J5J2dedc"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ashima",
+        "lastName": "Anand",
+        "occupation": "Engineering Analyst @Goldman Sachs| Former Summer Analyst @Goldman Sachs 2024 | SDE Intern Flipkart 2023 | Desis Ascend Educare Mentee’22 | Semi-Finalist Google Girl Hackathon 2024 | IIITA’25",
+        "id": "954222173",
+        "publicId": "ashima-anand-aa5697227",
+        "trackingId": "OoqzR7HYTFGc5tCED7zueQ==",
+        "profileId": "ACoAADjgRl0BDh9LBm04cI_TgVMB2d_sonbY1sM",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQErrJmtKpJFJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1666202129599?e=1776297600&v=beta&t=LOXHRa9vdv98MgQ7u1zfPzVo8ErbQUm1FlbHtdNthQ0"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abhishek",
+        "lastName": "Bairagi",
+        "occupation": "Per Final Year B.Tech CSE @ IIIT Bhubaneswar",
+        "id": "1014827968",
+        "publicId": "abhishek-bairagi62",
+        "trackingId": "6sNfrBRpSl2gYbGrQsiKmQ==",
+        "profileId": "ACoAADx9C8ABb8jim11-d1lwPGF9BN-T6Bz7rCA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D35AQFaStNWQTHuoQ/profile-framedphoto-shrink_800_800/B4DZwTwYxMKcAg-/0/1769857977722?e=1775426400&v=beta&t=6mGJWAqZAg7ffT4PtH5Fy_DyKb7ffNcRi5KVVNR8Oiw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pal",
+        "occupation": "Final Year| max(1669)@Leetcode|max(1672)GFG|7x Oracle Certified |DevOps Engineer| Cloud Engineer| AWS |Linux |Python | CI&CD| Jenkins| Docker | Kubernetes | Terraform",
+        "id": "985452131",
+        "publicId": "adityapal004",
+        "trackingId": "v1ZqZ5ZQRVSGbyap/IJ6+A==",
+        "profileId": "ACoAADq8zmMBy9WINkzWZI4vjT4fJZS_uk3mDiI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQE_U1grCduUaw/profile-displayphoto-crop_800_800/B56Z00g91SKsAI-/0/1774702561351?e=1776297600&v=beta&t=qho11Zxx_wmey7gT93erVAQLUpkaam5ZxEaILOODcfw",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHdh-pP-OF5yQ/profile-displaybackgroundimage-shrink_350_1400/B56Z00hPGsJgAY-/0/1774702622286?e=1776297600&v=beta&t=IIpJuR0AZAwRdli8Yw56s6aPDXp42RJeynMnQI0yr0o"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Shobhit",
+        "lastName": "Singh",
+        "occupation": "Software Engineer | AI-enabled CDS | Building evidence-based medical software under SaMD constraints | Senior 🎓 @ IIT Guwahati",
+        "id": "1057401748",
+        "publicId": "shobhit-singhh",
+        "trackingId": "HEB6H67rSVaj0DF5vqwohQ==",
+        "profileId": "ACoAAD8Gq5QB1F6p3wyBgwIBBVTRUQ-sCRdJxQc",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHL1xiUtvpbPg/profile-displayphoto-crop_800_800/B56ZteEl1WIcAM-/0/1766809821021?e=1776297600&v=beta&t=i2BiJZlMwRrS_y9Hx2CdKFHVS1K2z31KUnxFEKhhgT4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFkoyNfciiUhw/profile-displaybackgroundimage-shrink_350_1400/B56ZtYCyZ8GwAY-/0/1766708685413?e=1776297600&v=beta&t=Huop1QM2bEbObc9Mh_-l_2ERgRTKZLtMZfMk8XBK0rg"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Ganta",
+        "lastName": "Ashish",
+        "occupation": "3rd yr Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1351282160",
+        "publicId": "ganta-ashish-ba865b318",
+        "trackingId": "Ab9nVRaWTcO43n7I7gSSJA==",
+        "profileId": "ACoAAFCK7fABK2hwikqO1OkGSMpjeeAWd-PJSxM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQF434U40PULDw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1720895349765?e=1775426400&v=beta&t=qMqr0AoIX_F_SvCUjN3QkHRop6LPMSmBlV3jK4pc2BI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEMBB8ojc00RQ/profile-displaybackgroundimage-shrink_350_1400/B56ZbS3nPQG4AY-/0/1747294517223?e=1776297600&v=beta&t=GdgPoJJ-m-0OnsnGIOgTA19IQlUqt64AzV7F-llmrhU"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 64,
+  "numComments": 5,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1760989123752,
+  "postedAtISO": "2025-10-20T19:38:43.752Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQGjkuJ_kwZ0mQ/feedshare-shrink_2048_1536/B56ZmPpw6RJ8Aw-/0/1759051717106?e=1776297600&v=beta&t=pLhvRfg5XutswRMywEexyJSjZbCsVAJ7Ojw1OnvWwww"
+  ],
+  "isActivity": true,
+  "activityDescription": "Anurag Singh reposted this",
+  "activityOfUser": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "urn": "urn:li:activity:7378066052649246720",
+  "url": "https://www.linkedin.com/posts/pratham-pratap-singh-1b1b73246_sih2025-smartindiahackathon-teamwork-activity-7377997658520694784-zK4h?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "6mo",
+  "shareUrn": "urn:li:share:7377997657107197952",
+  "text": "✨ Thrilled to share a moment of pride!\n\nOur team Electro-Coders has cleared the internal round of Smart India Hackathon 2025 successfully, earning a spot in the Top 2 teams of our college International Institute of Information Technology, Bhubaneswar. I was working on my first team leadership experience, and I'm really thankful to have shared this so far.\n\nOur initiative, \"SwachhBandhu – A Mobile-First Civic Tech Platform\", is geared towards addressing day-to-day civic complaints such as trash heaps, potholes, and defunct streetlights. With offerings like QR-based reporting, geo-verification, gamification, and real-time dashboards for authorities, our vision is to create cleaner, wiser, and more responsive cities.\n\nIn spite of the stress of continuous midterm exams, the team devoted their time and effort to constructing and developing our solution. I would like to personally thank all the members of my team for their hard work, creativity, and dedication.\n\nWe have special appreciation for Anurag Singh, who presented an outstanding presentation during the internal round and exhibited our idea with clarity and confidence.\n\nThis achievement could not have happened without the coordination, determination, and mutual vision we propagated alongside. Looking forward to the subsequent phases of this venture!\n\n#SIH2025 #SmartIndiaHackathon #Teamwork #Innovation #Leadership #CleanTech",
+  "attributes": [
+    {
+      "start": 188,
+      "length": 62,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "International Institute of Information Technology, Bhubaneswar",
+        "universalName": "international-institute-of-information-technology-bhubaneswar",
+        "trackingId": "93TbC9sKSR+SzAqzQuI0gg==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:15101352",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQFQJUmQF0PFoQ/company-logo_400_400/company-logo_400_400/0/1631353883053?e=1776297600&v=beta&t=Mvosm17PWOlusDmIVtBtqQ4OaEpmfJchVK0fqtX6sn0"
+      }
+    },
+    {
+      "start": 1004,
+      "length": 12,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Anurag",
+        "lastName": "Singh",
+        "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+        "id": "1153664604",
+        "publicId": "anurag6569",
+        "trackingId": "3xtVc0yKQ9WmpvKGbSLGYA==",
+        "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+      }
+    }
+  ],
+  "comments": [],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Varada Raju",
+        "lastName": "Suggu",
+        "occupation": "Btech CSE at KL University | Fellow at NxtWave CCBP 4.0 | IITG Summer School",
+        "id": "1341602758",
+        "publicId": "varada-raju-suggu",
+        "trackingId": "bNc1XKfZRdOaxoQyebWV1Q==",
+        "profileId": "ACoAAE_3O8YBRKlrgPe9hUEQBip5JjjW77YwnMU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQFRRhbkqezvuA/profile-framedphoto-shrink_800_800/B56Zjuo91_H8Ag-/0/1756350373633?e=1775426400&v=beta&t=is7uGKKspOQWgAlogcCK-b1sA-xo-gCicnHlDGn11Bk",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQF2nEBcBD_h8w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1721405553975?e=1776297600&v=beta&t=e-k8ldTzWWai4cgWnzesAatocjbnwo-MlvJ-irvq0C8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abhay",
+        "lastName": "Pratap Singh",
+        "occupation": "Hustling around | Tech & Finance | IIIT BBSR CE'28",
+        "id": "1335995636",
+        "publicId": "abhay-pratap-singh-758509313",
+        "trackingId": "sYYJBZNmS0Si7utFQqkMGA==",
+        "profileId": "ACoAAE-hrPQB1Y_nuMWyEr4jEqoUWD31pGSKK6E",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEuehwJ0w28sA/profile-displayphoto-shrink_800_800/B56ZRWFKynGQAc-/0/1736610984131?e=1776297600&v=beta&t=lN0eFKHG0xbcBusx_HS-3zligfahzIQj3TfGyZHMDG8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Madhav",
+        "lastName": "Patel",
+        "occupation": "Btech 26'|| SGSITS || CSE ||",
+        "id": "1072438179",
+        "publicId": "madhav-patel-b431a725b",
+        "trackingId": "LNKYGn26Sdqlre7gYt3/lg==",
+        "profileId": "ACoAAD_sG6MBjSvKRGeLNEIwDxSy5pdwjZ86LX0",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQE3M5xwa_TQuA/profile-displayphoto-shrink_800_800/B4DZRBDGL0G0Ac-/0/1736258120048?e=1776297600&v=beta&t=tMnjRkdoBCNOanpeAppc5LOgHszjH9DIyRZ3jW3Uoys"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Suraj ",
+        "lastName": "Kushwaha",
+        "occupation": "MBA-IIM RANCHI’27",
+        "id": "1109217731",
+        "publicId": "suraj-kushwaha-4ab58426b",
+        "trackingId": "RwLKAVrKQfa7j3v+gKLa9Q==",
+        "profileId": "ACoAAEIdUcMBwEvdbTUuH9v2wHqx1K3vkbgwyOs",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQEIZwL2esAIXQ/profile-displayphoto-crop_800_800/B4DZmSAElHH4AI-/0/1759091119061?e=1776297600&v=beta&t=FVxzCb-asxyMYpF4yovgXe-M--iLAHNeqxmslohxLwc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEdk_UXiTzpTg/profile-displaybackgroundimage-shrink_350_1400/B4DZgEKnWSHkAY-/0/1752416550184?e=1776297600&v=beta&t=eb3k0lFN5Mhh-NhSHC9uBfrsVDDNBaHNbBiYbvM6v4M"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Yug",
+        "lastName": "Agarwal",
+        "occupation": "Specialist @Codeforces || 4⭐ @Codechef || Competitive Programmer || Sophomore @IIIT Bhubaneswar",
+        "id": "1371433502",
+        "publicId": "yugagarwal005",
+        "trackingId": "5/mfUPQaShWRVCOYobBF4A==",
+        "profileId": "ACoAAFG-ah4BChhK74Uh7IOX1n-NFD0Hn9afYMI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQExZwswlS2bNw/profile-displayphoto-crop_800_800/B56ZvwfCWdHAAI-/0/1769266229666?e=1776297600&v=beta&t=VlZfsdG2Dln9j-BDKBU-2dY88jQSQ0iL43sv19-zarg",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGUAmFtnobuuw/profile-displaybackgroundimage-shrink_350_1400/B56ZeENEKXHEAk-/0/1750269708184?e=1776297600&v=beta&t=2IPP0anjWHNfrmS1ErwYTt49MTubp74bkTV2XTdoBL8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Nikhil Pritam",
+        "lastName": "Râjpøøt",
+        "occupation": "Co-lead@Coding Ninjas IIIT Bh || Technical co-lead @GFG IIIT Bh || Campus Ambassador@my gov india",
+        "id": "1204644251",
+        "publicId": "nikhil-pritam-râjpøøt-10b524297",
+        "trackingId": "VahpxD7ZSICiuIl98sUmUw==",
+        "profileId": "ACoAAEfNaZsBwIM2v2lhZRzGS2pmhya2DoylMAM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHnDr5iKNey1Q/profile-displayphoto-shrink_800_800/B56ZXDPDfmGUAc-/0/1742737259740?e=1776297600&v=beta&t=25TTCk59fNLDupjh7fPif18zyGGZS2MHY5cc9H-UkBY",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEgQi1jesv4Ug/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1734849332304?e=1776297600&v=beta&t=5Vz5zEcZgA-ea3nzaVs08W_HKW0dGGJvh-qTEcsT-zw"
+      }
+    },
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pattanayak",
+        "occupation": "Ex-SDE intern @Stealth || COMPOSIT’24 🥉|| DS’24 Finalist || Contributor @Hacktoberfest || Solana/RUST",
+        "id": "1095938343",
+        "publicId": "aditya-pattanayak-6b303b267",
+        "trackingId": "WSOEidYtTEyO7CFztdrxmQ==",
+        "profileId": "ACoAAEFSsScBGLpk-OCEJmBGau5tkWcm-J6d7_Y",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQH1yv9lm9zuhw/profile-framedphoto-shrink_800_800/B56Zm1XA64IYAg-/0/1759684333517?e=1775426400&v=beta&t=4jdscDS3HaneLdxlYoTGd3yifdKrVOYushjAftlTeLc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCf6hZ7-NSag/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718457793273?e=1776297600&v=beta&t=Z-SF0NlIQ_5pERFKaIZx47OJluQXuT83QI6YVf96SQg"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Arkaprabha",
+        "lastName": "Paul",
+        "occupation": "Data Science & Finance Enthusiast | Blockchain & DeFi Analyst | IIT Madras BS (Data Science & Applications)",
+        "id": "1022545298",
+        "publicId": "arkaprabha-paul-902546246",
+        "trackingId": "y/HsgIlXTUa0frsBIHYQ+g==",
+        "profileId": "ACoAADzyzZIBzh2-ah9sF96Hlozyzjg8Wyz-ESY",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQG2Mzp5WPtJWA/profile-displayphoto-shrink_800_800/B56ZblshIEH0Ac-/0/1747610376042?e=1776297600&v=beta&t=_YYQTvEX0Al6ELld6xBfaNkVY8B8pHb1d40P_Uc4NpA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGiejcAMFhG7Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1721587838404?e=1776297600&v=beta&t=n_dGOQh2W6kJ1Y810_Ql3uAVJO8XDtuPGnGJepU5UG4"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ashish",
+        "lastName": "Chhachhiya",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1357455242",
+        "publicId": "ashish-chhachhiya-46273831a",
+        "trackingId": "OEoeD7lqSBq4vAFMg63nkg==",
+        "profileId": "ACoAAFDpH4oBQm0PPkJlp8bgwOWocLDfBEgMVOk",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQF8YMAcL-Soyg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1721490904477?e=1776297600&v=beta&t=Nuq1I57uryMN9UEJwwoyT8zPxJxdrAjdFmUjSfechCE"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abhijit",
+        "lastName": "Patra",
+        "occupation": "Attended Gandhi Institute for Education and Technology (GIET), Khurda, Bhubaneswar. ||Computer science engineering||AIML||",
+        "id": "1379470923",
+        "publicId": "abhijit-patra-b23b94325",
+        "trackingId": "91xdNlf1TDSIxRRGFPBCNw==",
+        "profileId": "ACoAAFI5DksBvWeeju6VIyB9CzXI4aotO7pTkzA",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQG_4Gta5CO2AQ/profile-displayphoto-crop_800_800/B56ZuTKOZeJMAQ-/0/1767700491939?e=1776297600&v=beta&t=K7Orm5GT6Gt47-u181FRvH8uky6wJzo9Nbp51_AnSgY",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQET-axOE5wWOQ/profile-displaybackgroundimage-shrink_350_1400/B4EZYkSQM9HgAY-/0/1744365488397?e=1776297600&v=beta&t=Zgr2D2FPpBNE5IACieq6hDX_8PBYkFbfG1InAgHAY2Q"
+      }
+    }
+  ],
+  "numShares": 1,
+  "numLikes": 39,
+  "numComments": 0,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Pratham Pratap",
+    "lastName": "Singh",
+    "occupation": "Ex-intern @Piramal Swasthya | Pre-final year B.Tech Student at IIIT Bhubaneswar | Aspiring Full-Stack Developer | C++ Problem Solver (200+ LeetCode & GFG challenges)",
+    "id": "1024094293",
+    "publicId": "pratham-pratap-singh-1b1b73246",
+    "trackingId": "KWmKPqIXQD+m7djOM58zSQ==",
+    "profileId": "ACoAAD0KcFUBIzC46_xI0ghKPren_6e0WQrwK-I",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQGGucA983tmAA/profile-displayphoto-shrink_800_800/B56ZcBcCQTH4Ac-/0/1748075816968?e=1776297600&v=beta&t=QqIa6mer4Brr9M-nY4el8x3Kb2XaZ8IeOuWKwEV2RrU",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFb75o2gMgQig/profile-displaybackgroundimage-shrink_200_800/B56ZcBcgEmHcAU-/0/1748075938943?e=1776297600&v=beta&t=OVFkz2qzl1rVCmimTgwKwtFn8BHBjEMBEdVETP3m7f0"
+  },
+  "authorProfileId": "pratham-pratap-singh-1b1b73246",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQGGucA983tmAA/profile-displayphoto-shrink_800_800/B56ZcBcCQTH4Ac-/0/1748075816968?e=1776297600&v=beta&t=QqIa6mer4Brr9M-nY4el8x3Kb2XaZ8IeOuWKwEV2RrU",
+  "authorType": "Person",
+  "authorName": "Pratham Pratap Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/pratham-pratap-singh-1b1b73246?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD0KcFUBIzC46_xI0ghKPren_6e0WQrwK-I",
+  "authorUrn": "urn:li:member:1024094293",
+  "postedAtTimestamp": 1759068024790,
+  "postedAtISO": "2025-09-28T14:00:24.790Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQFI7IEJ25ijjA/feedshare-shrink_2048_1536/B56ZgoviIjHUAo-/0/1753030210402?e=1776297600&v=beta&t=pFcfGZExS_h0ctgxQUP7_CLLurV5tQIIv8y41gZ6Os4",
+    "https://media.licdn.com/dms/image/v2/D5622AQFcgfyxdKQElQ/feedshare-shrink_2048_1536/B56ZgoviIsHQAs-/0/1753030217156?e=1776297600&v=beta&t=rQEyp1LpPq_3OyckteHYY5J73C4MMJrEdlQkwSTsxk4",
+    "https://media.licdn.com/dms/image/v2/D5622AQHGFsuuFKnkXg/feedshare-shrink_2048_1536/B56ZgoviIoHMAo-/0/1753030208388?e=1776297600&v=beta&t=SRpqCoUF_Q7ZJ8-RbkQnJjGcuOG3qVU3-I4_9xjMrR8"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7352741660184760321",
+  "url": "https://www.linkedin.com/posts/anurag6569_webdeveloper-cloudarchitecture-pythondeveloper-activity-7352741660184760321-yrTD?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "8mo",
+  "shareUrn": "urn:li:ugcPost:7352741659069067264",
+  "text": "From concept to a fully deployed application, I'm incredibly proud to launch 𝐆𝐫𝐞𝐚𝐛𝐲.𝐜𝐥𝐨𝐮𝐝! \n\n𝐋𝐢𝐯𝐞 𝐒𝐢𝐭𝐞: https://greaby.cloud\n\nDriven by passion, I built this scalable performance optimized and accurate real-world application from the ground up, with a flexible architecture that allows effortless integration of future AI services.\n\n𝐆𝐫𝐞𝐚𝐛𝐲.𝐜𝐥𝐨𝐮𝐝 𝐢𝐬 𝐚𝐧 𝐚𝐥𝐥-𝐢𝐧-𝐨𝐧𝐞 𝐀𝐈 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦 , 𝐨𝐟𝐟𝐞𝐫𝐢𝐧𝐠 𝐭𝐨𝐨𝐥𝐬 𝐟𝐨𝐫 𝐫𝐞𝐚𝐥𝐢𝐬𝐭𝐢𝐜 𝐯𝐨𝐢𝐜𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧, 𝐡𝐢𝐠𝐡𝐥𝐲 𝐚𝐜𝐜𝐮𝐫𝐚𝐭𝐞 𝐭𝐫𝐚𝐧𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧, 𝐚𝐧𝐝 𝐧𝐞𝐚𝐫-𝐩𝐞𝐫𝐟𝐞𝐜𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐭𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐢𝐨𝐧 — 𝐚𝐥𝐥 𝐰𝐡𝐢𝐥𝐞 𝐩𝐫𝐞𝐬𝐞𝐫𝐯𝐢𝐧𝐠 𝐭𝐡𝐞 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐚𝐧𝐝 𝐟𝐨𝐫𝐦𝐚𝐭𝐭𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭.\n\nBuilding this was a fantastic technical challenge. My goal was to create a seamless user experience using the cutting edge technology and tools.\n\n𝐁𝐚𝐜𝐤𝐞𝐧𝐝: Python, Django, Django REST Framework\n𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝: React, Vite, TanStack Query, Tailwind CSS, shadcn/ui\n𝐀𝐬𝐲𝐧𝐜 & 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞:Celery, Redis, Django Channels (WebSockets)\n𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 & 𝐂𝐚𝐜𝐡𝐞: PostgreSQL, Azure Cache for Redis\n𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭:Azure App Service (Backend), Vercel (Frontend)\n𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞: Real-time WebSocket notifications for asynchronous AI tasks, providing a dynamic and responsive user experience.\n𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧𝐬: Azure Cognitive Services, Razorpay API, Azure Blob Storage.\n\nI handled everything from the initial database design to the final deployment configuration.\n\nI would be honored if you'd take a look at the live version. All feedback is welcome!\n\n#𝐖𝐞𝐛𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 #𝐂𝐥𝐨𝐮𝐝𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 #𝐏𝐲𝐭𝐡𝐨𝐧𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 #𝐑𝐞𝐚𝐜𝐭𝐃𝐞𝐯 #𝐃𝐣𝐚𝐧𝐠𝐨 #𝐀𝐳𝐮𝐫𝐞 #𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨𝐏𝐫𝐨𝐣𝐞𝐜𝐭 #𝐀𝐈  #𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫\n#ProductLaunch #AIPlatform #FullStackDevelopment #BuiltWithDjango #ReactJS #VoiceGeneration #SpeechToText #AzureCloud #IndieHacker #StartupJourney",
+  "attributes": [],
+  "comments": [
+    {
+      "time": 1754475569975,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7352741659069067264?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352741659069067264%2C7358803901044678656%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287358803901044678656%2Curn%3Ali%3AugcPost%3A7352741659069067264%29",
+      "text": "Impressive",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Rajesh Kumar",
+        "lastName": "Jena",
+        "occupation": "Ex @Oracle @ISRO @EquityBrain || Expert CodeForces || Codechef 4⭐1886 || Leetcode knight 1900 ||CodeStudio 3091",
+        "id": "902381727",
+        "publicId": "rajesh-kj",
+        "trackingId": "XDSgIGyRS6ONfk2i599dMg==",
+        "profileId": "ACoAADXJQJ8B2LPIfrHLdF2V24Htl26ohrH3thA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHoGDRfQodGEg/profile-displayphoto-crop_800_800/B4DZxvw8RGG8AI-/0/1771401628782?e=1776297600&v=beta&t=p-0JMvEB0LocJsz9bpt9oEAo1bGJMhKKQcmcADPrjjA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCRmspio79NA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711804508062?e=1776297600&v=beta&t=6hPRlwW61GmNgMzCgqRhhpFK5ivHGA-jv9B21K-JzSQ",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1753103801282,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7352741659069067264?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352741659069067264%2C7353050286128590853%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287353050286128590853%2Curn%3Ali%3AugcPost%3A7352741659069067264%29",
+      "text": "Amazing project.\n",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Punit",
+        "lastName": "Kumar",
+        "occupation": "Engineering @ Fam",
+        "id": "1159471163",
+        "publicId": "punit-kr03",
+        "trackingId": "PcWf7+mVTKexjscH3IrcJw==",
+        "profileId": "ACoAAEUcIDsBUNupgpHxd6tjMZghCVfIlDR00Mg",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFL7mLdnR5JQg/profile-displayphoto-crop_800_800/B56ZsMz.4kHYAU-/0/1765446513728?e=1776297600&v=beta&t=6V_UuWNkArTnAUeJQl8Rrmy6y09TiLN2XSo2uhzGb7A",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHvIZejlJFXTQ/profile-displaybackgroundimage-shrink_350_1400/B56ZuUkVeAJoAY-/0/1767724113396?e=1776297600&v=beta&t=XS9pfSk9PhiEchQoUUIyUPff5R_gfJtmoaXINZD0MRk",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1753064937312,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7352741659069067264?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352741659069067264%2C7352887278827982848%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287352887278827982848%2Curn%3Ali%3AugcPost%3A7352741659069067264%29",
+      "text": "Excellent work Anurag",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Aditya",
+        "lastName": "Das",
+        "occupation": "Intern @Opentext | 3⭐ @ CodeChef | 390+ LeetCode Problems Solved | Aspiring Software Engineer | AI & Data-Driven Solutions Enthusiast",
+        "id": "1039255071",
+        "publicId": "aditya26das",
+        "trackingId": "7ihzs//iTBupVTe2xonV9Q==",
+        "profileId": "ACoAAD3xxh8BzcUDgzcDhZ5h5OG2f3ZABxHgE2E",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEMMIQ2zGjHzw/profile-displayphoto-shrink_800_800/B56ZXgscqPGUAg-/0/1743231504576?e=1776297600&v=beta&t=qjN4eb3-5O2oYSDNqe-Si4Sjk_t5kVP-gtSDyHI0blc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQELYT8ts-xFuw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1736058428570?e=1776297600&v=beta&t=xVZi71xXnjtttAJqxgp_VDEOAn67uyhO2YrYD-jIEX8",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1753041788300,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7352741659069067264?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352741659069067264%2C7352790184834330624%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287352790184834330624%2Curn%3Ali%3AugcPost%3A7352741659069067264%29",
+      "text": "Anurag Singh Real-time WebSocket notifications? That’s such a slick touchfeels like the future showed up early!",
+      "entities": [
+        {
+          "start": 0,
+          "length": 12,
+          "type": "PROFILE_MENTION",
+          "profile": {
+            "firstName": "Anurag",
+            "lastName": "Singh",
+            "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+            "id": "1153664604",
+            "publicId": "anurag6569",
+            "trackingId": "3xtVc0yKQ9WmpvKGbSLGYA==",
+            "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+            "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+            "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+          }
+        }
+      ],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Samin Yeaser",
+        "lastName": "Nuhas",
+        "occupation": "I design logos & brand identities for brands that want to stand out | Follow for Logo Design, Brand Identity, and Branding Tips",
+        "id": "881304497",
+        "publicId": "samindzns",
+        "trackingId": "hFQRolpoTjKyCwtaP63HGg==",
+        "profileId": "ACoAADSHo7EBPo60AOJ9FsRXKsOZwSBU0Jvnsik",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFOqnQ7R2sEmA/profile-displayphoto-crop_800_800/B56ZwT7LeFJQAI-/0/1769860807746?e=1776297600&v=beta&t=ScYxWFfHqmGQCKl_IP3zJNbh-g-sRKQRAHsoUYB7FFk",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHCWNfiUt99ew/profile-displaybackgroundimage-shrink_350_1400/B56ZXJFjgiGoAY-/0/1742835432427?e=1776297600&v=beta&t=7vKyBWUVqkzA0iPPQ0GMkjlusfUcB_osay4Zp1K2CZ8",
+        "distance": "OUT_OF_NETWORK"
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pattanayak",
+        "occupation": "Ex-SDE intern @Stealth || COMPOSIT’24 🥉|| DS’24 Finalist || Contributor @Hacktoberfest || Solana/RUST",
+        "id": "1095938343",
+        "publicId": "aditya-pattanayak-6b303b267",
+        "trackingId": "WSOEidYtTEyO7CFztdrxmQ==",
+        "profileId": "ACoAAEFSsScBGLpk-OCEJmBGau5tkWcm-J6d7_Y",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQH1yv9lm9zuhw/profile-framedphoto-shrink_800_800/B56Zm1XA64IYAg-/0/1759684333517?e=1775426400&v=beta&t=4jdscDS3HaneLdxlYoTGd3yifdKrVOYushjAftlTeLc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCf6hZ7-NSag/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718457793273?e=1776297600&v=beta&t=Z-SF0NlIQ_5pERFKaIZx47OJluQXuT83QI6YVf96SQg"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Yuvraj",
+        "lastName": "Singh",
+        "occupation": "Building cluster in my dorm room (smolcluster), smolhub and NeatRL| Ex- TurboML, IISERK, UMD, AIISC | @HackHarvard @HackPrinceton ’24 | YESIST12 ’24 Finalist | LLM x RL",
+        "id": "1173995927",
+        "publicId": "yuvraj-singh9886",
+        "trackingId": "+3X2sjWIRpOVuXR5b6jPpw==",
+        "profileId": "ACoAAEX5wZcBkTjxYc4i6ANqQLKvmZNlk3qpIP4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGXqXbp2AWm8w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728920609052?e=1776297600&v=beta&t=YkLaqEKQvqmQpTFviPVB7UnzSUuWkq2K9NVZ43d7lyY",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEoZbFpjdoEiw/profile-displaybackgroundimage-shrink_350_1400/B4DZwYhzn.KUAY-/0/1769938043256?e=1776297600&v=beta&t=3hcZiPAdNgBVg114W2sM4v-bMikxhoqbozu7gKadv2Q"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Om",
+        "lastName": "Kulkarni",
+        "occupation": "SDE intern at Coinswitch | GoFr Open Source Contributer | Ex-SDE Intern at Connectwise LLP | SIH’25 Finalist | Distributed Systems | Golang | Postgres | OSS | C++ | WCE’26",
+        "id": "1041150024",
+        "publicId": "om7057",
+        "trackingId": "xZvblLj4SteEnQ+tWOjDQg==",
+        "profileId": "ACoAAD4OsEgBpAlOljJmzzAVwcjva61wy39yZ90",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D35AQFaOxunBqzn5g/profile-framedphoto-shrink_800_800/B4DZXEOv6OG4Ag-/0/1742753955829?e=1775426400&v=beta&t=FR3Uypl0hqdbpYB4uj0VHPd0aUND1H2UMPmmSrrpNeA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQFSgbmjQKgZ2Q/profile-displaybackgroundimage-shrink_350_1400/B4DZlDedElIYAY-/0/1757773685239?e=1776297600&v=beta&t=jCr1Zvch-AgKQ75p7_nYLeyjVR9sHM6n3SIhYrTvbM8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Debashish",
+        "lastName": "Sahoo",
+        "occupation": "SDE Intern @Razorpay || Ex-Dell Technologies || Specialist @Codeforces || Knight @Leetcode || IIIT-Bh 26’",
+        "id": "1035244666",
+        "publicId": "debashish-sahoo2026",
+        "trackingId": "+Xkd8ezVT/KezoEdOIjkaA==",
+        "profileId": "ACoAAD20lHoB-hdeFgQJeF2QK8WRhIy9CQYiCok",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEylofxAOs9MA/profile-displayphoto-crop_800_800/B56ZnS25CDHcAI-/0/1760179230690?e=1776297600&v=beta&t=DG8KOL64DtIm3OX4oD9OlRCPw2ENPA-rfi8NyIQzMk4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGl3UATnANVCA/profile-displaybackgroundimage-shrink_350_1400/B56ZkwGzXOJ0AY-/0/1757448715574?e=1776297600&v=beta&t=k5mkUPEfKSICfAPMOeXox0x9ird5XOrRGWBe5L-lk-o"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Tanishka",
+        "lastName": "Nibariya",
+        "occupation": "SIH’25 Finalist | C4GT DMP’25 @PlanetRead | SDE Intern @PlanetRead | Open-Source Developer | Advancing Inclusion Scholar | IIITDMJ’27",
+        "id": "1179678573",
+        "publicId": "tanishka-nibariya-4390a428b",
+        "trackingId": "/KMPEVVgTLmcoMUDRijfhQ==",
+        "profileId": "ACoAAEZQd20BLfslh-uWEnmXB8U2LrK3Lp_9P0U",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQF05EYyKIwJTw/profile-displayphoto-crop_800_800/B4DZuubrYxH8AI-/0/1768158050696?e=1776297600&v=beta&t=QprMjm4cSQsYBEacfQNOqdEulBT4IuZt1ByIDXjerTI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQFOlLMMPLlv2w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1735658783997?e=1776297600&v=beta&t=fhlE9mLHwLo7A2sFziavizci220b9kM1MO7bYrxTPcM"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Rajesh Kumar",
+        "lastName": "Jena",
+        "occupation": "Ex @Oracle @ISRO @EquityBrain || Expert CodeForces || Codechef 4⭐1886 || Leetcode knight 1900 ||CodeStudio 3091",
+        "id": "902381727",
+        "publicId": "rajesh-kj",
+        "trackingId": "HOay3cqcQc++95j83yjIvw==",
+        "profileId": "ACoAADXJQJ8B2LPIfrHLdF2V24Htl26ohrH3thA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHoGDRfQodGEg/profile-displayphoto-crop_800_800/B4DZxvw8RGG8AI-/0/1771401628782?e=1776297600&v=beta&t=p-0JMvEB0LocJsz9bpt9oEAo1bGJMhKKQcmcADPrjjA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCRmspio79NA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711804508062?e=1776297600&v=beta&t=6hPRlwW61GmNgMzCgqRhhpFK5ivHGA-jv9B21K-JzSQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Snehasagar",
+        "lastName": "Sahu",
+        "occupation": "Electrical and Electronics Engineering Student | Seeking Summer Internship 2026 | Passionate about IoT | Learning full stack with gen ai | July 2027 Graduation",
+        "id": "937178074",
+        "publicId": "snehasagar-sahu-50aa38221",
+        "trackingId": "cnsToG/FT8iVyhXtGMJXMw==",
+        "profileId": "ACoAADfcM9oBSG9ZbSImep3xGUYbzRrrqyWCOd4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQFQog8h7UZSRQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1713937467791?e=1775426400&v=beta&t=WlkxMlNblrfJdZ_640riaW0oHnmrNVBISlUMyOvxjPI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHGLKI8PL96zQ/profile-displaybackgroundimage-shrink_350_1400/B4DZt0A5hNKQAs-/0/1767177952725?e=1776297600&v=beta&t=mZ0Yi0jkCc8YCa2tfgHyHw7FiNBFTIREgvSQ52JS7-0"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Harsh",
+        "lastName": "Mane",
+        "occupation": "IIIT - Bh || ETC'27",
+        "id": "1147038054",
+        "publicId": "harsh-mane-206183280",
+        "trackingId": "u0ghNWjUT2y9pgZ6ujoCJQ==",
+        "profileId": "ACoAAEReaWYBEukbVg-2kUbhzhn71MfnrxMknRM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQE3V-fviGT_JQ/profile-framedphoto-shrink_800_800/B56Z0AGWSnJMAg-/0/1773823157745?e=1775426400&v=beta&t=PSrIUP100H8yjreQ7Lklx7YOnz1ojy00KHWTpSinaFs",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHZHQO6sA2I-Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1695475719794?e=1776297600&v=beta&t=6E3q-CYqepdzMiTg9u6ZYd1AHgRvM-NBGYaZ0oY22dQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priyanshu",
+        "lastName": "Mukherjee",
+        "occupation": "AI/ML & Data Science Enthusiast | Pre-final year ETC undergrad @IIIT Bhubaneswar|",
+        "id": "1206394556",
+        "publicId": "priyanshu-mukherjee-bb8028298",
+        "trackingId": "Rg7bHbU8TrqYvkyUMoN6UA==",
+        "profileId": "ACoAAEfoHrwByncGCCQXe7YHfVAJTTxzptaH1sM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQFIsERl4Kv-uw/profile-framedphoto-shrink_800_800/B56ZufPxrWKEAk-/0/1767903271917?e=1775426400&v=beta&t=MlWnNPCHISGrvKp7fBe2NyRgcoFaKAdqZtcUWITVPwI",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFwOn89nudO1Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1705816720972?e=1776297600&v=beta&t=BhNZskcMG2VPNbMqTnpexjKIqy1oJrRYCDDPnddL0rY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 54,
+  "numComments": 4,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1753030219122,
+  "postedAtISO": "2025-07-20T16:50:19.122Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQH9Al5GBvAYGw/feedshare-shrink_800/B56ZgWW2F_HUAk-/0/1752721745952?e=1776297600&v=beta&t=wXslCG80ANi-vwsq-7X74_9PFFV6H3zZUjSqw6qCUJQ",
+    "https://media.licdn.com/dms/image/v2/D5622AQGKm5_I41iC6g/feedshare-shrink_1280/B56ZgWW2FrIAAk-/0/1752721747373?e=1776297600&v=beta&t=xJjASb4G_By8rTvh7TasL_vWdtPVYHGU0fZHBkF3fYk",
+    "https://media.licdn.com/dms/image/v2/D5622AQGcGgdHSxX-jA/feedshare-shrink_1280/B56ZgWW2FuH0Ao-/0/1752721753995?e=1776297600&v=beta&t=g7JFUpYjW-eJjE96LM--xUwhbwKXC34s9mmKJ5zgIPM",
+    "https://media.licdn.com/dms/image/v2/D5622AQH6Yzwv1UYkog/feedshare-shrink_2048_1536/B56ZgWW2FnHQAo-/0/1752721746589?e=1776297600&v=beta&t=zOFwwv3FsI5rvMkz3CJNS59K-YWQ2waLi6zJCoI1VWU",
+    "https://media.licdn.com/dms/image/v2/D5622AQHVz8iv3c4mpA/feedshare-shrink_1280/B56ZgWW2F1HQAk-/0/1752721746552?e=1776297600&v=beta&t=VrvZEEzTef-f60gSpY3OOYOCnBXfK_z_I_jHbBUkUQ4"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7351447870409015296",
+  "url": "https://www.linkedin.com/posts/anurag6569_amdaisprint-hackathon-iitbombay-activity-7351447870409015296-JHAi?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "8mo",
+  "shareUrn": "urn:li:ugcPost:7351447868999692288",
+  "text": "Just wrapped up an incredible two-day journey at the AMD  AI Sprint Hackathon at Indian Institute of Technology, Bombay ! \n\nOur team tackled Track 2: Agentic AI Scheduling Assistant, focusing on building an AI agent capable of coordinating meetings across time zones, resolving conflicts, and handling rescheduling powered by large language models and agentic workflows. It was a fascinating challenge to automate meeting coordination by scanning calendars, negotiating conflicts, and sending polite requests – aiming for a truly seamless, intelligent assistant.\n\nA massive shoutout to my amazing teammate Rahul Samant  – couldn't have done this without you! The power of AMD's MI300 GPUs provided the computational muscle we needed for our AI processing.\n\nBeyond the technical deep dive, it was an immense privilege to meet so many incredible people and connect with great minds like Shobhit Singh , Bhavya Pratap Singh Tomar , Janarthanan Gnanamurthy , Anupam Rawat.The insights and camaraderie made this experience truly memorable.\n\nHuge thanks to AMD , Indian Institute of Technology, Bombay , and all the organizers for making this cutting-edge event a reality. The learnings here are invaluable!\n\n#AMDAISprint #Hackathon #IITBombay #AgenticAI #LLM #AMDMI300 #AI #MachineLearning #Innovation #FutureOfWork #Networking",
+  "attributes": [
+    {
+      "start": 53,
+      "length": 3,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "AMD",
+        "universalName": "amd",
+        "trackingId": "K6DMeBGySMSDMCBdHhO5gA==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:1497",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQFCdxxVA_xhqQ/company-logo_400_400/B56ZnuIjafHUAc-/0/1760636844195/amd_logo?e=1776297600&v=beta&t=wOhPV7KlLubrnKYupfjhZN4Z-_wAGVRZ3LjhdctQuVw"
+      }
+    },
+    {
+      "start": 81,
+      "length": 38,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "Indian Institute of Technology, Bombay",
+        "universalName": "indian-institute-of-technology-bombay",
+        "trackingId": "mhC2oUluTLKMdNwes/fA/Q==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:157266",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGmDoDCx_FYpA/company-logo_400_400/company-logo_400_400/0/1660636307357/indian_institute_of_technology_bombay_logo?e=1776297600&v=beta&t=-FFpmxJZSRovwnm0Vj7PDxzLjP3LIKQtcXnFF46jOhw"
+      }
+    },
+    {
+      "start": 606,
+      "length": 12,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Rahul",
+        "lastName": "Samant",
+        "occupation": "AIR 450 @GATE DA || Ex-Intern @ Infosys || Student @PEC26’ || 5⭐in HackerRank",
+        "id": "1031457295",
+        "publicId": "rahul-samant-kb37",
+        "trackingId": "TwDyMwN8RYiDcMJqmKXVzg==",
+        "profileId": "ACoAAD16yg8B48I6onS9_-C_rnuOC4e3Ay0bcXI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHTz1FF0GuYww/profile-displayphoto-crop_800_800/B56Zi5DDYQHcAI-/0/1755451242826?e=1776297600&v=beta&t=4Hi_PkKJt4JD8-xlSP1YzcY1Ik02FlsPioboXk7uICg",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHDWsjQ6q4Qag/profile-displaybackgroundimage-shrink_350_1400/B56ZgJOb3jHsAg-/0/1752501438065?e=1776297600&v=beta&t=RQAonH6Snc089FhuXy66iT7GES-2sYTnf5FcLnWjRQk"
+      }
+    },
+    {
+      "start": 885,
+      "length": 13,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Shobhit",
+        "lastName": "Singh",
+        "occupation": "Software Engineer | AI-enabled CDS | Building evidence-based medical software under SaMD constraints | Senior 🎓 @ IIT Guwahati",
+        "id": "1057401748",
+        "publicId": "shobhit-singhh",
+        "trackingId": "HEB6H67rSVaj0DF5vqwohQ==",
+        "profileId": "ACoAAD8Gq5QB1F6p3wyBgwIBBVTRUQ-sCRdJxQc",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHL1xiUtvpbPg/profile-displayphoto-crop_800_800/B56ZteEl1WIcAM-/0/1766809821021?e=1776297600&v=beta&t=i2BiJZlMwRrS_y9Hx2CdKFHVS1K2z31KUnxFEKhhgT4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFkoyNfciiUhw/profile-displaybackgroundimage-shrink_350_1400/B56ZtYCyZ8GwAY-/0/1766708685413?e=1776297600&v=beta&t=Huop1QM2bEbObc9Mh_-l_2ERgRTKZLtMZfMk8XBK0rg"
+      }
+    },
+    {
+      "start": 901,
+      "length": 25,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Bhavya Pratap",
+        "lastName": "Singh Tomar",
+        "occupation": "AI Expert working upon Gen AI solutions | AIR 23 Amazon ML Challenge 2025 | 4x Hackathon Winner | Ex AI Development Intern @ Seequenze Technologies , AI Intern @ FoodNEST(S) , SWF @ Headstarter AI",
+        "id": "958799525",
+        "publicId": "bhavya-pratap-singh-tomar",
+        "trackingId": "ZQW/4UJnSPms1uLfuZGQyw==",
+        "profileId": "ACoAADkmHqUBubyOkpgXgrymb0cke91XU2-2ouE",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQGIzHA_pzQkCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710701043282?e=1776297600&v=beta&t=tJ0Vggfa6plPpCx9lx0FaEn_FQT9sqvRmfRkHfhchkU",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQF91Ha9fOp6xQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1697393461255?e=1776297600&v=beta&t=vO3c8RIxMYSF2HQ164nA3eVUDQ-VF0lx-MIfju5_qsA"
+      }
+    },
+    {
+      "start": 929,
+      "length": 23,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Janarthanan",
+        "lastName": "Gnanamurthy",
+        "occupation": "Applied Scientist Intern @ Amazon | AI/ML Enthusiast | 5X Hackathon Winner | Exploring RL | Obsessed with LLMs, Trends & Innovation",
+        "id": "1122364530",
+        "publicId": "janarthanangm",
+        "trackingId": "eCXQo+dOQ0y019uYz6ZwjQ==",
+        "profileId": "ACoAAELl7HIB6eIqwqeBbVykLgvhiAZqwGj_h2U",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGO67A-zzsCcA/profile-displayphoto-shrink_800_800/B56ZY5zq9pHQAk-/0/1744726569690?e=1776297600&v=beta&t=SGIntzGs9tEuSuBiiZdHenOlGiM8ifwDoz-8NfvNtks",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEX3g-ay-SFkw/profile-displaybackgroundimage-shrink_350_1400/B4DZY6MS4sHsAY-/0/1744733025219?e=1776297600&v=beta&t=a1GRJ9aHf4v2wwCRiomOO7pKlL-b8LrckcZw2akN31k"
+      }
+    },
+    {
+      "start": 955,
+      "length": 12,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Anupam",
+        "lastName": "Rawat",
+        "occupation": "AI enthusiast | undergrad @ IIT Bombay",
+        "id": "1046492307",
+        "publicId": "anupamrawat001",
+        "trackingId": "piNbgXrMRlq9ie6TVAcnYQ==",
+        "profileId": "ACoAAD5gNJMBZE1cgjEY2I2mCIWZ2gdcs7R8TAs",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQETdIGnz2Esfw/profile-displayphoto-crop_800_800/B56ZmlY01ZHQAI-/0/1759416373291?e=1776297600&v=beta&t=UodRcdm5RbBtGOTQai-AC5XnuMknaEmo18LMPITnc4s",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEYbguw2gLUSA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1691489354661?e=1776297600&v=beta&t=FhXUvCc0PuVFXgM0WYU7TmEYjkb2L4o1qHL2we10RiY"
+      }
+    },
+    {
+      "start": 1051,
+      "length": 3,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "AMD",
+        "universalName": "amd",
+        "trackingId": "JdYiZeFPSp+NxbTyOu97Rg==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:1497",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQFCdxxVA_xhqQ/company-logo_400_400/B56ZnuIjafHUAc-/0/1760636844195/amd_logo?e=1776297600&v=beta&t=wOhPV7KlLubrnKYupfjhZN4Z-_wAGVRZ3LjhdctQuVw"
+      }
+    },
+    {
+      "start": 1057,
+      "length": 38,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "Indian Institute of Technology, Bombay",
+        "universalName": "indian-institute-of-technology-bombay",
+        "trackingId": "LQ77NANvRWmTV6xSLCyRlA==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:157266",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGmDoDCx_FYpA/company-logo_400_400/company-logo_400_400/0/1660636307357/indian_institute_of_technology_bombay_logo?e=1776297600&v=beta&t=-FFpmxJZSRovwnm0Vj7PDxzLjP3LIKQtcXnFF46jOhw"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "time": 1752773564379,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351665172165349377%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351665172165349377%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Congratulations Anurag 🎉\nIf you all don't want to miss any open hackathons update😉:\nhttps://devs-union-site.vercel.app\nTry DevsUnion , all platform hackathons combined at one place .👏",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English"
+    },
+    {
+      "time": 1752744824847,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351544629831389185%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351544629831389185%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "What an awesome experience!",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English"
+    },
+    {
+      "time": 1752737500664,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351513909981270017%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351513909981270017%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Anurag Singh It was great teaming up with you! I’ll say this again it would’ve been impossible for me to submit in time without your help. Looking forward to many more hackathons together in the future!",
+      "entities": [
+        {
+          "start": 0,
+          "length": 12,
+          "type": "PROFILE_MENTION",
+          "profile": {
+            "firstName": "Anurag",
+            "lastName": "Singh",
+            "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+            "id": "1153664604",
+            "publicId": "anurag6569",
+            "trackingId": "3xtVc0yKQ9WmpvKGbSLGYA==",
+            "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+            "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+            "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+          }
+        }
+      ],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Rahul",
+        "lastName": "Samant",
+        "occupation": "AIR 450 @GATE DA || Ex-Intern @ Infosys || Student @PEC26’ || 5⭐in HackerRank",
+        "id": "1031457295",
+        "publicId": "rahul-samant-kb37",
+        "trackingId": "Je9NeIKzT0iMuwB5Kkgj3Q==",
+        "profileId": "ACoAAD16yg8B48I6onS9_-C_rnuOC4e3Ay0bcXI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHTz1FF0GuYww/profile-displayphoto-crop_800_800/B56Zi5DDYQHcAI-/0/1755451242826?e=1776297600&v=beta&t=4Hi_PkKJt4JD8-xlSP1YzcY1Ik02FlsPioboXk7uICg",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHDWsjQ6q4Qag/profile-displaybackgroundimage-shrink_350_1400/B56ZgJOb3jHsAg-/0/1752501438065?e=1776297600&v=beta&t=RQAonH6Snc089FhuXy66iT7GES-2sYTnf5FcLnWjRQk",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752732003427,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351490852902363136%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351490852902363136%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Likewise, Anurag! Had an amazing time connecting with such brilliant folks. Looking forward to more interactions like this!",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Bhavya Pratap",
+        "lastName": "Singh Tomar",
+        "occupation": "AI Expert working upon Gen AI solutions | AIR 23 Amazon ML Challenge 2025 | 4x Hackathon Winner | Ex AI Development Intern @ Seequenze Technologies , AI Intern @ FoodNEST(S) , SWF @ Headstarter AI",
+        "id": "958799525",
+        "publicId": "bhavya-pratap-singh-tomar",
+        "trackingId": "OJUkIrRvQee6nCMxsyD7Fg==",
+        "profileId": "ACoAADkmHqUBubyOkpgXgrymb0cke91XU2-2ouE",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQGIzHA_pzQkCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710701043282?e=1776297600&v=beta&t=tJ0Vggfa6plPpCx9lx0FaEn_FQT9sqvRmfRkHfhchkU",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQF91Ha9fOp6xQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1697393461255?e=1776297600&v=beta&t=vO3c8RIxMYSF2HQ164nA3eVUDQ-VF0lx-MIfju5_qsA",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752731537280,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351488897735897088%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351488897735897088%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Amazing Anurag, had a great time",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Anupam",
+        "lastName": "Rawat",
+        "occupation": "AI enthusiast | undergrad @ IIT Bombay",
+        "id": "1046492307",
+        "publicId": "anupamrawat001",
+        "trackingId": "aEDlqz0ATsC6G0SoaTmvKA==",
+        "profileId": "ACoAAD5gNJMBZE1cgjEY2I2mCIWZ2gdcs7R8TAs",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQETdIGnz2Esfw/profile-displayphoto-crop_800_800/B56ZmlY01ZHQAI-/0/1759416373291?e=1776297600&v=beta&t=UodRcdm5RbBtGOTQai-AC5XnuMknaEmo18LMPITnc4s",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEYbguw2gLUSA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1691489354661?e=1776297600&v=beta&t=FhXUvCc0PuVFXgM0WYU7TmEYjkb2L4o1qHL2we10RiY",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752731525055,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351488846460559360%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351488846460559360%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Amazing!",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Manishka",
+        "lastName": "Mall",
+        "occupation": "Front-End Developer | React js |",
+        "id": "1293564000",
+        "publicId": "manishka-mall-340266301",
+        "trackingId": "iYu4YJIMR+aBsvCDWUaR/A==",
+        "profileId": "ACoAAE0aOGAB2lIChMDX0L96GlnW8B3OfofzVEo",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQF-XFh9zitAJg/profile-displayphoto-shrink_800_800/B4EZdJTj6eGcAc-/0/1749281555373?e=1776297600&v=beta&t=ZFeWT4zCQ9bfcWflgKurwqk5f3gdIMWtUmGwbrxW-IM",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752731420330,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351488407212048385%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351488407212048385%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Anurag Singh, those late-night convos were honestly one of the best parts of the hackathon — talking beyond just code, about mindset, goals, and where we’re headed. Watching you build with such focus and intent was genuinely inspiring. Glad we crossed paths — let’s keep learning and building together!",
+      "entities": [
+        {
+          "start": 0,
+          "length": 12,
+          "type": "PROFILE_MENTION",
+          "profile": {
+            "firstName": "Anurag",
+            "lastName": "Singh",
+            "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+            "id": "1153664604",
+            "publicId": "anurag6569",
+            "trackingId": "3xtVc0yKQ9WmpvKGbSLGYA==",
+            "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+            "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+            "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+          }
+        }
+      ],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Shobhit",
+        "lastName": "Singh",
+        "occupation": "Software Engineer | AI-enabled CDS | Building evidence-based medical software under SaMD constraints | Senior 🎓 @ IIT Guwahati",
+        "id": "1057401748",
+        "publicId": "shobhit-singhh",
+        "trackingId": "wl9TPSKhQmmqrrRHLQFIZA==",
+        "profileId": "ACoAAD8Gq5QB1F6p3wyBgwIBBVTRUQ-sCRdJxQc",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHL1xiUtvpbPg/profile-displayphoto-crop_800_800/B56ZteEl1WIcAM-/0/1766809821021?e=1776297600&v=beta&t=i2BiJZlMwRrS_y9Hx2CdKFHVS1K2z31KUnxFEKhhgT4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFkoyNfciiUhw/profile-displaybackgroundimage-shrink_350_1400/B56ZtYCyZ8GwAY-/0/1766708685413?e=1776297600&v=beta&t=Huop1QM2bEbObc9Mh_-l_2ERgRTKZLtMZfMk8XBK0rg",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752731158957,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351487310934241282%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351487310934241282%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Sharing your enthusiasm, Anurag",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Hardik",
+        "lastName": "Thapar",
+        "occupation": "AI & ML Engineer · 8× Hackathon Winner · Building with Python, FastAPI & Deep Learning | Open to SDE & ML Roles",
+        "id": "1298314762",
+        "publicId": "hardik-thapar",
+        "trackingId": "JR9uhGKfT9qxMKPJQ2cXaA==",
+        "profileId": "ACoAAE1itgoB2RbUvtpOJhadMaUlaCKxuQCGAZM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEDZrIN3v9LIQ/profile-displayphoto-crop_800_800/B56ZwJQb4iH0AI-/0/1769681829897?e=1776297600&v=beta&t=tQWt2Bq0edg8LgDTLW-_LcmYxI5SdH-XIXXrW_zlX64",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFwZZ-LY93m6w/profile-displaybackgroundimage-shrink_350_1400/B56Zz1R8NVGgAY-/0/1773641648575?e=1776297600&v=beta&t=PK3-9WS_B4FlqZlpWHD7QLvcWiMfalDM12ATCY5q1Fc",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1752723326090,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7351447868999692288?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7351447868999692288%2C7351454457508921344%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287351454457508921344%2Curn%3Ali%3AugcPost%3A7351447868999692288%29",
+      "text": "Amazing!",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Kavin",
+        "lastName": "Thakur",
+        "occupation": "Applied AI & GenAI | Visiting AI/ML Researcher (Taiwan) | AI/ML Engineer | Data Science @ Infomo | 9× Hackathon Winner | Harvard Aspire Fellow | Tech Head @ IEEE CIET",
+        "id": "1394923649",
+        "publicId": "kavin070810",
+        "trackingId": "NY7VKgqeTI63FjaZsw/IGg==",
+        "profileId": "ACoAAFMk2IEBY97YdU-81go_G2BDl1bFYhzR3O4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFyZSNqxGDjlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728537229733?e=1776297600&v=beta&t=58mEcJHlT3cIKnYWQhyww0M1RxVidzwYz_PU3A5tPOE",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGR4Um9UtmKPw/profile-displaybackgroundimage-shrink_350_1400/B56ZkU7EBUHkAk-/0/1756992669129?e=1776297600&v=beta&t=nmR1XnJvb-dTk7AI2ZRyf6I-FbydNH3qOOITp-pSwAI",
+        "distance": "OUT_OF_NETWORK"
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Yug",
+        "lastName": "Agarwal",
+        "occupation": "Specialist @Codeforces || 4⭐ @Codechef || Competitive Programmer || Sophomore @IIIT Bhubaneswar",
+        "id": "1371433502",
+        "publicId": "yugagarwal005",
+        "trackingId": "5/mfUPQaShWRVCOYobBF4A==",
+        "profileId": "ACoAAFG-ah4BChhK74Uh7IOX1n-NFD0Hn9afYMI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQExZwswlS2bNw/profile-displayphoto-crop_800_800/B56ZvwfCWdHAAI-/0/1769266229666?e=1776297600&v=beta&t=VlZfsdG2Dln9j-BDKBU-2dY88jQSQ0iL43sv19-zarg",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGUAmFtnobuuw/profile-displaybackgroundimage-shrink_350_1400/B56ZeENEKXHEAk-/0/1750269708184?e=1776297600&v=beta&t=2IPP0anjWHNfrmS1ErwYTt49MTubp74bkTV2XTdoBL8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Om",
+        "lastName": "Kulkarni",
+        "occupation": "SDE intern at Coinswitch | GoFr Open Source Contributer | Ex-SDE Intern at Connectwise LLP | SIH’25 Finalist | Distributed Systems | Golang | Postgres | OSS | C++ | WCE’26",
+        "id": "1041150024",
+        "publicId": "om7057",
+        "trackingId": "xZvblLj4SteEnQ+tWOjDQg==",
+        "profileId": "ACoAAD4OsEgBpAlOljJmzzAVwcjva61wy39yZ90",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D35AQFaOxunBqzn5g/profile-framedphoto-shrink_800_800/B4DZXEOv6OG4Ag-/0/1742753955829?e=1775426400&v=beta&t=FR3Uypl0hqdbpYB4uj0VHPd0aUND1H2UMPmmSrrpNeA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQFSgbmjQKgZ2Q/profile-displaybackgroundimage-shrink_350_1400/B4DZlDedElIYAY-/0/1757773685239?e=1776297600&v=beta&t=jCr1Zvch-AgKQ75p7_nYLeyjVR9sHM6n3SIhYrTvbM8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Mayank",
+        "lastName": "Gupta",
+        "occupation": "CSE IIIT-Bh'26",
+        "id": "854097128",
+        "publicId": "gupta-mayank01",
+        "trackingId": "gthVLjQQTTyowgk8uFjWng==",
+        "profileId": "ACoAADLofOgBK_Y0lmZqISstzjADQ6fkUmHgW5k",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHwhuyhEtdOQQ/profile-framedphoto-shrink_800_800/B56Ztsq1nDG0Ak-/0/1767054727958?e=1775426400&v=beta&t=KwkSHEl7USN8J5kZzRM5PeRfAVNc82jlDO9O6Tz7TSg",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQEMt4GKuV-d9g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1671364782621?e=1776297600&v=beta&t=mkaCQZGmaU3nQZMDsB1LdhGrP8TWtl7skZSyTsI7WWA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Swayam",
+        "lastName": "Agrawal",
+        "occupation": "Building Softwares | SDE Intern @Flipkart",
+        "id": "1016791815",
+        "publicId": "swayam-agrawal-233631244",
+        "trackingId": "J7DKrhA5QmK2lzCYn7+vRw==",
+        "profileId": "ACoAADybAwcB-MxK28j9ZKJF6lcnStp4oSl0Hwk",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGD5WzM-M48Ow/profile-displayphoto-crop_800_800/B56Zw9wd96KIAI-/0/1770562643312?e=1776297600&v=beta&t=ua5dDVhVmXEgnS4Juo8ZS3J7q7vwaUG8r_eGeLBtaxc"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Sarbojeet",
+        "lastName": "Soe Mondal",
+        "occupation": "Aspiring Data Scientist | Python, SQL, ML | UI UX freelancer",
+        "id": "1045371623",
+        "publicId": "sarbojeet-soe-mondal-data-scientist",
+        "trackingId": "r3Yt52ViSCuA1zayzHwhIQ==",
+        "profileId": "ACoAAD5PGucBpQUWB4FE2oWGmezjnKn-QHKIyVI",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E35AQErr3SugRFMaQ/profile-framedphoto-shrink_800_800/B4EZsJDOZNHcAg-/0/1765383399535?e=1775426400&v=beta&t=lC-KmHLqfnn9aeP5NXWsEO1r16K6f_4Rx4qiA1UOy5U",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHpveA0bIgUwA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1690478083115?e=1776297600&v=beta&t=7EY2wCqOofVUfZ73dH9Sw0W-OzBWWH0txzZqS6D9SsQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudha",
+        "lastName": "Sahu",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1191106819",
+        "publicId": "anirudha-sahu-b17a95292",
+        "trackingId": "8AAkBQiSSy2ejWVb/oFhxg==",
+        "profileId": "ACoAAEb-2QMBBGhVulG-HH1N499gDdYDoJALyUU",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1660002772504?e=1775426400&v=beta&t=lK46sdtw7XCjwEfOYPBQerFxzTC9Qkksx_JnC7sLvYA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Akash",
+        "lastName": "R.",
+        "occupation": "Human-First Problem Solver",
+        "id": "1314610050",
+        "publicId": "akash-r-856315308",
+        "trackingId": "a5x8WHl+QZaLTcIquVxySw==",
+        "profileId": "ACoAAE5bW4IB_-yK9kYjapoN295znISJRAH_PoE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEVp4EeDhVLvA/profile-displayphoto-crop_800_800/B56ZxNx_ERJgAM-/0/1770831478256?e=1776297600&v=beta&t=j24mj1nI2QWX8DmTa_fWUgGwika7r1RU5Y0F8byktXQ",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGxnS6UFfDW2A/profile-displaybackgroundimage-shrink_350_1400/B56ZgOH7pHHUAY-/0/1752583618283?e=1776297600&v=beta&t=1Ti5dpd96rZhE218s416vwi7UGFLDNhb7NQd9WBF7jg"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Karen",
+        "lastName": "Chow",
+        "occupation": "Strategic Partnership Leader | Driving Business Growth through Sales Enablement, Strategic Planning & Cross-Functional Collaboration",
+        "id": "20161793",
+        "publicId": "karenchowmf",
+        "trackingId": "oqbO70VlTbSXvUJm1cWBRA==",
+        "profileId": "ACoAAAEzpQEB3YqaZYJE9_Ry9K94Kihk-XsFKTI",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEvxaNVuLBCPA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721233828645?e=1776297600&v=beta&t=6KgMtH2S4EUuDtFtpMJgWNeb27tohsYr7IH2RNZGqL0",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGRS8dBdzDP_Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1730943022167?e=1776297600&v=beta&t=IuRNaErUISX0yZTFE_IRZrTX1LnIdTATePTRpku8p20"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Oceania",
+        "lastName": "Kshetrimayum",
+        "occupation": "SIH 2024 Winner |5×Hackathon 🏆| Global Nominee NASA Space Apps Challenge|President @MIBCS | Section Editor @Horizon Magazine",
+        "id": "1035017553",
+        "publicId": "oceania-kshetrimayum-5a976024a",
+        "trackingId": "mIfdgaeGQ8CG8jAeflYA9g==",
+        "profileId": "ACoAAD2xHVEBITUJLimLwrf7Fat-m7vpxUn7xAU",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQFDX2i_LVJHNQ/profile-displayphoto-crop_800_800/B4DZjAd.DqH0AI-/0/1755575743675?e=1776297600&v=beta&t=-wPWVthopMFMHVVeuyiNNV0l0GAH3dbae8w880DbBUU",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQF9WRp2iIiXjA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1703014309495?e=1776297600&v=beta&t=FoXk3BmAwbO9hulDmIE98jwwUjhbKo9x_nAs0vmTsvs"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Swastik",
+        "lastName": "Nayak",
+        "occupation": "SDE - 1 (Flutter) @RUNO",
+        "id": "964884616",
+        "publicId": "swastik-nayak-37417a22b",
+        "trackingId": "0GvPOYdIQGWP2DmHCV5xkw==",
+        "profileId": "ACoAADmC-IgBmITm0kzf0mafxt54orH2h836Tac",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQE0STLV2EdRng/profile-displayphoto-crop_800_800/B56Zy90H6vHUAI-/0/1772711085830?e=1776297600&v=beta&t=iR32K5YUkmVAVxLh32mkFKcY6nw6GjGFa1rEGylNFDw",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHzo-cbtt82cQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1692612877990?e=1776297600&v=beta&t=7JJoafEYawp5yFIpWwYylovuToEXWFKnMYkJSmKMGE4"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 92,
+  "numComments": 9,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1752721755602,
+  "postedAtISO": "2025-07-17T03:09:15.602Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQEjSqe06ieg5A/feedshare-shrink_2048_1536/B56ZfhjViCHEAs-/0/1751835830100?e=1776297600&v=beta&t=0PIFgy5vdBTxfrqbe48JNKn9tmLHtzKBVnX8DirEuJI",
+    "https://media.licdn.com/dms/image/v2/D5622AQGgksw8MA6h2Q/feedshare-shrink_2048_1536/B56ZfhjViKGQAs-/0/1751835840545?e=1776297600&v=beta&t=bw5oY4_jyKxMKKRUT7MWs-b2rSph09F9e0FnMaeE74o"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7347732095458254852",
+  "url": "https://www.linkedin.com/posts/anurag6569_opensource-swachhbandhu-civictech-activity-7347732095458254852-nR4Z?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "8mo",
+  "shareUrn": "urn:li:ugcPost:7347732092442595329",
+  "text": "My journey in the Anveshan Startup Challenge 1.0 has been incredible with Aditya Pattanayak. While we didn't advance to the final Ofline round, we believe the mission is far more important than any single competition. The validation we received as a Top 20 finalist from Indian Institute of Management, Indore and the Ministry of Housing and Urban Affairs has inspired us to take the next big step.\n\nIn the spirit of collaboration and public good, we are thrilled to announce that Swachh Bandhu is now a fully open-source project!\n\nWe built this platform to bridge the gap between citizens and municipalities through technology. We believe this idea is too important to keep on a shelf. Now, it belongs to the community.\n\nWhat is Swachh Bandhu?\nIt's a complete, feature-rich civic-tech platform that enables:\n📍 QR Code-Based Reporting: Citizens can instantly report sanitation issues from geo-tagged locations.\n🤝 Peer-to-Peer Verification: A core feature to ensure reports are authentic, saving municipal time and resources.\n🏆 Gamification & Rewards: A system of points, leaderboards, and lotteries to drive sustained citizen engagement.\n📈 Powerful Admin Dashboard: Real-time analytics, heatmaps, and report management tools for city authorities.\n\nWe're Sharing Everything:\nWe want our work to serve as a foundation for students, developers, municipalities, and innovators who share our vision for a cleaner India. We invite you to explore, fork, build upon, or deploy our work.\n\nWatch the Product Demo: See how Swachh Bandhu works in this short video. \nhttps://lnkd.in/gRTDgCdf\n\nDive into the Code: The complete source code, with a detailed setup guide, is available on GitHub. We built it with a modern stack (Django, React, PostgreSQL) ready for deployment.\nGitHub: https://lnkd.in/guXRdJue\n\nUnderstand Our Vision: View the complete pitch deck we presented during the challenge. https://lnkd.in/gmDrVn4n\n\nOur goal was always to create a positive impact. By making Swachh Bandhu open source, we hope to empower countless others to join this mission.\n\nA huge thank you to Indian Institute of Management, Indore, the Ministry of Housing and Urban Affairs, and everyone who has supported our journey.\n\n#OpenSource #SwachhBandhu #CivicTech #GovTech #MakeInIndia #DigitalIndia #SmartCities #SwachhBharat #AnveshanStartupChallenge #SocialImpact #ForPublicGood #Django #React",
+  "attributes": [
+    {
+      "start": 74,
+      "length": 17,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Aditya",
+        "lastName": "Pattanayak",
+        "occupation": "Ex-SDE intern @Stealth || COMPOSIT’24 🥉|| DS’24 Finalist || Contributor @Hacktoberfest || Solana/RUST",
+        "id": "1095938343",
+        "publicId": "aditya-pattanayak-6b303b267",
+        "trackingId": "WSOEidYtTEyO7CFztdrxmQ==",
+        "profileId": "ACoAAEFSsScBGLpk-OCEJmBGau5tkWcm-J6d7_Y",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQH1yv9lm9zuhw/profile-framedphoto-shrink_800_800/B56Zm1XA64IYAg-/0/1759684333517?e=1775426400&v=beta&t=4jdscDS3HaneLdxlYoTGd3yifdKrVOYushjAftlTeLc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCf6hZ7-NSag/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718457793273?e=1776297600&v=beta&t=Z-SF0NlIQ_5pERFKaIZx47OJluQXuT83QI6YVf96SQg"
+      }
+    },
+    {
+      "start": 2073,
+      "length": 38,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "Indian Institute of Management, Indore",
+        "universalName": "iimindore",
+        "trackingId": "rlIFradCRqqW6PdA6XT8sQ==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:157277",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQGdKJfc9yaUFw/company-logo_400_400/company-logo_400_400/0/1664770910003/iimindore_logo?e=1776297600&v=beta&t=HQc_bREjRbEwcibJ_SyEZyCKXyNUA99ymqvQhl_Ahog"
+      }
+    }
+  ],
+  "comments": [],
+  "reactions": [
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Sarbojeet",
+        "lastName": "Soe Mondal",
+        "occupation": "Aspiring Data Scientist | Python, SQL, ML | UI UX freelancer",
+        "id": "1045371623",
+        "publicId": "sarbojeet-soe-mondal-data-scientist",
+        "trackingId": "r3Yt52ViSCuA1zayzHwhIQ==",
+        "profileId": "ACoAAD5PGucBpQUWB4FE2oWGmezjnKn-QHKIyVI",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E35AQErr3SugRFMaQ/profile-framedphoto-shrink_800_800/B4EZsJDOZNHcAg-/0/1765383399535?e=1775426400&v=beta&t=lC-KmHLqfnn9aeP5NXWsEO1r16K6f_4Rx4qiA1UOy5U",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHpveA0bIgUwA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1690478083115?e=1776297600&v=beta&t=7EY2wCqOofVUfZ73dH9Sw0W-OzBWWH0txzZqS6D9SsQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Sandeep",
+        "lastName": "Kumar",
+        "occupation": "IIITBBSR'27 student || CSE|| tech Enthusiasts|| C / C++ || Front End Developer || JavaScript ||",
+        "id": "1143611647",
+        "publicId": "sandeep-kumar-367bb027a",
+        "trackingId": "ZR8zS1mPRm+oZV4t2Axjmg==",
+        "profileId": "ACoAAEQqIP8BHi3-f-y2QM-EGHNYqXfUG3JnYKE",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQH9HImy9gbdZw/profile-displayphoto-shrink_800_800/B56Zbjb67tH4Ac-/0/1747572470462?e=1776297600&v=beta&t=DWj21SRqlR8PmF8LWxM3Nk-w4fEelhvZqU32w0l76I0",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGzqu9PP4vZDQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1695155616794?e=1776297600&v=beta&t=1wF-2_3Daq-QWLcI5X-fI4I6vBzMHx-aifWqrA2hEmQ"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Swayam",
+        "lastName": "Agrawal",
+        "occupation": "Building Softwares | SDE Intern @Flipkart",
+        "id": "1016791815",
+        "publicId": "swayam-agrawal-233631244",
+        "trackingId": "J7DKrhA5QmK2lzCYn7+vRw==",
+        "profileId": "ACoAADybAwcB-MxK28j9ZKJF6lcnStp4oSl0Hwk",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQGD5WzM-M48Ow/profile-displayphoto-crop_800_800/B56Zw9wd96KIAI-/0/1770562643312?e=1776297600&v=beta&t=ua5dDVhVmXEgnS4Juo8ZS3J7q7vwaUG8r_eGeLBtaxc"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Mohd Azam",
+        "lastName": "Siddique",
+        "occupation": "Incoming Trainee Analyst at Tiger Analytics | Data Analytics • Machine Learning • Full Stack Development | Python • SQL • MERN",
+        "id": "939366351",
+        "publicId": "azamsidd0786",
+        "trackingId": "ASEZis7JSw+Ml/Ebzs0YCQ==",
+        "profileId": "ACoAADf9l88BkkSyduwCA_zeqGDBBXDn2Ow7Cyk",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D35AQEs4-K_9pS1qw/profile-framedphoto-shrink_800_800/B4DZt46OfWJUAg-/0/1767260088564?e=1775426400&v=beta&t=iBlfrCrtkkdbWUi6jRelU8hioIwlmsLVhnoWDyc7Yo8",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQESZy_ieLanOA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677094863270?e=1776297600&v=beta&t=RgBF5qVpgcp0DedLu3U_VNpQXg1vkC6qg8o3VJBpagA"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Aman",
+        "lastName": "Jaiswal",
+        "occupation": "SDE Intern Medibuddy || Ex-FullStack Intern Aveti || Microsoft LSA’23 || IT Undergrad Student",
+        "id": "1089688750",
+        "publicId": "amanjaiswal7236",
+        "trackingId": "oEwfkJ7mRWGFyPOwd7krcA==",
+        "profileId": "ACoAAEDzVK4BFmB0BhDJEd3QsYCKxIB1XmZO3O0",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGBcSFa_EAlaQ/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1725647862445?e=1775426400&v=beta&t=Kol-i4iv0PtKTKSyXYBRJ96kt9xepLKhGfEkeLv2_MM",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGGUYm_yXtkjw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1725645109467?e=1776297600&v=beta&t=F8l1KSgawpXVxrGVFm1b-olS0Nj9bUU1T9Hvc-fupd8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priyanshu",
+        "lastName": "Naik",
+        "occupation": "IIIT Bhubaneswar| Mern Stack Developer | UI/UX Designer",
+        "id": "1083927059",
+        "publicId": "priyanshu-naik",
+        "trackingId": "8rWhU7RtTpiqx9ph/0OgiQ==",
+        "profileId": "ACoAAECbahMBQInos0c1su1H4buatdlKG3v5-nk",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQHuRDRFVmlOHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702980789897?e=1776297600&v=beta&t=pSm4HKcAMPXI7W3XjNJo9evMq8OudcrSCvLY1N6YC3w",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHtjeOhBRSpig/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1720163129743?e=1776297600&v=beta&t=iKnvJR0Y9ZNyR_MOLanlEIy0W5GWCc1y6jIG33afay0"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Swayam Sarans",
+        "lastName": "Behera",
+        "occupation": "Attended International Institute of Information Technology, Bhubaneswar",
+        "id": "1183725075",
+        "publicId": "swayam-sarans",
+        "trackingId": "tt7lAOFuSFex1Nd+w7yZyQ==",
+        "profileId": "ACoAAEaONhMBVq7Kjsy5KQKmxWmGGuPSa4zYVmw",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQEkQ5unkpM38w/profile-displayphoto-crop_800_800/B4DZxY3TWIHwAQ-/0/1771017430864?e=1776297600&v=beta&t=jWaGDErOI_a469S9Gh7F0LULCwLYX9X_PyL9vEbn6Vk",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHAW2EfI2Re1w/profile-displaybackgroundimage-shrink_350_1400/B4DZxa.HmGJ8AY-/0/1771052761777?e=1776297600&v=beta&t=aRX5y8J2LjE2Qrrhdb8aEqvWYHT4wWCORbpzeEy2TWY"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Shreya",
+        "lastName": "Dutta",
+        "occupation": "AEA at DAO,Sribhumi | Merit Rank Holder | Computer Science Graduate(AUS 2025) | Java • HTML • CSS • JavaScript • Firebase • MySQL •GitHub •Netlify | Database-Driven Systems | Creator of Free Study Notes Website",
+        "id": "1131394720",
+        "publicId": "shreya-dutta-394a9a276",
+        "trackingId": "E7wIG4TARCqWI2o4wjWp4Q==",
+        "profileId": "ACoAAENvtqABSqXf-8zIzGpIvkMFn71F0d7BQ60",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHJyEWZeY1FBg/profile-displayphoto-crop_800_800/B56ZvaFhZpJ4AI-/0/1768890444258?e=1776297600&v=beta&t=2NcMrjBAsLAT18fljSEV8XHyx9k8ECeezn1kaoH0Vig",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEiP8GLIzHn9w/profile-displaybackgroundimage-shrink_350_1400/B56ZxR.LcsKcAY-/0/1770901781360?e=1776297600&v=beta&t=hzOQ5iziED6WLaqpvVLRAKVEmVQ0gQ_rBd9wfJtSeBw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Priyabrata",
+        "lastName": "Das",
+        "occupation": "Pre-Final Year Student @IIIT-BH • Full Stack Developer",
+        "id": "1061951083",
+        "publicId": "priyabrata-das-03778b257",
+        "trackingId": "A/Ts0CwLThaaks1sBMO6tw==",
+        "profileId": "ACoAAD9MFmsBr9BJge2tROUchQ6fla1p1bz6u6U",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQHWO-zIj6My0A/profile-framedphoto-shrink_800_800/B56ZiuindAHQAg-/0/1755274967241?e=1775426400&v=beta&t=fS1NBgqmJnh_C8jmscIYc-B-Wg01fBF4hz6g-gltfqw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Satyajit",
+        "lastName": "Samal",
+        "occupation": "Microservices ll Golang ll Python ll Full Stack ll Machine learning ll Ai Engineering ll Problem Solving",
+        "id": "1231678526",
+        "publicId": "satyajit-samal-b125a02a4",
+        "trackingId": "QhK8PmkTTr2zM8ENTrezNA==",
+        "profileId": "ACoAAElp7D4BSFXgXSKB0g4XiGJqPHj1sBctlB4",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQG3gDx8lF4vjw/profile-displayphoto-crop_800_800/B56Zx9AkyRIgAI-/0/1771623831257?e=1776297600&v=beta&t=myA82rn37-TBoLN0l5SCRkg_dZlbU9AvREmbZwIO9sQ",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQE78lxAeRF5qg/profile-displaybackgroundimage-shrink_350_1400/B56ZyD5yt1HsAY-/0/1771739496553?e=1776297600&v=beta&t=nGiEx0cMjOBQG34-WleoQE_PXdTpq4lGnhFOGW04m_I"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 32,
+  "numComments": 0,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1751835845818,
+  "postedAtISO": "2025-07-06T21:04:05.818Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+},
+{
+  "type": "image",
+  "images": [
+    "https://media.licdn.com/dms/image/v2/D5622AQHJ4aSYCSCBDQ/feedshare-shrink_2048_1536/B56Zd6Ej28HUAo-/0/1750099707063?e=1776297600&v=beta&t=zHLcqeAHWW7SJPxqIAfQTVDyAzHyQS1Vm4IXto_SPQg",
+    "https://media.licdn.com/dms/image/v2/D5622AQHMzmYI2BzLEA/feedshare-shrink_2048_1536/B56Zd6Ej2UHUAo-/0/1750099715468?e=1776297600&v=beta&t=NE8oxSDdvnefepvUuFdKAPFAWjbYbjxZwE56TASi9ys",
+    "https://media.licdn.com/dms/image/v2/D5622AQHK5zIUIPxs7g/feedshare-shrink_2048_1536/B56Zd6Ej2WHoAs-/0/1750099711368?e=1776297600&v=beta&t=bzQUpiaoOuiFt5yF6lIMD67CCeIW-hazJ39BpnEdBZE"
+  ],
+  "isActivity": false,
+  "urn": "urn:li:activity:7340450241764016129",
+  "url": "https://www.linkedin.com/posts/anurag6569_iiitbhubaneswar-iiitbbsr-ieee-activity-7340450241764016129-UUrs?utm_source=combined_share_message&utm_medium=member_desktop&rcm=ACoAAFfKSqwBnME_ojBjtzbpml-Dgnu0b7ok5NU",
+  "timeSincePosted": "9mo",
+  "shareUrn": "urn:li:ugcPost:7340450240136695809",
+  "text": "Incredibly honored to announce that I will be representing my institution, the IIIT Bhubanswar , on the global stage!\n\nMy project, has been selected for the Grand Finale of the IEEE YESIST12 2025 - Innovation Challenge, which will be held in Malaysia this 23 & 24 of August 2025. It's a profound honor to carry the name of my university to this international event, especially after being chosen from a pool of over 1000+ global submissions.\n\nThe journey to the finale began with my project securing First Prize in the Innovation Challenge track at the preliminary round, \"THE YESSIST DAY 2025,\" hosted by JIT IEEE & WIE STUDENT BRANCH - 09271.\n\nI'm excited to present my project, \"The AI-Powered Marketplace for Educational Simulations & Animations\". Driving this initiative as a solo member has been a challenging yet immensely rewarding experience.\n\nThis achievement would not have been possible without the invaluable guidance of my mentor, Mrs. Puspanjali Mohapatra. My sincere gratitude also goes to the entire IEEE YESIST12 committee and Jansons Institute of Technology for this incredible platform.\n\nI am eagerly looking forward to showcasing the innovation brewing at IIIT Bhubanswar and connecting with brilliant minds from around the world in Malaysia!\n\n#IIITBhubaneswar #IIITBBSR #IEEE #YESIST12 #InnovationChallenge #GrandFinale #ProudMoment #StudentInnovation #AI #EdTech #RepresentingIndia #Malaysia",
+  "attributes": [
+    {
+      "start": 79,
+      "length": 15,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "IIIT Bhubanswar",
+        "universalName": "iiit-bhubanswar",
+        "trackingId": "T9gsYmhbSheOVUyWraj/8Q==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:53530067",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHYTcDJaVAULQ/company-logo_400_400/company-logo_400_400/0/1630667266602?e=1776297600&v=beta&t=cLaxhNtC6TvfFDHaqiy8yd7ja74rHFl5wPgewlyCkCc"
+      }
+    },
+    {
+      "start": 177,
+      "length": 13,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "IEEE YESIST12",
+        "universalName": "ieeeyesist12",
+        "trackingId": "L3GeVCNHQPifx1tXcj1kMw==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:14537387",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGm37ghvkyEGg/company-logo_400_400/company-logo_400_400/0/1715313732858/ieeeyesist12_logo?e=1776297600&v=beta&t=gPYflxuTXnO9DmZ6r_NLJd4RlkJrH-1G_kedops2CH8"
+      }
+    },
+    {
+      "start": 606,
+      "length": 37,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "JIT IEEE & WIE STUDENT BRANCH - 09271",
+        "universalName": "jit-ieee-student-branch",
+        "trackingId": "jQ7jvWfJT/mSBrRu4iDrVw==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:103004340",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEckJOiGpQC4Q/company-logo_400_400/company-logo_400_400/0/1730412835030/jit_ieee_student_branch_logo?e=1776297600&v=beta&t=fnutEhQ8nQFM0zJ-NQzfhOzhJqA9YsqSWu-pulObx6o"
+      }
+    },
+    {
+      "start": 950,
+      "length": 20,
+      "type": "PROFILE_MENTION",
+      "profile": {
+        "firstName": "Puspanjali",
+        "lastName": "Mohapatra",
+        "occupation": "Assistant Professor(CSE) at IIIT Bhubaneswar",
+        "id": "127517168",
+        "publicId": "puspanjali-mohapatra-7a885636",
+        "trackingId": "cA83MPdBQO6aHJ87bLH1Tw==",
+        "profileId": "ACoAAAeZwfABKeUpPDQ9njSN3Ax-BmJpZ4SXgkU",
+        "picture": "https://media.licdn.com/dms/image/v2/C4D03AQFe-kNz4UM0aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1654685695916?e=1776297600&v=beta&t=GPXausz2GGIZLROda5ZrgCy1rLNbyjA6j2Qm-y5ij9E"
+      }
+    },
+    {
+      "start": 1017,
+      "length": 13,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "IEEE YESIST12",
+        "universalName": "ieeeyesist12",
+        "trackingId": "UBwSq9ZHRkGuMuKOMLu4Kw==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:14537387",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGm37ghvkyEGg/company-logo_400_400/company-logo_400_400/0/1715313732858/ieeeyesist12_logo?e=1776297600&v=beta&t=gPYflxuTXnO9DmZ6r_NLJd4RlkJrH-1G_kedops2CH8"
+      }
+    },
+    {
+      "start": 1045,
+      "length": 31,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "Jansons Institute of Technology",
+        "universalName": "jansons-institute-of-technology",
+        "trackingId": "2YwiA4XVSxi9xsOORXuYxg==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:15118019",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGFG0te4TJQeQ/company-logo_400_400/company-logo_400_400/0/1630672296137/jansons_institute_of_technology_logo?e=1776297600&v=beta&t=oRx-cbfBlX1RlCd5Trtd-4W3sU82DK2MNrFwljtQqbI"
+      }
+    },
+    {
+      "start": 1177,
+      "length": 15,
+      "type": "COMPANY_NAME",
+      "company": {
+        "name": "IIIT Bhubanswar",
+        "universalName": "iiit-bhubanswar",
+        "trackingId": "5ydizr8QTti6RWZP8x6qMg==",
+        "active": true,
+        "showcase": false,
+        "entityUrn": "urn:li:fs_miniCompany:53530067",
+        "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHYTcDJaVAULQ/company-logo_400_400/company-logo_400_400/0/1630667266602?e=1776297600&v=beta&t=cLaxhNtC6TvfFDHaqiy8yd7ja74rHFl5wPgewlyCkCc"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "time": 1750174363514,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340763333584703488%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340763333584703488%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉\nHmm party 🥳",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Kapil",
+        "lastName": "Shivhare",
+        "occupation": "Attended International Institute of Information Technology, Bhubaneswar",
+        "id": "1193834463",
+        "publicId": "kapil-shivhare-513990293",
+        "trackingId": "4EPScxQHRcW9isPvQobwEQ==",
+        "profileId": "ACoAAEcod98Bxv_mPalBXgvOZqu7F3zkAZg_rc0",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQFoujn9yDxSDQ/profile-displayphoto-shrink_800_800/B56Zb3L3GMHUAg-/0/1747903833632?e=1776297600&v=beta&t=yY0vGX4shG43BCw_KyJL0kihtBnQiJOgJE4OQ3n28TA",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750169309845,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340742136960532480%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340742136960532480%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Siddharth",
+        "lastName": "Bahuguna",
+        "occupation": "Student at Graphic Era Hill University",
+        "id": "1127684981",
+        "publicId": "siddharth-bahuguna-5857ab275",
+        "trackingId": "jTLC7Mu2RbylF06FtjNwkQ==",
+        "profileId": "ACoAAEM3G3UBpzbP17sw32sVKG3Fp6EgAolsc5M",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750150896111,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340664904162385920%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340664904162385920%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Shruti Rekha",
+        "lastName": "N.",
+        "occupation": "LinkedIn CoachIn’25 | SheFi Scholar’25 | IIIT-Bh’27",
+        "id": "837458348",
+        "publicId": "shrutirn",
+        "trackingId": "yyUNTDDTR06hoMmKxqUapA==",
+        "profileId": "ACoAADHqmawBCSN2KaxiEoWrtBn4I0n7m_6mh60",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFwpGDBqepmlQ/profile-displaybackgroundimage-shrink_350_1400/B56ZW86wSYHoAY-/0/1742631276606?e=1776297600&v=beta&t=CuhxjGBKkeBOtnuCCOWaFGy509IClYJ0p-VcsQP43qg",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750146126873,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340644900524183553%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340644900524183553%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Tusar Kumar",
+        "lastName": "Nayak",
+        "occupation": "Test Engineer @infosys",
+        "id": "939413306",
+        "publicId": "tusar-kumar-nayak-b62735222",
+        "trackingId": "QLugVXD2TAmHZ1UtI9b4PA==",
+        "profileId": "ACoAADf-TzoBcajEU7G21Gv28ctERppbx98DCrM",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQFTxdwgHAbeeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1684152905939?e=1776297600&v=beta&t=pQL9GvvJdHh91kA5db88fcH4eL8_RX5O-7Z2PgVb83E",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750133705065,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340592799685214211%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340592799685214211%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Rehan",
+        "lastName": "Behera",
+        "occupation": "Ex-Intern @IOCL-Paradip Refinery | Data Analyst Enthusiast | Business Analyst | C/C++/Python/SQL | IIIT-BH’ 27",
+        "id": "1342758405",
+        "publicId": "rehan-behera-31982b315",
+        "trackingId": "RMMf1a5HSLKY3tkngb1riA==",
+        "profileId": "ACoAAFAI3gUBCQ29PVBnP7MBPGkavEtNuucK5cA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQFcfqx927vS_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726392791119?e=1776297600&v=beta&t=IgkOud14VpVtekEUsaFTvZZLFDDkQyzB6xOf4rNoxsM",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQERok4eRCifeQ/profile-displaybackgroundimage-shrink_350_1400/B4EZcQDUpcHkAY-/0/1748320997814?e=1776297600&v=beta&t=4gcMxtFokGD2iUHmGyau0KKhttaUIA7EvqhwCIbjfHY",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750133379630,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340591434711932928%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340591434711932928%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "NARAYAN",
+        "lastName": "DWIVEDI",
+        "occupation": "QRC @WorldQuant || Maths, Code & Economics",
+        "id": "934692531",
+        "publicId": "bigbrian",
+        "trackingId": "SFyhyNsoRy6r8bYsLwbtrQ==",
+        "profileId": "ACoAADe2RrMBrzI73NuVqnnZ4R0YtOvuvd4ihAY",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEKNKlz8YMqTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727768814098?e=1776297600&v=beta&t=kBvAhipJVO8pbq0HPUSlgMkufrYtU4swGNtDhZw1VKo",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFaBxWviiNMoQ/profile-displaybackgroundimage-shrink_350_1400/B56Zds3srFH8AY-/0/1749878230611?e=1776297600&v=beta&t=zdwDZS1tLbgtDOOxlbel6EX2KKciwY-oQq1dI2dmNXQ",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750133209286,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340590720237346816%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340590720237346816%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Raj",
+        "lastName": "Mathur",
+        "occupation": "Ex SDE Intern @SmartOrbit || Backend Developer || SpringBoot || MERN || Microservices || Knight @LeetCode (1948) || Open Source Contributor || GeoHack Asia Winner ’24",
+        "id": "1063427852",
+        "publicId": "raj-mathur-778181258",
+        "trackingId": "uaZVkggdQUStKhlaZK0BPw==",
+        "profileId": "ACoAAD9inwwB7Eow7a_6T8ogvzXf0TT56jEDAos",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQGjsRt9vuvFlQ/profile-framedphoto-shrink_800_800/B56ZvprYOnIoAg-/0/1769152021638?e=1775426400&v=beta&t=zotVToDPZPBipHkUUcNz5zffgJvtqB7pMN72tuALa8o",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFuq9J5gc9ZPA/profile-displaybackgroundimage-shrink_350_1400/B56ZcbVTkIGQAg-/0/1748510260187?e=1776297600&v=beta&t=y5qs6UzBh-obLfpdNbGQMQWm0jC0Ug0r35nV2JjRGlk",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750131543519,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340583733508349952%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340583733508349952%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "Congrats Anurag! 🎉\nGreat achievement 🎊👏🏼👏🏼",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Rajesh Kumar",
+        "lastName": "Jena",
+        "occupation": "Ex @Oracle @ISRO @EquityBrain || Expert CodeForces || Codechef 4⭐1886 || Leetcode knight 1900 ||CodeStudio 3091",
+        "id": "902381727",
+        "publicId": "rajesh-kj",
+        "trackingId": "XDSgIGyRS6ONfk2i599dMg==",
+        "profileId": "ACoAADXJQJ8B2LPIfrHLdF2V24Htl26ohrH3thA",
+        "picture": "https://media.licdn.com/dms/image/v2/D4D03AQHoGDRfQodGEg/profile-displayphoto-crop_800_800/B4DZxvw8RGG8AI-/0/1771401628782?e=1776297600&v=beta&t=p-0JMvEB0LocJsz9bpt9oEAo1bGJMhKKQcmcADPrjjA",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGCRmspio79NA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711804508062?e=1776297600&v=beta&t=6hPRlwW61GmNgMzCgqRhhpFK5ivHGA-jv9B21K-JzSQ",
+        "distance": "OUT_OF_NETWORK"
+      }
+    },
+    {
+      "time": 1750116082202,
+      "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7340450240136695809?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7340450240136695809%2C7340518884040433664%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340518884040433664%2Curn%3Ali%3AugcPost%3A7340450240136695809%29",
+      "text": "👏 Well deserved, Anurag",
+      "entities": [],
+      "pinned": false,
+      "originalLanguage": "English",
+      "author": {
+        "firstName": "Manishka",
+        "lastName": "Mall",
+        "occupation": "Front-End Developer | React js |",
+        "id": "1293564000",
+        "publicId": "manishka-mall-340266301",
+        "trackingId": "iYu4YJIMR+aBsvCDWUaR/A==",
+        "profileId": "ACoAAE0aOGAB2lIChMDX0L96GlnW8B3OfofzVEo",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQF-XFh9zitAJg/profile-displayphoto-shrink_800_800/B4EZdJTj6eGcAc-/0/1749281555373?e=1776297600&v=beta&t=ZFeWT4zCQ9bfcWflgKurwqk5f3gdIMWtUmGwbrxW-IM",
+        "distance": "OUT_OF_NETWORK"
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "type": "PRAISE",
+      "profile": {
+        "firstName": "Archi",
+        "lastName": "Rai",
+        "occupation": "Attended Medicaps University, Indore",
+        "id": "1054375773",
+        "publicId": "archi-rai-1b9137255",
+        "trackingId": "ryQ+60SDQRahhUKJTPetQg==",
+        "profileId": "ACoAAD7Yf10BGVAmAS_iOGr-J7e1m0v21pPdcPk",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEhzEQtvodGVg/profile-displayphoto-crop_800_800/B56ZtMj5GPGsAM-/0/1766516037551?e=1776297600&v=beta&t=mii814NkHKI8b-gXWvNxPXq4YnewPYmIXg8iTq-bTxk"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Abinash",
+        "lastName": "Mishra",
+        "occupation": "IIIT-Bh ’27 || Information Technology || Knight@LeetCode (1891) || Competitive Programmer || MERN Stack Developer",
+        "id": "1188047904",
+        "publicId": "abinash-mishra-880a5b291",
+        "trackingId": "USgo72NgSoS2XH/b89vjJw==",
+        "profileId": "ACoAAEbQLCABdAcbgoc24lq_063nBh9hfbUVZpQ",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQF-nyEuZMArMA/profile-displayphoto-crop_800_800/B56Zz4I4.1GkAI-/0/1773689609726?e=1776297600&v=beta&t=mDUqpD6A6gLuSJSBYNgyQ8AZA9Bq2bfUdb3hHjKz7FM",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQFrM_K9n_Tx8Q/profile-displaybackgroundimage-shrink_350_1400/B4DZZbgeypHwAY-/0/1745291965993?e=1776297600&v=beta&t=0-mfKqjpDAsM7Vzsrdoc1_dsIzKp17cvW9kOFGbcq68"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ritesh",
+        "lastName": "kumar",
+        "occupation": "🎓 IIIT BHUBANESWAR",
+        "id": "1091253346",
+        "publicId": "ritesh-kumar-42a560265",
+        "trackingId": "MesvfGTGQbqJ3xTNJcKOMQ==",
+        "profileId": "ACoAAEELNGIBC58PbvAg13yx-aNOdoQmIZuHV90",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQEMdKhnyzD-Hg/profile-displayphoto-crop_800_800/B56ZtHR915JoAU-/0/1766427453647?e=1776297600&v=beta&t=H035_Tb9edLsQLwajMEpjOwXKiZb1xJDjVVRbZ1pYBI"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Rama",
+        "lastName": "Prasad Das",
+        "occupation": "IIIT BH ‘26 • Backend Intern @EaseworkAI • Microservices & Workflow Automation • Ex-Intern @Splitkaro",
+        "id": "1057413819",
+        "publicId": "rama-das",
+        "trackingId": "3Ov93ie/Si20nzvRS+X4Fw==",
+        "profileId": "ACoAAD8G2rsBMYxoMqQxXK-kewS9OQXKthnVZ0E",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQG1U7COOIjvcg/profile-displayphoto-crop_800_800/B56ZuO_gjwJgAI-/0/1767630574194?e=1776297600&v=beta&t=aQMPkGi_tCtEod2JI65uq4DTuAmmZc6MskrHVc2Jexo",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQGtMQ_DViRoBg/profile-displaybackgroundimage-shrink_350_1400/B56ZaaPTsrHsAc-/0/1746344427245?e=1776297600&v=beta&t=pGdSWz9-brfRlHG_MtrAodYU3JnVAzSP7aatkvVKkT8"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Saurav",
+        "lastName": "Panigrahi",
+        "occupation": "Student at International Institute of Information Technology, Bhubaneswar",
+        "id": "1371967341",
+        "publicId": "saurav-panigrahi-6b9576323",
+        "trackingId": "Hyb6MEOuSWyCRAZbs+svAQ==",
+        "profileId": "ACoAAFHGj20B3bHTrz237rYWaPJN6z60XNN9JQE",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQG7QLfGigqGnw/profile-displayphoto-crop_800_800/B4EZm1XDyzKYAI-/0/1759684347150?e=1776297600&v=beta&t=PJeEFY6UJ05IKJU5n_oeJ8Csd-r45i9wuFpBZS2KmqE"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Ankit",
+        "lastName": "Muduli",
+        "occupation": "Ex-Intern @IIT Kharagpur||ETC Undergrad || Hardware enthusiast ||Embedded systems and PCB Design||Signal Processing||IIIT BH'27",
+        "id": "1436538692",
+        "publicId": "ankit-muduli-318116341",
+        "trackingId": "fNKYNMVhQEacTu+F5afiMA==",
+        "profileId": "ACoAAFWf10QB_arZC4XLkAx92EQfxlF6s3CxeaE",
+        "picture": "https://media.licdn.com/dms/image/v2/D4E03AQHr2NEh3GO_xA/profile-displayphoto-crop_800_800/B4EZkeyByYIIAI-/0/1757158057038?e=1776297600&v=beta&t=KVpvgUnm94Ns_Z8hJx8fp9J5iLTnNusDInpW3ftxUi4",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4E16AQHpbR5XjuuByg/profile-displaybackgroundimage-shrink_350_1400/B4EZkGKpEGIMAY-/0/1756745078365?e=1776297600&v=beta&t=vp0ZlvJgNnW1kPPwC8NOtK718bW2F1ithchRUBIcUr4"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Anirudh",
+        "lastName": "Pradhan",
+        "occupation": "Building AI Systems | FDSE intern @Sarvam",
+        "id": "1021009282",
+        "publicId": "anirudhpradhan",
+        "trackingId": "n9nT+WBzRVWc4BEQuI2zlA==",
+        "profileId": "ACoAADzbXYIBCwbrKz2zdThg5a4jInrExmtUZR0",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQHA2x6pWr-Wew/profile-displayphoto-shrink_800_800/B56ZVr0su_HsAc-/0/1741270734638?e=1776297600&v=beta&t=uIfH6ijLJu2P9dMqgoWL5l5IOkyvolUys5t4oFdjUiE",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQFHznSpyk2DeQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727363327651?e=1776297600&v=beta&t=EhHHm02SqYxA5WmkrcHAdl-642ESXYrAJsH8jm2eNyU"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Chinari Sanskar",
+        "lastName": "Subudhi",
+        "occupation": "Specialist Programmer L2 @Infosys",
+        "id": "965854577",
+        "publicId": "chinari-sanskar-subudhi",
+        "trackingId": "t2N2hjcdQQCQqG8T0QuTxQ==",
+        "profileId": "ACoAADmRxXEBWN7CV85j5Hcq17zf_zXHnZUYbLo",
+        "picture": "https://media.licdn.com/dms/image/v2/D5603AQF9-ypGm3oJYg/profile-displayphoto-crop_800_800/B56ZjOQC99HQAM-/0/1755806971561?e=1776297600&v=beta&t=AStq_CSRd9k26XbonpAelWgCRs6pcAy-hyL4y7vgvhc",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQEKD3W8fFOAUQ/profile-displaybackgroundimage-shrink_350_1400/B56ZjOUixIHcAc-/0/1755808150143?e=1776297600&v=beta&t=9z4wlD9vtniyeEnmyQ8SxMM-hZQX71hapYGenNsRwJw"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Nitin",
+        "lastName": "Yadav",
+        "occupation": "Web developer | IIIT BH’25 Undergrad",
+        "id": "802909936",
+        "publicId": "nitin-yadav9050",
+        "trackingId": "7PI2wjXdTfqfFe5uA5S9/g==",
+        "profileId": "ACoAAC_bbvABQPpPikXyXfwmS3Iv_-Die4IJE00",
+        "picture": "https://media.licdn.com/dms/image/v2/C4D03AQGNG-dYx3XHGg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659165388531?e=1776297600&v=beta&t=KfruS6BHehSGfS35NBfymvxNLLXGXJJ-MgzYN4mmdzs"
+      }
+    },
+    {
+      "type": "LIKE",
+      "profile": {
+        "firstName": "Harsh",
+        "lastName": "Mane",
+        "occupation": "IIIT - Bh || ETC'27",
+        "id": "1147038054",
+        "publicId": "harsh-mane-206183280",
+        "trackingId": "u0ghNWjUT2y9pgZ6ujoCJQ==",
+        "profileId": "ACoAAEReaWYBEukbVg-2kUbhzhn71MfnrxMknRM",
+        "picture": "https://media.licdn.com/dms/image/v2/D5635AQE3V-fviGT_JQ/profile-framedphoto-shrink_800_800/B56Z0AGWSnJMAg-/0/1773823157745?e=1775426400&v=beta&t=PSrIUP100H8yjreQ7Lklx7YOnz1ojy00KHWTpSinaFs",
+        "backgroundImage": "https://media.licdn.com/dms/image/v2/D4D16AQHZHQO6sA2I-Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1695475719794?e=1776297600&v=beta&t=6E3q-CYqepdzMiTg9u6ZYd1AHgRvM-NBGYaZ0oY22dQ"
+      }
+    }
+  ],
+  "numShares": 0,
+  "numLikes": 124,
+  "numComments": 18,
+  "canReact": true,
+  "canPostComments": true,
+  "canShare": true,
+  "commentingDisabled": false,
+  "allowedCommentersScope": "ALL",
+  "rootShare": true,
+  "shareAudience": "PUBLIC",
+  "author": {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "occupation": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "id": "1153664604",
+    "publicId": "anurag6569",
+    "trackingId": "y7RsBsbASPapwbpyPh8LXg==",
+    "profileId": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+    "backgroundImage": "https://media.licdn.com/dms/image/v2/D5616AQHWoODeTFnJFw/profile-displaybackgroundimage-shrink_350_1400/B56Zs8xlLKIEAg-/0/1766251191179?e=1776297600&v=beta&t=_ePyho3QI55LyqsYGOxRf5xMgIaZSqaw3bNvII75nYM"
+  },
+  "authorProfileId": "anurag6569",
+  "authorProfilePicture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-crop_800_800/B56Zs8zMRkLEAI-/0/1766251612011?e=1776297600&v=beta&t=6grYpbSM4a_myAKNBQlhtvj5VgFXJxoDG3EFsbzdP80",
+  "authorType": "Person",
+  "authorName": "Anurag Singh",
+  "authorProfileUrl": "https://www.linkedin.com/in/anurag6569?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+  "authorUrn": "urn:li:member:1153664604",
+  "postedAtTimestamp": 1750099716607,
+  "postedAtISO": "2025-06-16T18:48:36.607Z",
+  "inputUrl": "https://www.linkedin.com/in/anurag6569/"
+}]

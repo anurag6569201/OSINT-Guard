@@ -1,0 +1,249 @@
+[
+  {
+    "firstName": "Anurag",
+    "lastName": "Singh",
+    "headline": "Founding Engineer at Clario | C4GT’25 @Beckn Protocol | YESIST12 ’24 & 25 Finalist | Winner @Odoo X NIT Surat & GeoHack’24 | Full Stack Developer | Django, azure",
+    "locationName": "Maihar, Madhya Pradesh, India",
+    "publicIdentifier": "anurag6569",
+    "summary": "Full Stack Developer with 2 years of experience specializing in React.js, Django, and architecting scalable solutions with High-Level Design (HLD). My work is backed by a portfolio of 25+ projects and deep, hands-on experience in Microsoft Azure and Azure AI Foundry. Balancing my B.Tech at IIIT Bhubaneswar with professional roles, I am passionate about building efficient and intelligent software.",
+    "positions": [
+      {
+        "startYear": 2025,
+        "startMonth": 8,
+        "endYear": 2026,
+        "endMonth": 1,
+        "durationMonth": 6,
+        "durationYear": 0,
+        "companyName": "Clario",
+        "title": "Founding Engineer",
+        "description": "AI for private market insights.",
+        "locationName": "San Francisco, California, United States",
+        "current": false
+      },
+      {
+        "startYear": 2025,
+        "startMonth": 6,
+        "endYear": 2025,
+        "endMonth": 10,
+        "durationMonth": 5,
+        "durationYear": 0,
+        "companyName": "Code for GovTech (C4GT)",
+        "companyUrn": 81648334,
+        "companyUrl": "https://www.linkedin.com/company/81648334",
+        "title": "C4GT'25 @Beckn Collective",
+        "description": "Beckn Collective: No-Code AI-Enabled UI Builder (Coding & AI)",
+        "locationName": "Delhi, India",
+        "skills": "Skills: Full-Stack Development · Genai",
+        "current": false
+      },
+      {
+        "startYear": 2025,
+        "startMonth": 1,
+        "endYear": 2025,
+        "endMonth": 2,
+        "durationMonth": 2,
+        "durationYear": 0,
+        "companyName": "Aveti Learning",
+        "companyUrn": 71966964,
+        "companyUrl": "https://www.linkedin.com/company/71966964",
+        "title": "Software Engineer",
+        "description": "Genai, Fastapi",
+        "locationName": "Bhubaneswar, Odisha, India",
+        "current": false
+      },
+      {
+        "startYear": 2024,
+        "startMonth": 5,
+        "endYear": 2024,
+        "endMonth": 8,
+        "durationMonth": 4,
+        "durationYear": 0,
+        "companyName": "GirlScript Summer of Code",
+        "companyUrn": 14488336,
+        "companyUrl": "https://www.linkedin.com/company/14488336",
+        "title": "Open Source Contributor",
+        "locationName": "India",
+        "skills": "Skills: Django · Full-Stack Development",
+        "current": false
+      }
+    ],
+    "educations": [
+      {
+        "startYear": 2023,
+        "startMonth": 8,
+        "endYear": 2027,
+        "endMonth": 8,
+        "durationMonth": 1,
+        "durationYear": 4,
+        "degreeName": "Bachelor of Technology - BTech",
+        "fieldOfStudy": "Electrical and Electronics Engineering",
+        "schoolName": "International Institute of Information Technology, Bhubaneswar"
+      },
+      {
+        "startYear": 2022,
+        "startMonth": 8,
+        "endYear": 2023,
+        "endMonth": 6,
+        "durationMonth": 11,
+        "durationYear": 0,
+        "degreeName": "jee / jee advance",
+        "schoolName": "ALLEN Career Institute"
+      }
+    ],
+    "skills": [
+      {
+        "skillName": "Flask"
+      },
+      {
+        "skillName": "Data Management"
+      },
+      {
+        "skillName": "JSON"
+      },
+      {
+        "skillName": "HTML5"
+      },
+      {
+        "skillName": "Front-End Development"
+      },
+      {
+        "skillName": "Web Development"
+      },
+      {
+        "skillName": "Web Applications"
+      },
+      {
+        "skillName": "Responsive Web Design"
+      },
+      {
+        "skillName": "React.js"
+      },
+      {
+        "skillName": "Hugging Face"
+      },
+      {
+        "skillName": "Google Gemini"
+      },
+      {
+        "skillName": "LangChain"
+      },
+      {
+        "skillName": "Genai"
+      },
+      {
+        "skillName": "Problem Solving"
+      },
+      {
+        "skillName": "Microsoft Azure"
+      },
+      {
+        "skillName": "Machine Learning"
+      },
+      {
+        "skillName": "Data Analysis"
+      },
+      {
+        "skillName": "Seaborn"
+      },
+      {
+        "skillName": "NumPy"
+      },
+      {
+        "skillName": "Matplotlib"
+      },
+      {
+        "skillName": "pandas"
+      },
+      {
+        "skillName": "SQLite"
+      },
+      {
+        "skillName": "Django"
+      },
+      {
+        "skillName": "Web Scraping"
+      },
+      {
+        "skillName": "HTML Scripting"
+      },
+      {
+        "skillName": "Figma (Software)"
+      },
+      {
+        "skillName": "PHP"
+      },
+      {
+        "skillName": "MySQL"
+      },
+      {
+        "skillName": "JavaScript"
+      },
+      {
+        "skillName": "HTML"
+      },
+      {
+        "skillName": "Cascading Style Sheets (CSS)"
+      },
+      {
+        "skillName": "Full-Stack Development"
+      },
+      {
+        "skillName": "C (Programming Language)"
+      },
+      {
+        "skillName": "Python (Programming Language)"
+      },
+      {
+        "skillName": "Bootstrap (Framework)"
+      },
+      {
+        "skillName": "AutoCAD"
+      },
+      {
+        "skillName": "GitHub"
+      },
+      {
+        "skillName": "Git"
+      }
+    ],
+    "certifications": [
+      {
+        "startYear": 2024,
+        "startMonth": 4,
+        "durationMonth": 0,
+        "durationYear": 2,
+        "name": "Google solution challenge",
+        "authority": "GDSC"
+      },
+      {
+        "startYear": 2023,
+        "startMonth": 10,
+        "durationMonth": 6,
+        "durationYear": 2,
+        "name": "D3 Hackathon",
+        "authority": "IIIT Bhubanswar"
+      },
+      {
+        "startYear": 2023,
+        "startMonth": 11,
+        "durationMonth": 5,
+        "durationYear": 2,
+        "name": "Cloud Computing",
+        "authority": "Google Developer Student Club, IIIT-Bh"
+      }
+    ],
+    "languages": [],
+    "objectUrn": 1153664604,
+    "url": "https://www.linkedin.com/in/anurag6569",
+    "picture": "https://media.licdn.com/dms/image/v2/D5603AQF39WBhpCDopQ/profile-displayphoto-scale_200_200/B56Zs8zMRkLEAY-/0/1766251612087?e=1776297600&v=beta&t=bc5dpjvxJ9FuMKkYCm5lCdM7S1ovKb8AjGlWVLO6m7E",
+    "entityUrn": "ACoAAETDhlwBf8pHxooWpt3KTidQBZSgWESNQ3A",
+    "openToWork": false,
+    "premium": false,
+    "verified": true,
+    "creator": false,
+    "influencer": false,
+    "contactInfoUpdated": "Updated over 1 year ago",
+    "joinedDate": "July 2023",
+    "profilePhotoUpdated": "Updated less than 6 months ago"
+  }
+]

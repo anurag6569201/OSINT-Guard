@@ -40,6 +40,7 @@ export type InstagramProfile = {
   private: boolean
   externalUrls: InstagramExternalUrl[]
   profilePicUrl: string
+  hdProfilePicUrl?: string
   latestPosts: InstagramPost[]
 }
 
@@ -86,6 +87,7 @@ export type LinkedInBasicInfo = {
   public_identifier: string
   profile_url: string
   profile_picture_url: string
+  background_picture_url?: string
   about: string
   location: LinkedInLocation
   follower_count: number
