@@ -379,65 +379,36 @@ export function IntelligenceDashboard() {
               </motion.aside>
             </div>
 
-            <div className="intel-feed-split">
-              <motion.div variants={itemVariants} className="intel-filmstrip-wrap">
-                <header className="intel-analysis__head intel-analysis__head--inline">
-                  <span className="intel-analysis__code">05</span>
-                  <div>
-                    <h3 className="intel-analysis__title">Visual strip — Instagram</h3>
-                    <p className="intel-analysis__sub">Frames link out to live posts.</p>
-                  </div>
-                </header>
-                <div className="intel-filmstrip" role="list">
-                  {ig?.latestPosts?.map((p) => (
-                    <a
-                      key={p.id}
-                      href={p.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="intel-filmstrip__cell"
-                      role="listitem"
-                    >
-                      <img src={p.displayUrl} alt={p.alt ?? p.caption ?? 'Post'} loading="lazy" />
-                      <span className="intel-filmstrip__cap">
-                        {p.likesCount} ♥ · {p.locationName ?? '—'}
-                      </span>
-                    </a>
-                  ))}
+            <motion.div variants={itemVariants} className="intel-chatter intel-chatter--solo">
+              <header className="intel-analysis__head intel-analysis__head--inline">
+                <span className="intel-analysis__code">05</span>
+                <div>
+                  <h3 className="intel-analysis__title">Chatter log — X</h3>
+                  <p className="intel-analysis__sub">Deduped lines, newest first.</p>
                 </div>
-              </motion.div>
-
-              <motion.div variants={itemVariants} className="intel-chatter">
-                <header className="intel-analysis__head intel-analysis__head--inline">
-                  <span className="intel-analysis__code">06</span>
-                  <div>
-                    <h3 className="intel-analysis__title">Chatter log — X</h3>
-                    <p className="intel-analysis__sub">Deduped lines, newest first.</p>
-                  </div>
-                </header>
-                <ul className="intel-chatter__log">
-                  {tweetsUnique.slice(0, 8).map((t) => (
-                    <li key={t.url} className="intel-chatter__row">
-                      <time className="intel-chatter__time" dateTime={t.createdAt}>
-                        {new Date(t.createdAt).toLocaleDateString(undefined, {
-                          month: 'short',
-                          day: 'numeric',
-                          year: 'numeric',
-                        })}
-                      </time>
-                      <div className="intel-chatter__body">
-                        <a href={t.url} target="_blank" rel="noopener noreferrer" className="intel-chatter__text">
-                          {t.text.length > 220 ? `${t.text.slice(0, 220)}…` : t.text}
-                        </a>
-                        <p className="intel-chatter__stats">
-                          {t.viewCount.toLocaleString()} views · {t.likeCount} likes
-                        </p>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            </div>
+              </header>
+              <ul className="intel-chatter__log">
+                {tweetsUnique.slice(0, 8).map((t) => (
+                  <li key={t.url} className="intel-chatter__row">
+                    <time className="intel-chatter__time" dateTime={t.createdAt}>
+                      {new Date(t.createdAt).toLocaleDateString(undefined, {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                      })}
+                    </time>
+                    <div className="intel-chatter__body">
+                      <a href={t.url} target="_blank" rel="noopener noreferrer" className="intel-chatter__text">
+                        {t.text.length > 220 ? `${t.text.slice(0, 220)}…` : t.text}
+                      </a>
+                      <p className="intel-chatter__stats">
+                        {t.viewCount.toLocaleString()} views · {t.likeCount} likes
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
           </motion.div>
         )}
       </div>
