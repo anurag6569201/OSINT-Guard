@@ -56,49 +56,118 @@ export type TwitterTweet = {
   url: string
 }
 
-export type LinkedInLocation = {
-  country: string
-  city?: string
-  full: string
-  country_code?: string
-}
-
-export type LinkedInExperience = {
-  title: string
-  company: string
-  location: string
+/** LinkedIn profile export (dataset_linkedin_profile.json) */
+export type LinkedInPosition = {
+  title?: string
+  companyName?: string
   description?: string
-  duration: string
-  is_current?: boolean
-  employment_type?: string
-  location_type?: string
+  locationName?: string
+  companyUrl?: string
+  startYear?: number
+  startMonth?: number
+  endYear?: number
+  endMonth?: number
+  current?: boolean
+  durationYear?: number
+  durationMonth?: number
+  skills?: string
 }
 
 export type LinkedInEducation = {
-  school: string
-  degree: string
-  field_of_study?: string
-  duration: string
+  schoolName?: string
+  degreeName?: string
+  fieldOfStudy?: string
+  startYear?: number
+  startMonth?: number
+  endYear?: number
+  endMonth?: number
 }
 
-export type LinkedInBasicInfo = {
-  fullname: string
-  headline: string
-  public_identifier: string
-  profile_url: string
-  profile_picture_url: string
-  background_picture_url?: string
-  about: string
-  location: LinkedInLocation
-  follower_count: number
-  connection_count: number
-  top_skills: string[]
+export type LinkedInSkillEntry = {
+  skillName?: string
 }
 
-export type LinkedInProfile = {
-  basic_info: LinkedInBasicInfo
-  experience: LinkedInExperience[]
-  education: LinkedInEducation[]
-  projects: { name: string; description: string }[]
-  certifications: { name: string; issuer: string; issued_date: string }[]
+export type LinkedInCertification = {
+  name?: string
+  authority?: string
+  startYear?: number
+  startMonth?: number
+  durationYear?: number
+  durationMonth?: number
+}
+
+export type LinkedInProfileRecord = {
+  firstName?: string
+  lastName?: string
+  headline?: string
+  locationName?: string
+  publicIdentifier?: string
+  summary?: string
+  picture?: string
+  url?: string
+  positions?: LinkedInPosition[]
+  educations?: LinkedInEducation[]
+  skills?: LinkedInSkillEntry[]
+  certifications?: LinkedInCertification[]
+  verified?: boolean
+  openToWork?: boolean
+  premium?: boolean
+  joinedDate?: string
+  profilePhotoUpdated?: string
+  contactInfoUpdated?: string
+}
+
+export type LinkedInReactorProfile = {
+  firstName?: string
+  lastName?: string
+  occupation?: string
+  publicId?: string
+  profileId?: string
+  picture?: string
+  backgroundImage?: string
+}
+
+export type LinkedInReaction = {
+  type?: string
+  profile?: LinkedInReactorProfile
+}
+
+export type LinkedInComment = {
+  time?: number
+  text?: string
+  link?: string
+  author?: LinkedInReactorProfile
+}
+
+export type LinkedInPostAuthor = {
+  firstName?: string
+  lastName?: string
+  occupation?: string
+  publicId?: string
+  profileId?: string
+  picture?: string
+  backgroundImage?: string
+}
+
+/** LinkedIn activity feed (dataset_linkedin-post.json) */
+export type LinkedInPost = {
+  type?: string
+  images?: string[]
+  isActivity?: boolean
+  urn?: string
+  url?: string
+  timeSincePosted?: string
+  text?: string
+  numLikes?: number
+  numComments?: number
+  numShares?: number
+  reactions?: LinkedInReaction[]
+  comments?: LinkedInComment[]
+  postedAtISO?: string
+  postedAtTimestamp?: number
+  shareAudience?: string
+  author?: LinkedInPostAuthor
+  authorName?: string
+  authorProfileUrl?: string
+  authorProfileId?: string
 }

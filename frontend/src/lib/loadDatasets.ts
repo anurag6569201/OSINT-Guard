@@ -1,13 +1,15 @@
 import type {
   InstagramProfile,
-  LinkedInProfile,
+  LinkedInPost,
+  LinkedInProfileRecord,
   TwitterTweet,
 } from '../types/datasets'
 
 export type LoadedDatasets = {
   instagram: InstagramProfile[]
   twitter: TwitterTweet[]
-  linkedin: LinkedInProfile[]
+  linkedinProfile: LinkedInProfileRecord[]
+  linkedinPosts: LinkedInPost[]
 }
 
 /** Join Vite `import.meta.env.BASE_URL` (always ends with `/`) to a public path without producing `//host` (breaks DNS). */
@@ -18,7 +20,7 @@ function publicUrl(baseUrl: string, path: string) {
 }
 
 export async function loadDatasets(baseUrl = '/'): Promise<LoadedDatasets> {
-  const [instagram, twitter, linkedin] = await Promise.all([
+  const [instagram, twitter, linkedinProfile, linkedinPosts] = await Promise.all([
     fetch(publicUrl(baseUrl, 'dummy_data/dataset_instagram.json')).then((r) => {
       if (!r.ok) throw new Error('Failed to load Instagram dataset')
       return r.json() as Promise<InstagramProfile[]>
@@ -27,10 +29,14 @@ export async function loadDatasets(baseUrl = '/'): Promise<LoadedDatasets> {
       if (!r.ok) throw new Error('Failed to load Twitter dataset')
       return r.json() as Promise<TwitterTweet[]>
     }),
-    fetch(publicUrl(baseUrl, 'dummy_data/dataset_linkedin.json')).then((r) => {
-      if (!r.ok) throw new Error('Failed to load LinkedIn dataset')
-      return r.json() as Promise<LinkedInProfile[]>
+    fetch(publicUrl(baseUrl, 'dummy_data/dataset_linkedin_profile.json')).then((r) => {
+      if (!r.ok) throw new Error('Failed to load LinkedIn profile dataset')
+      return r.json() as Promise<LinkedInProfileRecord[]>
+    }),
+    fetch(publicUrl(baseUrl, 'dummy_data/dataset_linkedin-post.json')).then((r) => {
+      if (!r.ok) throw new Error('Failed to load LinkedIn posts dataset')
+      return r.json() as Promise<LinkedInPost[]>
     }),
   ])
-  return { instagram, twitter, linkedin }
+  return { instagram, twitter, linkedinProfile, linkedinPosts }
 }

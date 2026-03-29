@@ -1,6 +1,8 @@
 import type {
   InstagramProfile,
-  LinkedInProfile,
+  LinkedInPost,
+  LinkedInPosition,
+  LinkedInProfileRecord,
   TwitterTweet,
 } from '../types/datasets'
 
@@ -45,17 +47,36 @@ function dedupeTweets(tweets: TwitterTweet[]): TwitterTweet[] {
   return out
 }
 
+export function linkedinFullName(p: LinkedInProfileRecord | undefined): string | null {
+  if (!p) return null
+  const a = (p.firstName ?? '').trim()
+  const b = (p.lastName ?? '').trim()
+  const n = `${a} ${b}`.trim()
+  return n || null
+}
+
+/** Posts authored by the profile subject (excludes pure reshares of others). */
+export function filterAuthoredLinkedInPosts(
+  posts: LinkedInPost[],
+  profile: LinkedInProfileRecord | undefined,
+): LinkedInPost[] {
+  const id = profile?.publicIdentifier
+  if (!id) return posts
+  return posts.filter(
+    (p) =>
+      p.authorProfileId === id ||
+      p.author?.publicId === id ||
+      (p.authorProfileUrl && p.authorProfileUrl.includes(`/in/${id}`)),
+  )
+}
+
 export function buildMapMarkers(
   ig: InstagramProfile[],
-  li: LinkedInProfile[],
+  li: LinkedInProfileRecord[],
 ): MapMarker[] {
   const markers: MapMarker[] = []
   let n = 0
-  const add = (
-    label: string,
-    source: string,
-    detail: string,
-  ) => {
+  const add = (label: string, source: string, detail: string) => {
     const c = coordsForLabel(label)
     if (!c) return
     const id = `${source}-${n++}-${label.slice(0, 24)}`
@@ -71,11 +92,15 @@ export function buildMapMarkers(
   }
 
   const linked = li[0]
-  if (linked?.basic_info?.location?.full) {
-    add(linked.basic_info.location.full, 'LinkedIn profile', 'Declared residence')
+  if (linked?.locationName) {
+    add(linked.locationName, 'LinkedIn profile', 'Declared location')
   }
-  for (const ex of linked?.experience ?? []) {
-    if (ex.location) add(ex.location, 'LinkedIn role', `${ex.title} · ${ex.company}`)
+  for (const ex of linked?.positions ?? []) {
+    if (ex.locationName) add(ex.locationName, 'LinkedIn role', `${ex.title ?? 'Role'} · ${ex.companyName ?? ''}`)
+  }
+  if (linked?.educations?.length) {
+    const ed = linked.educations[0]
+    if (ed?.schoolName) add(ed.schoolName, 'LinkedIn education', ed.degreeName ?? 'Education')
   }
 
   const uniq = new Map<string, MapMarker>()
@@ -123,12 +148,136 @@ export function instagramMediaMix(profile: InstagramProfile | undefined): MediaT
 
 export type SkillRow = { skill: string; weight: number }
 
-export function linkedinTopSkills(profile: LinkedInProfile | undefined, limit = 8): SkillRow[] {
-  const skills = profile?.basic_info?.top_skills ?? []
-  return skills.slice(0, limit).map((skill, i) => ({
+export function linkedinTopSkills(profile: LinkedInProfileRecord | undefined, limit = 12): SkillRow[] {
+  const skills = profile?.skills ?? []
+  const names = skills
+    .map((s) => s.skillName?.trim())
+    .filter((s): s is string => Boolean(s))
+  return names.slice(0, limit).map((skill, i) => ({
     skill,
     weight: limit - i,
   }))
+}
+
+export type LinkedInMonthRow = { month: string; posts: number; reactions: number; comments: number }
+
+export function linkedinActivityByMonth(posts: LinkedInPost[]): LinkedInMonthRow[] {
+  const buckets = new Map<string, { posts: number; reactions: number; comments: number }>()
+  for (const p of posts) {
+    const raw = p.postedAtISO
+    if (!raw) continue
+    const d = new Date(raw)
+    if (Number.isNaN(d.getTime())) continue
+    const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`
+    const cur = buckets.get(key) ?? { posts: 0, reactions: 0, comments: 0 }
+    cur.posts += 1
+    const rc = p.reactions?.length ?? 0
+    cur.reactions += rc > 0 ? rc : p.numLikes ?? 0
+    cur.comments += p.numComments ?? p.comments?.length ?? 0
+    buckets.set(key, cur)
+  }
+  return [...buckets.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([month, v]) => ({ month, ...v }))
+}
+
+export type ReactionMixRow = { name: string; value: number }
+
+export function linkedinReactionMix(posts: LinkedInPost[]): ReactionMixRow[] {
+  const counts = new Map<string, number>()
+  for (const p of posts) {
+    for (const r of p.reactions ?? []) {
+      const t = r.type ?? 'UNKNOWN'
+      counts.set(t, (counts.get(t) ?? 0) + 1)
+    }
+  }
+  return [...counts.entries()].map(([name, value]) => ({ name, value }))
+}
+
+export type HashtagRow = { tag: string; count: number }
+
+export function linkedinTopHashtags(posts: LinkedInPost[], limit = 14): HashtagRow[] {
+  const counts = new Map<string, number>()
+  const re = /#([\p{L}\p{N}_]+)/gu
+  for (const p of posts) {
+    const text = p.text ?? ''
+    let m: RegExpExecArray | null
+    const seenInPost = new Set<string>()
+    while ((m = re.exec(text)) !== null) {
+      const tag = m[1].toLowerCase()
+      if (seenInPost.has(tag)) continue
+      seenInPost.add(tag)
+      counts.set(tag, (counts.get(tag) ?? 0) + 1)
+    }
+  }
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([tag, count]) => ({ tag, count }))
+}
+
+export type LinkedInEngagementTotals = {
+  posts: number
+  reactionRecords: number
+  comments: number
+  shares: number
+  uniqueReactors: number
+}
+
+export function linkedinEngagementTotals(posts: LinkedInPost[]): LinkedInEngagementTotals {
+  const reactors = new Set<string>()
+  let reactionRecords = 0
+  let comments = 0
+  let shares = 0
+  for (const p of posts) {
+    for (const r of p.reactions ?? []) {
+      reactionRecords += 1
+      const id = r.profile?.profileId ?? r.profile?.publicId
+      if (id) reactors.add(id)
+    }
+    comments += p.numComments ?? p.comments?.length ?? 0
+    shares += p.numShares ?? 0
+  }
+  return {
+    posts: posts.length,
+    reactionRecords,
+    comments,
+    shares,
+    uniqueReactors: reactors.size,
+  }
+}
+
+export type CareerRow = {
+  title: string
+  company: string
+  location: string
+  range: string
+  current: boolean
+}
+
+function monthYear(m?: number, y?: number): string {
+  if (y == null) return '—'
+  if (m == null || m < 1) return String(y)
+  return `${String(m).padStart(2, '0')}/${y}`
+}
+
+export function linkedinCareerRows(profile: LinkedInProfileRecord | undefined): CareerRow[] {
+  const positions = profile?.positions ?? []
+  return positions.map((x: LinkedInPosition) => {
+    const start = monthYear(x.startMonth, x.startYear)
+    const end = x.current ? 'Present' : monthYear(x.endMonth, x.endYear)
+    const parts: string[] = []
+    if (x.durationYear) parts.push(`${x.durationYear} yr`)
+    if (x.durationMonth) parts.push(`${x.durationMonth} mo`)
+    const dur = parts.length ? ` (${parts.join(' ')})` : ''
+    return {
+      title: x.title ?? 'Role',
+      company: x.companyName ?? '—',
+      location: x.locationName ?? '',
+      range: `${start} – ${end}${dur}`,
+      current: Boolean(x.current),
+    }
+  })
 }
 
 export type CrossPlatformStat = {
@@ -141,17 +290,20 @@ export type CrossPlatformStat = {
 export function crossPlatformStats(
   ig: InstagramProfile[],
   tw: TwitterTweet[],
-  li: LinkedInProfile[],
+  li: LinkedInProfileRecord[],
+  liPosts: LinkedInPost[],
 ): CrossPlatformStat[] {
   const igP = ig[0]
   const liP = li[0]
   const twN = dedupeTweets(tw).length
+  const authored = filterAuthoredLinkedInPosts(liPosts, liP)
+  const eng = linkedinEngagementTotals(authored)
+
   const handles = new Set<string>()
   if (igP?.username) handles.add(`@${igP.username}`)
   const twUser = dedupeTweets(tw)[0]?.['author.userName']
   if (twUser) handles.add(`@${twUser}`)
-  if (liP?.basic_info?.public_identifier)
-    handles.add(`in/${liP.basic_info.public_identifier}`)
+  if (liP?.publicIdentifier) handles.add(`in/${liP.publicIdentifier}`)
 
   const externalDomains = new Set<string>()
   for (const u of igP?.externalUrls ?? []) {
@@ -161,6 +313,8 @@ export function crossPlatformStats(
       /* ignore */
     }
   }
+
+  const skillN = liP?.skills?.filter((s) => s.skillName?.trim()).length ?? 0
 
   return [
     {
@@ -175,11 +329,24 @@ export function crossPlatformStats(
       hint: 'Engagement + timestamps visible to scrapers',
     },
     {
-      label: 'LinkedIn network',
-      value: liP
-        ? `${liP.basic_info.follower_count.toLocaleString()} followers`
-        : '—',
-      hint: 'Professional graph enriches targeting',
+      label: 'LinkedIn authored posts',
+      value: String(authored.length),
+      hint: 'Feed export: text, reactors, and comment threads',
+      tone: 'accent',
+    },
+    {
+      label: 'LinkedIn skill nodes',
+      value: String(skillN),
+      hint: 'Stack signals for targeted recruiter lures',
+    },
+    {
+      label: 'Reaction graph (unique)',
+      value: eng.uniqueReactors > 0 ? String(eng.uniqueReactors) : '—',
+      hint:
+        eng.uniqueReactors > 0
+          ? 'Distinct profiles surfaced via likes — secondary targeting surface'
+          : 'No reactor list in sample',
+      tone: eng.uniqueReactors > 0 ? 'warn' : 'neutral',
     },
     {
       label: 'Link-out surface (IG)',
@@ -203,7 +370,16 @@ export function crossPlatformStats(
 
 export function resolvedTargetName(
   ig: InstagramProfile[],
-  li: LinkedInProfile[],
+  li: LinkedInProfileRecord[],
 ): string | null {
-  return li[0]?.basic_info?.fullname ?? ig[0]?.fullName ?? null
+  return linkedinFullName(li[0]) ?? ig[0]?.fullName ?? null
+}
+
+/** First LinkedIn banner URL: author background on a recent post, else none. */
+export function linkedinBannerFromPosts(posts: LinkedInPost[]): string | null {
+  for (const p of posts) {
+    const bg = p.author?.backgroundImage
+    if (bg) return bg
+  }
+  return null
 }

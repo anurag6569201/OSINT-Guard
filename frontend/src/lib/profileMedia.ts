@@ -1,3 +1,4 @@
+import { linkedinBannerFromPosts } from './analyzeDatasets'
 import type { LoadedDatasets } from './loadDatasets'
 
 export type ProfileMediaSource = 'linkedin' | 'twitter' | 'instagram'
@@ -9,13 +10,13 @@ function twitterHandle(data: LoadedDatasets | null): string | null {
   return u.replace(/^@/, '')
 }
 
-/** Banner: LinkedIn cover → first Instagram post image (Twitter exports rarely include banners). */
+/** Banner: LinkedIn author cover from post export → Instagram post image. */
 export function pickBanner(data: LoadedDatasets | null): {
   url: string | null
   source: ProfileMediaSource | null
 } {
-  const bg = data?.linkedin?.[0]?.basic_info?.background_picture_url
-  if (bg) return { url: bg, source: 'linkedin' }
+  const fromPosts = linkedinBannerFromPosts(data?.linkedinPosts ?? [])
+  if (fromPosts) return { url: fromPosts, source: 'linkedin' }
 
   const firstPost = data?.instagram?.[0]?.latestPosts?.[0]?.displayUrl
   if (firstPost) return { url: firstPost, source: 'instagram' }
@@ -23,12 +24,12 @@ export function pickBanner(data: LoadedDatasets | null): {
   return { url: null, source: null }
 }
 
-/** Avatar: LinkedIn → Unavatar/X by handle → Instagram profile. */
+/** Avatar: LinkedIn profile picture → Unavatar/X → Instagram profile. */
 export function pickAvatar(data: LoadedDatasets | null): {
   url: string | null
   source: ProfileMediaSource | null
 } {
-  const liPic = data?.linkedin?.[0]?.basic_info?.profile_picture_url
+  const liPic = data?.linkedinProfile?.[0]?.picture
   if (liPic) return { url: liPic, source: 'linkedin' }
 
   const handle = twitterHandle(data)
@@ -47,6 +48,6 @@ export function pickAvatar(data: LoadedDatasets | null): {
 }
 
 export function pickHeadline(data: LoadedDatasets | null): string | null {
-  const h = data?.linkedin?.[0]?.basic_info?.headline
+  const h = data?.linkedinProfile?.[0]?.headline
   return h?.trim() ? h : null
 }
