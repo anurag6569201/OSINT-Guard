@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useScanFlow } from '../context/ScanFlowContext'
 import { useDatasets } from '../context/useDatasets'
 import { executive, TARGET_NAME } from '../data/osintDummy'
 import { pickAvatar, pickBanner, pickHeadline } from '../lib/profileMedia'
@@ -47,7 +48,14 @@ const fadeUp = {
 
 export function ExecutiveSummary() {
   const { targetName, data } = useDatasets()
+  const { handles } = useScanFlow()
   const displayName = targetName ?? TARGET_NAME
+
+  const scanTargets = [
+    handles.linkedin && { plat: 'LinkedIn', h: handles.linkedin },
+    handles.instagram && { plat: 'Instagram', h: handles.instagram },
+    handles.twitter && { plat: 'X', h: handles.twitter },
+  ].filter(Boolean) as { plat: string; h: string }[]
   const pct = (executive.riskScore / executive.riskMax) * 100
 
   const banner = useMemo(() => pickBanner(data), [data])
@@ -129,17 +137,61 @@ export function ExecutiveSummary() {
                   {displayName}
                 </motion.h1>
 
+                {scanTargets.length > 0 && (
+                  <motion.p
+                    className="hero__scan-targets"
+                    variants={fadeUp}
+                    custom={2}
+                  >
+                    {scanTargets.map((t, i) => (
+                      <span key={t.plat}>
+                        {i > 0 && <span className="hero__scan-sep"> · </span>}
+                        <span className="hero__scan-plat">{t.plat}</span>{' '}
+                        <span className="hero__scan-handle">@{t.h}</span>
+                      </span>
+                    ))}
+                  </motion.p>
+                )}
+
                 {headline && (
-                  <motion.p className="hero__headline" variants={fadeUp} custom={2}>
+                  <motion.p
+                    className="hero__headline"
+                    variants={fadeUp}
+                    custom={scanTargets.length ? 3 : 2}
+                  >
                     {headline}
                   </motion.p>
                 )}
 
-                <motion.p className="hero__sub" variants={fadeUp} custom={headline ? 3 : 2}>
+                <motion.p
+                  className="hero__sub"
+                  variants={fadeUp}
+                  custom={
+                    headline
+                      ? scanTargets.length
+                        ? 4
+                        : 3
+                      : scanTargets.length
+                        ? 3
+                        : 2
+                  }
+                >
                   {executive.summary}
                 </motion.p>
 
-                <motion.div className="hero__chips" variants={fadeUp} custom={headline ? 4 : 3}>
+                <motion.div
+                  className="hero__chips"
+                  variants={fadeUp}
+                  custom={
+                    headline
+                      ? scanTargets.length
+                        ? 5
+                        : 4
+                      : scanTargets.length
+                        ? 4
+                        : 3
+                  }
+                >
                   {chips.map((c) => (
                     <span key={c.label} className={c.cls}>
                       {c.label}
