@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { motion } from 'framer-motion'
 import {
   CartesianGrid,
@@ -15,6 +16,16 @@ import {
   YAxis,
 } from 'recharts'
 import { useDatasets } from '../context/useDatasets'
+import {
+  buildDataQualityStrip,
+  computeExposureRubric,
+  computeIdentityLinkage,
+  computeTopicOverlap,
+  extractLinkSurface,
+  linkedinReactorConcentration,
+  postingActivityByHourUTC,
+  scanPiiSignals,
+} from '../lib/exposureAnalytics'
 import { LocationIntelMap } from './LocationIntelMap'
 
 const CHART_COLORS = ['#dc2626', '#ea580c', '#ca8a04', '#16a34a', '#0891b2', '#4f46e5']
@@ -82,6 +93,7 @@ export function IntelligenceDashboard() {
     error,
     data,
     dataSource,
+    collectErrors,
     targetName,
     stats,
     twitterByMonth,
@@ -95,6 +107,41 @@ export function IntelligenceDashboard() {
     linkedinEngagement,
     linkedinCareer,
   } = useDatasets()
+
+  const privacyAnalytics = useMemo(() => {
+    if (!data) return null
+    const ig = data.instagram ?? []
+    const tw = data.twitter ?? []
+    const li = data.linkedinProfile ?? []
+    const liPosts = linkedinAuthoredPosts
+    const igPosts = ig[0]?.latestPosts ?? []
+    const topicOverlap = computeTopicOverlap(ig, tw, li, liPosts)
+    const hourly = postingActivityByHourUTC(tw, liPosts, igPosts)
+    const linkSurface = extractLinkSurface(ig, liPosts, tw)
+    const identityLinkage = computeIdentityLinkage(ig, tw, li)
+    const pii = scanPiiSignals(ig, liPosts, tw)
+    const rubric = computeExposureRubric(
+      ig,
+      tw,
+      li,
+      liPosts,
+      topicOverlap,
+      pii,
+      linkSurface.length,
+    )
+    const reactors = linkedinReactorConcentration(liPosts)
+    const dataQuality = buildDataQualityStrip(data, dataSource, collectErrors)
+    return {
+      topicOverlap,
+      hourly,
+      linkSurface,
+      identityLinkage,
+      pii,
+      rubric,
+      reactors,
+      dataQuality,
+    }
+  }, [data, linkedinAuthoredPosts, dataSource, collectErrors])
 
   const ig = data?.instagram[0]
   const tw = data?.twitter ?? []
@@ -214,11 +261,103 @@ export function IntelligenceDashboard() {
               ))}
             </motion.div>
 
+            {privacyAnalytics && (
+              <>
+                <motion.div variants={itemVariants} className="intel-dq-strip" aria-label="Data quality">
+                  <h3 className="intel-block-label">Dataset provenance</h3>
+                  <ul className="intel-dq-strip__list">
+                    {privacyAnalytics.dataQuality.map((row) => (
+                      <li
+                        key={`${row.label}-${row.value.slice(0, 24)}`}
+                        className={`intel-dq-strip__row${row.warn ? ' intel-dq-strip__row--warn' : ''}`}
+                      >
+                        <span className="intel-dq-strip__k">{row.label}</span>
+                        <span className="intel-dq-strip__v">{row.value}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+
+                <motion.div variants={itemVariants} className="intel-exposure-grid">
+                  <div className="intel-exposure-card">
+                    <h3 className="intel-block-label">Exposure rubric</h3>
+                    <p className="intel-block-lead intel-block-lead--tight">
+                      Deterministic 0–100 index from public surface cues (platforms, geo tags, URLs, volume,
+                      cross-channel keywords, contact-like patterns). Treat as how much structured public
+                      material exists — not likelihood of breach.
+                    </p>
+                    <div className="intel-exposure-score">
+                      <span className="intel-exposure-score__n">{privacyAnalytics.rubric.score}</span>
+                      <span className="intel-exposure-score__lbl">exposure index</span>
+                    </div>
+                    {privacyAnalytics.rubric.factors.length === 0 ? (
+                      <p className="intel-empty-hint">No scoring factors — sparse corpus.</p>
+                    ) : (
+                      <ul className="intel-exposure-factors">
+                        {privacyAnalytics.rubric.factors.map((f) => (
+                          <li key={`${f.label}-${f.detail}`} className="intel-exposure-factors__row">
+                            <span className="intel-exposure-factors__pts">+{f.points}</span>
+                            <div>
+                              <span className="intel-exposure-factors__label">{f.label}</span>
+                              <p className="intel-exposure-factors__detail">{f.detail}</p>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                  <div className="intel-pii-card">
+                    <h3 className="intel-block-label">Contact-pattern scan</h3>
+                    <p className="intel-block-lead intel-block-lead--tight">
+                      Heuristic counts on merged bios and posts — validate manually; high false-positive rate
+                      on phone-like matches.
+                    </p>
+                    <ul className="intel-pii-stats">
+                      <li>
+                        <span className="intel-pii-stats__k">Email-like</span>
+                        <span className="intel-pii-stats__v">{privacyAnalytics.pii.emailHits}</span>
+                      </li>
+                      <li>
+                        <span className="intel-pii-stats__k">Phone-like</span>
+                        <span className="intel-pii-stats__v">{privacyAnalytics.pii.phoneHits}</span>
+                      </li>
+                      <li>
+                        <span className="intel-pii-stats__k">DM / contact invites</span>
+                        <span className="intel-pii-stats__v">{privacyAnalytics.pii.dmInviteMentions}</span>
+                      </li>
+                    </ul>
+                  </div>
+                </motion.div>
+              </>
+            )}
+
             <motion.div variants={itemVariants} className="intel-thread-wrap">
               <h3 className="intel-block-label">Identity thread</h3>
               <p className="intel-block-lead">
                 Same person across namespaces — trivial pivot once filenames are joined.
               </p>
+              {privacyAnalytics && (
+                <div className="intel-linkage-banner">
+                  <span
+                    className={`intel-linkage-badge intel-linkage-badge--${privacyAnalytics.identityLinkage.nameAlignment}`}
+                  >
+                    {privacyAnalytics.identityLinkage.nameAlignment}
+                  </span>
+                  <p className="intel-linkage-note">{privacyAnalytics.identityLinkage.note}</p>
+                  {privacyAnalytics.identityLinkage.crossPlatformUrls.length > 0 && (
+                    <ul className="intel-linkage-urls">
+                      {privacyAnalytics.identityLinkage.crossPlatformUrls.map((x) => (
+                        <li key={x.url}>
+                          <span className="intel-linkage-urls__hint">{x.hint}</span>
+                          <a href={x.url.startsWith('http') ? x.url : `https://${x.url}`} target="_blank" rel="noopener noreferrer">
+                            {x.url}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
               <ol className="intel-thread" role="list">
                 {identityLinks.map((row) => (
                   <li key={row.platform} className="intel-thread__item">
@@ -231,6 +370,204 @@ export function IntelligenceDashboard() {
                 ))}
               </ol>
             </motion.div>
+
+            {privacyAnalytics && (
+              <>
+                <div className="intel-analysis-grid">
+                  <motion.article variants={itemVariants} className="intel-analysis intel-analysis--primary">
+                    <header className="intel-analysis__head">
+                      <span className="intel-analysis__code">11</span>
+                      <div>
+                        <h3 className="intel-analysis__title">Posting rhythm (UTC)</h3>
+                        <p className="intel-analysis__sub">
+                          Hour-of-day buckets for X posts, authored LinkedIn posts, and Instagram captions in
+                          this export — rough activity windows, not proof of timezone.
+                        </p>
+                      </div>
+                    </header>
+                    <div className="intel-analysis__plot">
+                      <ResponsiveContainer width="100%" height={260}>
+                        <BarChart data={privacyAnalytics.hourly} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
+                          <CartesianGrid stroke="var(--border)" vertical={false} strokeDasharray="3 6" />
+                          <XAxis
+                            dataKey="label"
+                            tick={{ fill: 'var(--text-dim)', fontSize: 9, fontFamily: 'var(--mono)' }}
+                            tickLine={false}
+                            axisLine={{ stroke: 'var(--border-mid)' }}
+                            interval={3}
+                          />
+                          <YAxis
+                            tick={{ fill: 'var(--text-dim)', fontSize: 10, fontFamily: 'var(--mono)' }}
+                            tickLine={false}
+                            axisLine={false}
+                            width={32}
+                          />
+                          <Tooltip content={<ChartTooltip />} />
+                          <Bar
+                            dataKey="count"
+                            name="Items"
+                            fill="var(--teal)"
+                            radius={[2, 2, 0, 0]}
+                            maxBarSize={14}
+                          />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </motion.article>
+
+                  <motion.article variants={itemVariants} className="intel-analysis intel-analysis--secondary">
+                    <header className="intel-analysis__head">
+                      <span className="intel-analysis__code">12</span>
+                      <div>
+                        <h3 className="intel-analysis__title">LinkedIn — reactor concentration</h3>
+                        <p className="intel-analysis__sub">
+                          Who reacts most on authored posts; high top-5 share implies a tight engagement
+                          cluster.
+                        </p>
+                      </div>
+                    </header>
+                    <div className="intel-analysis__plot intel-analysis__plot--compact">
+                      {privacyAnalytics.reactors.totalReactions === 0 ? (
+                        <p className="intel-empty-hint">No per-reaction records in export.</p>
+                      ) : (
+                        <>
+                          <p className="intel-reactor-summary">
+                            <strong>{privacyAnalytics.reactors.totalReactions}</strong> reaction rows ·{' '}
+                            <strong>{privacyAnalytics.reactors.uniqueReactorsApprox}</strong> unique reactor ids
+                            (where ids exist) · top 5 share{' '}
+                            <strong>
+                              {privacyAnalytics.reactors.top5SharePct != null
+                                ? `${privacyAnalytics.reactors.top5SharePct}%`
+                                : '—'}
+                            </strong>
+                          </p>
+                          <ul className="intel-reactor-list">
+                            {privacyAnalytics.reactors.topReactors.map((r) => (
+                              <li key={r.label} className="intel-reactor-list__row">
+                                <span className="intel-reactor-list__label">{r.label}</span>
+                                <span className="intel-reactor-list__n">{r.count}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </>
+                      )}
+                    </div>
+                  </motion.article>
+                </div>
+
+                <motion.article variants={itemVariants} className="intel-analysis intel-analysis--full">
+                  <header className="intel-analysis__head">
+                    <span className="intel-analysis__code">13</span>
+                    <div>
+                      <h3 className="intel-analysis__title">Topic overlap across channels</h3>
+                      <p className="intel-analysis__sub">
+                        Token frequency on authored LinkedIn text, deduped X, and Instagram captions; cross-channel
+                        terms support attribution and pretext planning.
+                      </p>
+                    </div>
+                  </header>
+                  <div className="intel-topic-grid">
+                    <div className="intel-topic-col">
+                      <h4 className="intel-topic-col__h">LinkedIn</h4>
+                      {privacyAnalytics.topicOverlap.linkedin.length === 0 ? (
+                        <p className="intel-empty-hint">No tokens.</p>
+                      ) : (
+                        <ul className="intel-topic-list">
+                          {privacyAnalytics.topicOverlap.linkedin.map((x) => (
+                            <li key={x.word}>
+                              <span>{x.word}</span> <span className="intel-topic-list__n">{x.count}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                    <div className="intel-topic-col">
+                      <h4 className="intel-topic-col__h">X</h4>
+                      {privacyAnalytics.topicOverlap.twitter.length === 0 ? (
+                        <p className="intel-empty-hint">No tokens.</p>
+                      ) : (
+                        <ul className="intel-topic-list">
+                          {privacyAnalytics.topicOverlap.twitter.map((x) => (
+                            <li key={x.word}>
+                              <span>{x.word}</span> <span className="intel-topic-list__n">{x.count}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                    <div className="intel-topic-col">
+                      <h4 className="intel-topic-col__h">Instagram</h4>
+                      {privacyAnalytics.topicOverlap.instagram.length === 0 ? (
+                        <p className="intel-empty-hint">No tokens.</p>
+                      ) : (
+                        <ul className="intel-topic-list">
+                          {privacyAnalytics.topicOverlap.instagram.map((x) => (
+                            <li key={x.word}>
+                              <span>{x.word}</span> <span className="intel-topic-list__n">{x.count}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                    <div className="intel-topic-col intel-topic-col--wide">
+                      <h4 className="intel-topic-col__h">Cross-channel terms</h4>
+                      {privacyAnalytics.topicOverlap.crossChannel.length === 0 ? (
+                        <p className="intel-empty-hint">No overlapping terms yet.</p>
+                      ) : (
+                        <ul className="intel-topic-cross">
+                          {privacyAnalytics.topicOverlap.crossChannel.map((x) => (
+                            <li key={x.word}>
+                              <span className="intel-topic-cross__w">{x.word}</span>
+                              <span className="intel-topic-cross__ch">{x.channels}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                </motion.article>
+
+                <motion.article variants={itemVariants} className="intel-analysis intel-analysis--full">
+                  <header className="intel-analysis__head">
+                    <span className="intel-analysis__code">14</span>
+                    <div>
+                      <h3 className="intel-analysis__title">URL / link surface</h3>
+                      <p className="intel-analysis__sub">
+                        Distinct URLs from Instagram bio, X posts, and authored LinkedIn posts (capped).
+                      </p>
+                    </div>
+                  </header>
+                  {privacyAnalytics.linkSurface.length === 0 ? (
+                    <p className="intel-empty-hint">No http(s) links detected in this scrape.</p>
+                  ) : (
+                    <div className="intel-link-table-wrap">
+                      <table className="intel-link-table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Host</th>
+                            <th scope="col">Source</th>
+                            <th scope="col">URL</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {privacyAnalytics.linkSurface.map((row) => (
+                            <tr key={`${row.url}-${row.source}`}>
+                              <td>{row.host}</td>
+                              <td>{row.source}</td>
+                              <td>
+                                <a href={row.url} target="_blank" rel="noopener noreferrer" className="intel-link-table__a">
+                                  {row.url.length > 72 ? `${row.url.slice(0, 72)}…` : row.url}
+                                </a>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </motion.article>
+              </>
+            )}
 
             <div className="intel-analysis-grid">
               <motion.article variants={itemVariants} className="intel-analysis intel-analysis--primary">
@@ -591,6 +928,10 @@ export function IntelligenceDashboard() {
                     </p>
                   </div>
                 </header>
+                <p className="intel-map-disclaimer" role="note">
+                  Map pins are derived from public location labels and approximate forward-geocoding — not live
+                  GPS or verified visits. Use for pattern sense only.
+                </p>
                 <div className="intel-map-wrap">
                   <LocationIntelMap markers={mapMarkers} />
                 </div>
@@ -598,6 +939,9 @@ export function IntelligenceDashboard() {
 
               <motion.aside variants={itemVariants} className="intel-waypoints">
                 <h4 className="intel-waypoints__label">Waypoint index</h4>
+                <p className="intel-waypoints__disclaimer">
+                  Labels mirror source fields; accuracy depends on profile text and geocoder fuzziness.
+                </p>
                 <ul className="intel-waypoints__list">
                   {mapMarkers.map((m) => (
                     <li key={m.id} className="intel-waypoints__item">

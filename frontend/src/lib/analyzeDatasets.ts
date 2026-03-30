@@ -36,7 +36,7 @@ function coordsForLabel(label: string): { lat: number; lng: number } | null {
   return null
 }
 
-function dedupeTweets(tweets: TwitterTweet[]): TwitterTweet[] {
+export function dedupeTweets(tweets: TwitterTweet[]): TwitterTweet[] {
   const seen = new Set<string>()
   const out: TwitterTweet[] = []
   for (const t of tweets) {
