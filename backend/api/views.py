@@ -8,10 +8,30 @@ from django.views.decorators.http import require_http_methods
 
 from .apify_collect import collect_osint
 from .gemini_insights import generate_ai_bundle
+from .snapshot import get_latest_snapshot, persist_ai_bundle, persist_collect_result
 
 
 def health(request):
     return JsonResponse({'status': 'ok', 'service': 'osint-guard-api'})
+
+
+def latest_scan_view(request):
+    """GET: last persisted collect + optional Gemini bundle (singleton row pk=1)."""
+    snap = get_latest_snapshot()
+    if not snap:
+        return JsonResponse({'ok': False, 'error': 'no_snapshot'}, status=404)
+    return JsonResponse(
+        {
+            'ok': True,
+            'linkedin': snap.linkedin,
+            'instagram': snap.instagram,
+            'twitter': snap.twitter,
+            'datasets': snap.datasets,
+            'collect_errors': snap.collect_errors,
+            'ai_bundle': snap.ai_bundle,
+            'updated_at': snap.updated_at.isoformat(),
+        }
+    )
 
 
 def _empty_collect_payload():
@@ -69,6 +89,17 @@ def collect_osint_view(request):
         actor_twitter=settings.APIFY_ACTOR_TWITTER,
         actor_instagram=settings.APIFY_ACTOR_INSTAGRAM,
     )
+    try:
+        persist_collect_result(
+            linkedin or '',
+            instagram or '',
+            twitter or '',
+            data,
+            errors,
+        )
+    except Exception:  # noqa: BLE001 — never fail API on persistence
+        if settings.DEBUG:
+            raise
     return JsonResponse(
         {
             'ok': True,
@@ -111,5 +142,11 @@ def ai_insights_view(request):
         if settings.DEBUG:
             payload['detail'] = traceback.format_exc()[-2000:]
         return JsonResponse(payload, status=502)
+
+    try:
+        persist_ai_bundle(bundle)
+    except Exception:  # noqa: BLE001
+        if settings.DEBUG:
+            raise
 
     return JsonResponse({'ok': True, **bundle})

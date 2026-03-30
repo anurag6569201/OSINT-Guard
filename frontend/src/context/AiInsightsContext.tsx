@@ -16,10 +16,12 @@ import {
   phishingSims as phishingDummy,
   polInference as polInferenceDummy,
 } from '../data/osintDummy'
-import { fetchAiInsights } from '../lib/api'
+import { fetchAiInsights, fetchLatestScan } from '../lib/api'
+import { consumeSkipAiRestore, handlesMatchSnapshot } from '../lib/scanSession'
 import type { PipelineStage } from '../types/analysisPipeline'
 import type { AiInsightsBundle } from '../types/aiInsights'
 import { useDatasets } from './useDatasets'
+import { useScanFlow } from './ScanFlowContext'
 
 type AiInsightsContextValue = {
   bundle: AiInsightsBundle | null
@@ -67,22 +69,21 @@ function normalizeBundle(raw: Partial<Record<keyof AiInsightsBundle, unknown>>):
 export function AiInsightsProvider({ children }: { children: ReactNode }) {
   const useDummy = useDummyDataMode()
   const location = useLocation()
+  const { handles } = useScanFlow()
   const { data, loading: dataLoading, dataSource } = useDatasets()
+  const handleKey = `${handles.linkedin}\0${handles.instagram}\0${handles.twitter}`
   const [bundle, setBundle] = useState<AiInsightsBundle | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     if (!useDummy && dataSource === 'live' && dataLoading && location.pathname === '/analysis') {
-      /* eslint-disable react-hooks/set-state-in-effect -- reset stale Gemini output when re-running Apify */
       setBundle(null)
       setError(null)
       setLoading(false)
-      /* eslint-enable react-hooks/set-state-in-effect */
     }
   }, [useDummy, dataSource, dataLoading, location.pathname])
 
-  /* eslint-disable react-hooks/set-state-in-effect -- route + dataset driven fetch lifecycle */
   useEffect(() => {
     if (useDummy || location.pathname !== '/analysis' || dataSource !== 'live') {
       setBundle(null)
@@ -95,12 +96,43 @@ export function AiInsightsProvider({ children }: { children: ReactNode }) {
     }
 
     let cancelled = false
-    setBundle(null)
-    setError(null)
-    setLoading(true)
 
-    fetchAiInsights(data)
-      .then((res) => {
+    void (async () => {
+      const skipAiRestore = consumeSkipAiRestore()
+
+      if (!skipAiRestore) {
+        let latest: Awaited<ReturnType<typeof fetchLatestScan>> = null
+        try {
+          latest = await fetchLatestScan()
+        } catch {
+          latest = null
+        }
+        if (
+          !cancelled &&
+          latest &&
+          handlesMatchSnapshot(handles, latest) &&
+          latest.ai_bundle &&
+          typeof latest.ai_bundle === 'object'
+        ) {
+          const nb = normalizeBundle(
+            latest.ai_bundle as Partial<Record<keyof AiInsightsBundle, unknown>>,
+          )
+          if (nb) {
+            setBundle(nb)
+            setError(null)
+            setLoading(false)
+            return
+          }
+        }
+      }
+
+      if (cancelled) return
+      setBundle(null)
+      setError(null)
+      setLoading(true)
+
+      try {
+        const res = await fetchAiInsights(data)
         if (cancelled) return
         if (!res.ok) {
           setBundle(null)
@@ -117,22 +149,21 @@ export function AiInsightsProvider({ children }: { children: ReactNode }) {
         })
         setBundle(nb)
         setError(nb ? null : 'Invalid AI response shape')
-      })
-      .catch((err: unknown) => {
+      } catch (err: unknown) {
         if (!cancelled) {
           setBundle(null)
           setError(err instanceof Error ? err.message : 'AI request failed')
         }
-      })
-      .finally(() => {
+      } finally {
         if (!cancelled) setLoading(false)
-      })
+      }
+    })()
 
     return () => {
       cancelled = true
     }
-  }, [useDummy, location.pathname, dataSource, dataLoading, data])
-  /* eslint-enable react-hooks/set-state-in-effect */
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- handleKey tracks handles for restore vs re-scan
+  }, [useDummy, location.pathname, dataSource, dataLoading, data, handleKey])
 
   const pipelineStage: PipelineStage = useMemo(() => {
     if (location.pathname !== '/analysis') return 'idle'

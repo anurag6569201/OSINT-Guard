@@ -23,6 +23,26 @@ export async function fetchHealth(): Promise<HealthResponse> {
   return res.json()
 }
 
+export type LatestScanPayload = {
+  ok: true
+  linkedin: string
+  instagram: string
+  twitter: string
+  datasets: LoadedDatasets
+  collect_errors: Partial<Record<CollectErrorKey, string>>
+  ai_bundle: Record<string, unknown> | null
+  updated_at: string
+}
+
+/** GET last saved scan from DB; null if none or error. */
+export async function fetchLatestScan(): Promise<LatestScanPayload | null> {
+  const res = await fetch(apiUrl('/api/scan/latest/'))
+  if (res.status === 404) return null
+  const j = (await res.json()) as Record<string, unknown>
+  if (!j.ok) return null
+  return j as unknown as LatestScanPayload
+}
+
 export type CollectSuccess = {
   ok: true
   data: LoadedDatasets

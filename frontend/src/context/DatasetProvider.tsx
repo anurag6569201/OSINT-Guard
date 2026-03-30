@@ -14,7 +14,8 @@ import {
   resolvedTargetName,
   twitterActivityByMonth,
 } from '../lib/analyzeDatasets'
-import { collectOsint } from '../lib/api'
+import { collectOsint, fetchLatestScan } from '../lib/api'
+import { consumeForceCollect, handlesMatchSnapshot } from '../lib/scanSession'
 import { loadDatasets, type LoadedDatasets } from '../lib/loadDatasets'
 import { DatasetContext, type CollectErrorKey, type DatasetContextValue } from './datasetContextState'
 import { useScanFlow } from './ScanFlowContext'
@@ -56,7 +57,6 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
 
   const handleKey = `${handles.linkedin}\0${handles.instagram}\0${handles.twitter}`
 
-  /* eslint-disable react-hooks/set-state-in-effect -- route-driven dataset load/collect */
   useEffect(() => {
     let cancelled = false
 
@@ -100,8 +100,36 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
     setCollectErrors(null)
     setData(null)
 
-    collectOsint(handles)
-      .then((res) => {
+    const forceCollect = consumeForceCollect()
+
+    void (async () => {
+      try {
+        if (!forceCollect) {
+          let latest: Awaited<ReturnType<typeof fetchLatestScan>> = null
+          try {
+            latest = await fetchLatestScan()
+          } catch {
+            latest = null
+          }
+          if (
+            !cancelled &&
+            latest &&
+            handlesMatchSnapshot(handles, latest) &&
+            datasetsHasAnyRows(latest.datasets)
+          ) {
+            setData(latest.datasets)
+            const ce = latest.collect_errors ?? {}
+            setCollectErrors(
+              Object.keys(ce).length ? (ce as Partial<Record<CollectErrorKey, string>>) : null,
+            )
+            setError(null)
+            return
+          }
+        }
+
+        if (cancelled) return
+        setData(null)
+        const res = await collectOsint(handles)
         if (cancelled) return
         if (!res.ok) {
           const partial = res.data
@@ -114,23 +142,21 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
         const errs = res.errors
         setCollectErrors(Object.keys(errs).length ? errs : null)
         setError(null)
-      })
-      .catch((e: unknown) => {
+      } catch (e: unknown) {
         if (!cancelled) {
           setData(null)
           setError(e instanceof Error ? e.message : 'Collection failed')
           setCollectErrors(null)
         }
-      })
-      .finally(() => {
+      } finally {
         if (!cancelled) setLoading(false)
-      })
+      }
+    })()
 
     return () => {
       cancelled = true
     }
   }, [useDummy, location.pathname, handleKey]) // eslint-disable-line react-hooks/exhaustive-deps -- handleKey snapshots handles for /analysis
-  /* eslint-enable react-hooks/set-state-in-effect */
 
   const value = useMemo<DatasetContextValue>(() => {
     const ig = data?.instagram ?? []

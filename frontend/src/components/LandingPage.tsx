@@ -2,6 +2,7 @@ import { type CSSProperties, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useScanFlow, type PlatformHandles } from '../context/ScanFlowContext'
+import { markFreshRunFromLanding } from '../lib/scanSession'
 
 const demoDummy = import.meta.env.VITE_USE_DUMMY_DATA === 'true'
 
@@ -124,6 +125,7 @@ export function LandingPage() {
           onSubmit={(e) => {
             e.preventDefault()
             if (!canSubmit) return
+            if (!demoDummy) markFreshRunFromLanding()
             navigate('/analysis')
             window.scrollTo({ top: 0, behavior: 'auto' })
           }}

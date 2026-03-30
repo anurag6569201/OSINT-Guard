@@ -166,6 +166,13 @@ def _normalize_li_reactor(p: dict[str, Any] | None) -> dict[str, Any] | None:
 
 
 def normalize_linkedin_post(item: dict[str, Any]) -> dict[str, Any]:
+    try:
+        return _normalize_linkedin_post_core(item)
+    except Exception:  # noqa: BLE001 — never fail whole Apify dataset on one odd row
+        return dict(item)
+
+
+def _normalize_linkedin_post_core(item: dict[str, Any]) -> dict[str, Any]:
     out = dict(item)
     reacts = out.get('reactions')
     if isinstance(reacts, list):
@@ -196,11 +203,13 @@ def normalize_linkedin_post(item: dict[str, Any]) -> dict[str, Any]:
 
 
 def _run_actor(
-    client: ApifyClient,
+    token: str,
     actor_id: str,
     run_input: dict[str, Any],
     normalize_item: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
+    """Fresh ApifyClient per call — safe with ThreadPoolExecutor (no shared client races)."""
+    client = ApifyClient(token)
     run = client.actor(actor_id).call(run_input=run_input)
     ds = run.get('defaultDatasetId')
     if not ds:
@@ -227,7 +236,6 @@ def collect_osint(
     Returns (data, errors) where errors map platform keys to messages.
     Empty lists for skipped platforms.
     """
-    client = ApifyClient(token)
     data: dict[str, list[dict[str, Any]]] = {
         'instagram': [],
         'twitter': [],
@@ -247,23 +255,23 @@ def collect_osint(
             (
                 'linkedinProfile',
                 lambda u=li_url: _run_actor(
-                    client,
+                    token,
                     actor_linkedin_profile,
                     {'urls': [u]},
                     normalize_linkedin_profile,
                 ),
             )
         )
+        # supreme_coder/linkedin-post: scrapeUntil must be a string (date) or omitted — never null.
         tasks.append(
             (
                 'linkedinPosts',
                 lambda u=li_url: _run_actor(
-                    client,
+                    token,
                     actor_linkedin_posts,
                     {
                         'urls': [u],
                         'limitPerSource': 10,
-                        'scrapeUntil': None,
                         'deepScrape': True,
                         'rawData': False,
                     },
@@ -277,7 +285,7 @@ def collect_osint(
             (
                 'instagram',
                 lambda u=ig_user: _run_actor(
-                    client,
+                    token,
                     actor_instagram,
                     {'usernames': [u]},
                     normalize_instagram_profile,
@@ -290,7 +298,7 @@ def collect_osint(
             (
                 'twitter',
                 lambda u=tw_url: _run_actor(
-                    client,
+                    token,
                     actor_twitter,
                     {
                         'customMapFunction': '(object) => { return {...object} }',
