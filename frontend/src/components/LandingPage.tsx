@@ -1,5 +1,6 @@
 import { type CSSProperties, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import { useScanFlow, type PlatformHandles } from '../context/ScanFlowContext'
 
 const platformConfig: {
@@ -72,7 +73,8 @@ const fadeUp = {
 
 export function LandingPage() {
   const reduce = useReducedMotion()
-  const { handles, setHandle, submitScan, canSubmit } = useScanFlow()
+  const navigate = useNavigate()
+  const { handles, setHandle, canSubmit } = useScanFlow()
 
   return (
     <motion.div
@@ -118,7 +120,9 @@ export function LandingPage() {
           transition={{ delayChildren: 0.15 }}
           onSubmit={(e) => {
             e.preventDefault()
-            submitScan()
+            if (!canSubmit) return
+            navigate('/analysis')
+            window.scrollTo({ top: 0, behavior: 'auto' })
           }}
         >
           <div className="landing__cards">

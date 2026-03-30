@@ -1,4 +1,13 @@
-import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
+import {
+  BrowserRouter,
+  Link,
+  Navigate,
+  Outlet,
+  Route,
+  Routes,
+  useLocation,
+} from 'react-router-dom'
 import { ExecutiveSummary } from './components/ExecutiveSummary'
 import { InferenceTable } from './components/InferenceTable'
 import { IntelligenceDashboard } from './components/IntelligenceDashboard'
@@ -10,12 +19,15 @@ import { DatasetProvider } from './context/DatasetProvider'
 import { ScanFlowProvider, useScanFlow } from './context/ScanFlowContext'
 import './App.css'
 
+const routerBasename =
+  import.meta.env.BASE_URL.replace(/\/$/, '') || undefined
+
 function Nav() {
   const { scrollY } = useScroll()
   const borderOpacity = useTransform(scrollY, [0, 80], [0, 1])
   const bgOpacity = useTransform(scrollY, [0, 80], [0, 0.85])
-  const { phase, resetToLanding } = useScanFlow()
-  const onLanding = phase === 'landing'
+  const location = useLocation()
+  const onLanding = location.pathname === '/'
 
   return (
     <motion.header className="nav" aria-label="Site navigation">
@@ -48,10 +60,9 @@ function Nav() {
             <span className="nav__name">OSINT-Guard</span>
           </div>
         ) : (
-          <button
-            type="button"
+          <Link
+            to="/"
             className="nav__brand-btn"
-            onClick={resetToLanding}
             aria-label="Back to landing — new scan"
           >
             <div className="nav__icon" aria-hidden="true">
@@ -61,22 +72,21 @@ function Nav() {
               </svg>
             </div>
             <span className="nav__name">OSINT-Guard</span>
-          </button>
+          </Link>
         )}
       </div>
 
       <div className="nav__right">
         {!onLanding && (
-          <motion.button
-            type="button"
-            className="nav__new-scan"
-            onClick={resetToLanding}
+          <motion.div
             initial={{ opacity: 0, x: 12 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
           >
-            New scan
-          </motion.button>
+            <Link to="/" className="nav__new-scan">
+              New scan
+            </Link>
+          </motion.div>
         )}
         <div className="nav__live" aria-label="Live sandbox active">
           <span className="nav__live-dot" aria-hidden="true" />
@@ -96,7 +106,6 @@ function AnalysisView() {
       className="app__analysis"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -12 }}
       transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
     >
       <main>
@@ -111,30 +120,38 @@ function AnalysisView() {
   )
 }
 
-function AppShell() {
-  const { phase } = useScanFlow()
+function AnalysisRoute() {
+  const { canSubmit } = useScanFlow()
+  if (!canSubmit) {
+    return <Navigate to="/" replace />
+  }
+  return <AnalysisView />
+}
 
+function AppLayout() {
   return (
     <div className="app">
       <Nav />
-      <AnimatePresence mode="wait">
-        {phase === 'landing' ? (
-          <LandingPage key="landing" />
-        ) : (
-          <AnalysisView key="analysis" />
-        )}
-      </AnimatePresence>
+      <Outlet />
     </div>
   )
 }
 
 function App() {
   return (
-    <DatasetProvider>
-      <ScanFlowProvider>
-        <AppShell />
-      </ScanFlowProvider>
-    </DatasetProvider>
+    <BrowserRouter basename={routerBasename}>
+      <DatasetProvider>
+        <ScanFlowProvider>
+          <Routes>
+            <Route element={<AppLayout />}>
+              <Route index element={<LandingPage />} />
+              <Route path="analysis" element={<AnalysisRoute />} />
+            </Route>
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </ScanFlowProvider>
+      </DatasetProvider>
+    </BrowserRouter>
   )
 }
 
