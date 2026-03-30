@@ -1,12 +1,13 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { phishingSims } from '../data/osintDummy'
+import { useAiInsights } from '../context/AiInsightsContext'
+import type { PhishingSim } from '../types/aiInsights'
 
 function PhishingEmail({
   sim,
   index,
 }: {
-  sim: (typeof phishingSims)[number]
+  sim: PhishingSim
   index: number
 }) {
   const ref = useRef<HTMLElement>(null)
@@ -74,6 +75,7 @@ function PhishingEmail({
 }
 
 export function SpearPhishingSims() {
+  const { phishingSims } = useAiInsights()
   const headerRef = useRef<HTMLDivElement>(null)
   const headerInView = useInView(headerRef, { once: true, margin: '-60px' })
 
@@ -101,7 +103,7 @@ export function SpearPhishingSims() {
 
       <div className="phishing-list">
         {phishingSims.map((sim, i) => (
-          <PhishingEmail key={sim.id} sim={sim} index={i} />
+          <PhishingEmail key={sim.id || `sim-${i}`} sim={sim} index={i} />
         ))}
       </div>
     </section>

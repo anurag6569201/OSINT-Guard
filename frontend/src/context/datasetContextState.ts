@@ -14,10 +14,18 @@ import type {
 import type { LoadedDatasets } from '../lib/loadDatasets'
 import type { LinkedInPost } from '../types/datasets'
 
+export type CollectErrorKey =
+  | 'linkedinProfile'
+  | 'linkedinPosts'
+  | 'instagram'
+  | 'twitter'
+
 export type DatasetContextValue = {
   data: LoadedDatasets | null
   error: string | null
   loading: boolean
+  dataSource: 'dummy' | 'live'
+  collectErrors: Partial<Record<CollectErrorKey, string>> | null
   targetName: string | null
   mapMarkers: MapMarker[]
   twitterByMonth: TwitterMonthRow[]

@@ -1,8 +1,9 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { methodology } from '../data/osintDummy'
+import { useAiInsights } from '../context/AiInsightsContext'
 
 export function MethodologyFooter() {
+  const { methodology } = useAiInsights()
   const headerRef = useRef<HTMLDivElement>(null)
   const headerInView = useInView(headerRef, { once: true, margin: '-60px' })
   const pillarsRef = useRef<HTMLDivElement>(null)

@@ -2287,6 +2287,220 @@
   font-family: var(--mono);
 }
 
+.app__analysis--pipeline main {
+  min-height: calc(100vh - 4.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.analysis-pipeline {
+  width: 100%;
+  max-width: 36rem;
+  text-align: center;
+}
+
+.analysis-pipeline__inner {
+  position: relative;
+  padding: 2rem 1.5rem;
+}
+
+.analysis-pipeline__orb {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    color-mix(in srgb, var(--accent, #6366f1) 55%, transparent),
+    color-mix(in srgb, var(--intel-li, #0a66c2) 35%, transparent)
+  );
+  box-shadow: 0 0 48px color-mix(in srgb, var(--accent, #6366f1) 25%, transparent);
+}
+
+.analysis-pipeline__eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim, #888);
+  margin: 0 0 0.5rem;
+}
+
+.analysis-pipeline__title {
+  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
+  font-weight: 650;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+}
+
+.analysis-pipeline__detail {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-muted, #a1a1a1);
+  margin: 0 0 1.75rem;
+}
+
+.analysis-pipeline__steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.analysis-pipeline__step-line {
+  width: 1.5rem;
+  height: 1px;
+  background: var(--border, #333);
+  opacity: 0.7;
+}
+
+.analysis-pipeline__step {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--border, #333);
+  color: var(--text-dim, #888);
+}
+
+.analysis-pipeline__step--active {
+  border-color: color-mix(in srgb, var(--accent, #6366f1) 55%, var(--border, #333));
+  color: var(--text, #eee);
+  background: color-mix(in srgb, var(--accent, #6366f1) 12%, transparent);
+}
+
+.analysis-pipeline__step--done {
+  border-color: color-mix(in srgb, var(--intel-ig, #e4405f) 40%, var(--border, #333));
+  color: var(--text-dim, #888);
+}
+
+.analysis-pipeline__step--dim {
+  opacity: 0.35;
+}
+
+.analysis-pipeline__hint {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-dim, #888);
+  margin: 0;
+  text-align: left;
+  padding: 1rem 1.1rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--bg-elevated, #1a1a1a) 80%, transparent);
+  border: 1px solid var(--border, #333);
+}
+
+.analysis-error {
+  min-height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+}
+
+.analysis-error__inner {
+  max-width: 32rem;
+}
+
+.analysis-error__title {
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem;
+}
+
+.analysis-error__text {
+  color: var(--text-muted, #aaa);
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.analysis-error__list {
+  margin: 0 0 1.5rem;
+  padding-left: 1.2rem;
+  color: var(--text-dim, #888);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.analysis-error__code {
+  font-size: 0.82em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--border, #333) 40%, transparent);
+}
+
+.analysis-error__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background: var(--accent, #6366f1);
+  color: #fff;
+  text-decoration: none;
+}
+
+.analysis-error__btn:hover {
+  filter: brightness(1.08);
+}
+
+.hero__narrative-note {
+  margin-top: 1rem;
+  max-width: 36rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-dim, #888);
+}
+
+.hero__narrative-note--live {
+  color: color-mix(in srgb, var(--accent, #6366f1) 75%, var(--text-dim, #888));
+}
+
+.hero__narrative-note--warn {
+  color: color-mix(in srgb, #f59e0b 85%, var(--text-dim, #888));
+}
+
+.nav__tag--busy {
+  animation: nav-tag-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes nav-tag-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.collect-warnings {
+  margin: 0 auto;
+  max-width: 56rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--intel-li, #0a66c2);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--intel-li, #0a66c2) 8%, transparent);
+}
+
+.collect-warnings__title {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.collect-warnings__list {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--text-dim, #888);
+}
+
 .app__analysis {
   flex: 1;
   display: flex;

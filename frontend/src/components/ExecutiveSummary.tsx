@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useAiInsights } from '../context/AiInsightsContext'
 import { useScanFlow } from '../context/ScanFlowContext'
 import { useDatasets } from '../context/useDatasets'
-import { executive, TARGET_NAME } from '../data/osintDummy'
+import { TARGET_NAME } from '../data/osintDummy'
 import { pickAvatar, pickBanner, pickHeadline } from '../lib/profileMedia'
 
 function initials(name: string) {
@@ -49,6 +50,7 @@ const fadeUp = {
 export function ExecutiveSummary() {
   const { targetName, data } = useDatasets()
   const { handles } = useScanFlow()
+  const { executive, narrativeSource, aiError } = useAiInsights()
   const displayName = targetName ?? TARGET_NAME
 
   const scanTargets = [
@@ -56,7 +58,10 @@ export function ExecutiveSummary() {
     handles.instagram && { plat: 'Instagram', h: handles.instagram },
     handles.twitter && { plat: 'X', h: handles.twitter },
   ].filter(Boolean) as { plat: string; h: string }[]
-  const pct = (executive.riskScore / executive.riskMax) * 100
+  const riskMax = executive.riskMax || 100
+  const pct = (executive.riskScore / riskMax) * 100
+  const riskTier =
+    executive.riskScore >= 67 ? 'High' : executive.riskScore >= 34 ? 'Medium' : 'Lower'
 
   const banner = useMemo(() => pickBanner(data), [data])
   const avatar = useMemo(() => pickAvatar(data), [data])
@@ -198,6 +203,38 @@ export function ExecutiveSummary() {
                     </span>
                   ))}
                 </motion.div>
+
+                {narrativeSource === 'demo' && (
+                  <motion.p
+                    className="hero__narrative-note"
+                    variants={fadeUp}
+                    custom={6}
+                  >
+                    Sandbox dataset — scores and narrative illustrate how cross-platform public data
+                    reveals security and privacy risk; no live scrapers ran.
+                  </motion.p>
+                )}
+                {narrativeSource === 'template' && (
+                  <motion.p
+                    className={`hero__narrative-note${aiError ? ' hero__narrative-note--warn' : ''}`}
+                    variants={fadeUp}
+                    custom={6}
+                  >
+                    {aiError
+                      ? `Gemini was not used (${aiError}). The sections below use a fixed template while charts reflect your Apify collection.`
+                      : 'Narrative blocks use a template. Configure GEMINI_API_KEY on the backend for model-generated risk copy tied to your data.'}
+                  </motion.p>
+                )}
+                {narrativeSource === 'gemini' && (
+                  <motion.p
+                    className="hero__narrative-note hero__narrative-note--live"
+                    variants={fadeUp}
+                    custom={6}
+                  >
+                    Risk summary, inferences, pattern-of-life, and phishing simulations were produced by
+                    Gemini from the public data collected for this scan.
+                  </motion.p>
+                )}
               </motion.div>
             </div>
           </div>
@@ -216,8 +253,8 @@ export function ExecutiveSummary() {
                   <AnimatedNumber target={executive.riskScore} />
                 </div>
                 <div className="score-display__meta">
-                  <span className="score-display__max">/ {executive.riskMax}</span>
-                  <span className="score-display__label">High</span>
+                  <span className="score-display__max">/ {riskMax}</span>
+                  <span className="score-display__label">{riskTier}</span>
                 </div>
               </div>
 

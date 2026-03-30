@@ -1,12 +1,13 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { patternOfLife, polInference } from '../data/osintDummy'
+import { useAiInsights } from '../context/AiInsightsContext'
+import type { TimelineEntry } from '../types/aiInsights'
 
 function PolItem({
   item,
   index,
 }: {
-  item: (typeof patternOfLife)[number]
+  item: TimelineEntry
   index: number
 }) {
   const ref = useRef<HTMLLIElement>(null)
@@ -40,6 +41,7 @@ function PolItem({
 }
 
 export function PatternOfLifeTimeline() {
+  const { patternOfLife, polInference } = useAiInsights()
   const headerRef = useRef<HTMLDivElement>(null)
   const headerInView = useInView(headerRef, { once: true, margin: '-60px' })
   const alertRef = useRef<HTMLDivElement>(null)
@@ -71,7 +73,7 @@ export function PatternOfLifeTimeline() {
 
       <ol className="pol-list" aria-label="Location timeline">
         {patternOfLife.map((item, i) => (
-          <PolItem key={item.id} item={item} index={i} />
+          <PolItem key={`${i}-${item.id}`} item={item} index={i} />
         ))}
       </ol>
 

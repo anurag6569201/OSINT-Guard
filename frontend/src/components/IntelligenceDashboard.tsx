@@ -81,6 +81,7 @@ export function IntelligenceDashboard() {
     loading,
     error,
     data,
+    dataSource,
     targetName,
     stats,
     twitterByMonth,
@@ -148,9 +149,19 @@ export function IntelligenceDashboard() {
           </h2>
 
           <p className="intel-hero__lead">
-            Cross-indexed from <code className="intel-code">public/dummy_data/</code> — Instagram, X,
-            LinkedIn profile + activity export: skills, employers, post cadence, visible reactors, and
-            comment threads.
+            {dataSource === 'dummy' ? (
+              <>
+                Cross-indexed from <code className="intel-code">public/dummy_data/</code> — Instagram,
+                X, LinkedIn profile + activity: skills, employers, post cadence, reactors, and comments —
+                used to illustrate how public social data becomes a vulnerability map.
+              </>
+            ) : (
+              <>
+                Cross-indexed from your live Apify collection — public Instagram, X, and LinkedIn exports.
+                Together they reveal identity linkage, oversharing, and signals an attacker could use for
+                targeted social engineering.
+              </>
+            )}
           </p>
 
           <p className="intel-hero__axes">

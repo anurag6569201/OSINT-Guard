@@ -3,6 +3,8 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useScanFlow, type PlatformHandles } from '../context/ScanFlowContext'
 
+const demoDummy = import.meta.env.VITE_USE_DUMMY_DATA === 'true'
+
 const platformConfig: {
   key: keyof PlatformHandles
   label: string
@@ -92,7 +94,7 @@ export function LandingPage() {
           transition={{ delay: 0.05, duration: 0.45, ease: [0.16, 1, 0.3, 1] as const }}
         >
           <span className="landing__badge-pulse" aria-hidden="true" />
-          Cross-platform OSINT preview
+          Social footprint → security &amp; privacy risk
         </motion.div>
 
         <motion.div
@@ -102,13 +104,14 @@ export function LandingPage() {
           animate="show"
         >
           <motion.h1 className="landing__title" variants={fadeUp}>
-            Map exposure before
+            See how LinkedIn, X &amp; Instagram
             <br />
-            <span className="landing__title-accent">someone else does</span>
+            <span className="landing__title-accent">expose attack surface</span>
           </motion.h1>
           <motion.p className="landing__lede" variants={fadeUp}>
-            Enter public handles to simulate a consolidated footprint report. Demo runs on
-            curated sandbox data; production would hydrate from your collectors.
+            {demoDummy
+              ? 'OSINT-Guard aggregates what is already public, then surfaces cross-platform leaks, inference risks, and spear-phish angles. Demo mode uses bundled sample JSON — no Apify or Gemini calls.'
+              : 'We pull public profile and post data (Apify), then assess privacy and security vulnerabilities with Gemini: correlated exposure, pattern of life, and realistic social-engineering scenarios — grounded in what was collected.'}
           </motion.p>
         </motion.div>
 
@@ -174,7 +177,10 @@ export function LandingPage() {
               Run intelligence sweep
             </motion.button>
             <p className="landing__fineprint">
-              At least one handle required. This UI is a prototype; data shown is dummy.
+              At least one handle required.
+              {demoDummy
+                ? ' Dummy data mode — no external API calls.'
+                : ' Live mode — collection hits Apify; AI narrative uses Gemini when configured.'}
             </p>
           </motion.div>
         </motion.form>
@@ -188,10 +194,10 @@ export function LandingPage() {
             show: { transition: { staggerChildren: 0.08, delayChildren: 0.5 } },
           }}
         >
-          {[
+            {[
             { k: 'Platforms', v: '3' },
-            { k: 'Signals', v: '12+' },
-            { k: 'Latency', v: '< 1s' },
+            { k: 'Risk layers', v: 'Data + AI' },
+            { k: 'Live run', v: 'Minutes' },
           ].map((row) => (
             <motion.div key={row.k} className="landing__stat" variants={fadeUp}>
               <span className="landing__stat-value">{row.v}</span>

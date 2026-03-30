@@ -1,12 +1,13 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { inferenceRows } from '../data/osintDummy'
+import { useAiInsights } from '../context/AiInsightsContext'
+import type { InferenceRow } from '../types/aiInsights'
 
 function InferenceItem({
   row,
   index,
 }: {
-  row: (typeof inferenceRows)[number]
+  row: InferenceRow
   index: number
 }) {
   const ref = useRef<HTMLLIElement>(null)
@@ -44,6 +45,7 @@ function InferenceItem({
 }
 
 export function InferenceTable() {
+  const { inferenceRows } = useAiInsights()
   const headerRef = useRef<HTMLDivElement>(null)
   const headerInView = useInView(headerRef, { once: true, margin: '-60px' })
 
@@ -71,7 +73,7 @@ export function InferenceTable() {
 
       <ul className="inference-list" aria-label="Inferred personal data">
         {inferenceRows.map((row, i) => (
-          <InferenceItem key={row.targetInfo} row={row} index={i} />
+          <InferenceItem key={`${i}-${row.targetInfo}`} row={row} index={i} />
         ))}
       </ul>
     </section>

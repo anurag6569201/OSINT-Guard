@@ -128,3 +128,17 @@ X_FRAME_OPTIONS = 'DENY'
 
 if env.bool('USE_SECURE_PROXY_HEADER', default=False):
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# --- OSINT collectors (optional in dev) ---
+APIFY_API_TOKEN = env('APIFY_API_TOKEN', default='')
+APIFY_ACTOR_LINKEDIN_PROFILE = env(
+    'APIFY_ACTOR_LINKEDIN_PROFILE', default='etiW1XfulkpulZA4D'
+)
+APIFY_ACTOR_LINKEDIN_POSTS = env(
+    'APIFY_ACTOR_LINKEDIN_POSTS', default='Wpp1BZ6yGWjySadk3'
+)
+APIFY_ACTOR_TWITTER = env('APIFY_ACTOR_TWITTER', default='dy7gIgPRMhrOrfW0f')
+APIFY_ACTOR_INSTAGRAM = env('APIFY_ACTOR_INSTAGRAM', default='bGApZ3CtTxA9fv2rl')
+
+GEMINI_API_KEY = env('GEMINI_API_KEY', default='')
+GEMINI_MODEL = env('GEMINI_MODEL', default='gemini-2.0-flash')
