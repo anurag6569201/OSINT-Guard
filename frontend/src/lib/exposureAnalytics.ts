@@ -420,6 +420,232 @@ export function computeExposureRubric(
   return { score, factors }
 }
 
+/** Actionable “remove / tighten” guidance derived from the same signals as the rubric. */
+export type RemediationItem = {
+  id: string
+  priority: 'critical' | 'high' | 'standard'
+  title: string
+  /** Why taking this offline makes attacks (phishing, takeover, impersonation) harder. */
+  howRemovingHelps: string
+  actions: string[]
+}
+
+const REMEDIATION_PRIO: Record<RemediationItem['priority'], number> = {
+  critical: 0,
+  high: 1,
+  standard: 2,
+}
+
+/**
+ * Maps detected footprint signals to concrete steps: what you can remove or tighten
+ * to make phishing, impersonation, and account takeover harder.
+ * Does not call external models — safe to show whenever analytics run.
+ */
+export function buildRemediationChecklist(
+  ig: InstagramProfile[],
+  tw: TwitterTweet[],
+  li: LinkedInProfileRecord[],
+  liPosts: LinkedInPost[],
+  pii: PiiSignals,
+  topicOverlap: TopicOverlapResult,
+  linkSurface: LinkSurfaceItem[],
+  identityLinkage: IdentityLinkage,
+): RemediationItem[] {
+  const items: RemediationItem[] = []
+  const liP = li[0]
+  const authored = filterAuthoredLinkedInPosts(liPosts, liP)
+  const twN = dedupeTweets(tw).length
+  const platCount = [ig[0], liP, twN > 0 ? tw : null].filter(Boolean).length
+  const geoN =
+    ig[0]?.latestPosts?.filter((p) => p.locationName || p.location?.name).length ?? 0
+  const extN = ig[0]?.externalUrls?.length ?? 0
+
+  if (pii.emailHits > 0) {
+    items.push({
+      id: 'remove-public-email',
+      priority: 'critical',
+      title: 'Remove or hide public email addresses',
+      howRemovingHelps:
+        'Taking your email off the public web makes targeted phishing, password-reset tricks, and credential-stuffing against that address much harder to pull off.',
+      actions: [
+        'Delete emails from bios, captions, Linktree-style pages, and image or video text.',
+        'Use a forwarding alias or the platform’s contact button if you still need inbound mail.',
+      ],
+    })
+  }
+
+  if (pii.phoneHits > 0) {
+    items.push({
+      id: 'remove-public-phone',
+      priority: 'high',
+      title: 'Remove phone numbers from public posts and bios',
+      howRemovingHelps:
+        'Without a public number, attackers lose an easy path to SIM-swap scams, fake “missed call” texts, and matching you across leaked databases.',
+      actions: [
+        'Redact numbers from posts and profile fields; avoid “text me” workflows on public grids.',
+        'If a number must be public, use a VoIP or business line not tied to your main SIM.',
+      ],
+    })
+  }
+
+  if (pii.dmInviteMentions > 0) {
+    items.push({
+      id: 'reduce-dm-cta',
+      priority: 'high',
+      title: 'Soften “DM me” / WhatsApp-style call-to-actions',
+      howRemovingHelps:
+        'Closing open “DM me” and chat-app invites blocks a common first step: strangers sliding in with malware links, fake jobs, or impersonation.',
+      actions: [
+        'Replace open-ended “DM me” lines with bounded options (e.g. email form, booking link with rate limits).',
+        'Remove WhatsApp/Telegram links from public bios unless you truly need them visible.',
+      ],
+    })
+  }
+
+  if (geoN > 0) {
+    items.push({
+      id: 'strip-geo-tags',
+      priority: 'high',
+      title: 'Strip routine location tags from posts',
+      howRemovingHelps:
+        'Removing location crumbs stops people from inferring where you live, work, and travel — so physical stalking, “we’re nearby” scams, and timing attacks get weaker.',
+      actions: [
+        `Remove location stickers or check-ins from ${geoN} sampled post(s); keep them only when intentional.`,
+        'Default new posts to no location; review older highlights and reels metadata.',
+      ],
+    })
+  }
+
+  if (extN > 0) {
+    items.push({
+      id: 'audit-bio-links',
+      priority: 'high',
+      title: 'Audit outbound links in your Instagram (or similar) bio',
+      howRemovingHelps:
+        'Fewer bio links means fewer hops to your other accounts, calendars, and personal sites — so automated scrapers and phishers have less to chain together.',
+      actions: [
+        `Review each of the ${extN} bio link(s): remove dead tools, duplicate profiles, and tracking-heavy short links.`,
+        'Prefer one minimal landing page over many parallel entry points.',
+      ],
+    })
+  }
+
+  if (linkSurface.length > 0) {
+    items.push({
+      id: 'audit-post-urls',
+      priority: 'standard',
+      title: 'Review URLs embedded in posts',
+      howRemovingHelps:
+        'Deleting or archiving posts with sensitive links shrinks the map of your tools, employers, and side projects — so tailored fake login pages and pretexts are harder to build.',
+      actions: [
+        `Scan ${linkSurface.length} surfaced URL(s); delete or archive posts that point at personal infra.`,
+        'Avoid posting signed or single-use links (docs, calendars) where they stay public indefinitely.',
+      ],
+    })
+  }
+
+  if (identityLinkage.crossPlatformUrls.length > 0) {
+    items.push({
+      id: 'break-cross-links',
+      priority: 'high',
+      title: 'Break obvious cross-profile links if you want separation',
+      howRemovingHelps:
+        'Unlinking profiles in bios slows attackers down: they can’t automatically treat every account as the same person, which weakens cross-platform impersonation and targeting.',
+      actions: [
+        'Remove “find me on X/LinkedIn” style links from bios if those accounts should not be joinable.',
+        'Use different display names or handles where branding allows, so automated matching is harder.',
+      ],
+    })
+  }
+
+  if (topicOverlap.crossChannel.length >= 5) {
+    items.push({
+      id: 'diversify-public-themes',
+      priority: 'standard',
+      title: 'Reduce repeated life-detail themes across every public bio',
+      howRemovingHelps:
+        'Saying less of the same story everywhere makes it harder for someone to fake a believable email or DM that “knows” your hobbies, job, and plans.',
+      actions: [
+        'Keep LinkedIn professional; trim overlapping personal detail from X/Instagram bios.',
+        'Avoid announcing travel, vendor stacks, and internal codenames in multiple channels at once.',
+      ],
+    })
+  } else if (topicOverlap.crossChannel.length >= 2) {
+    items.push({
+      id: 'trim-cross-channel-overlap',
+      priority: 'standard',
+      title: 'Trim overlapping keywords between platforms',
+      howRemovingHelps:
+        'Trimming duplicate details across bios denies attackers cheap material for spear-phishing: they have fewer true facts to sound trustworthy.',
+      actions: [
+        'Pick one channel for niche hobbies or side projects; keep others higher-level.',
+        'Remove redundant employer + role strings where they echo across bios and pinned posts.',
+      ],
+    })
+  }
+
+  if (platCount >= 3) {
+    items.push({
+      id: 'compartmentalize-personas',
+      priority: 'standard',
+      title: 'Compartmentalize if you use three or more public surfaces',
+      howRemovingHelps:
+        'Archiving or locking extra public profiles removes whole extra channels attackers can scrape — fewer angles for scams and impersonation.',
+      actions: [
+        'Decide which account is “public professional” vs private; lock or archive the rest.',
+        'Remove inactive public accounts that still index old posts and photos.',
+      ],
+    })
+  }
+
+  if (authored.length >= 8) {
+    items.push({
+      id: 'linkedin-activity-archive',
+      priority: 'standard',
+      title: 'Archive dated LinkedIn commentary',
+      howRemovingHelps:
+        'Removing or unpinning posts that name projects, clients, and colleagues leaves attackers with less fodder for fake “internal” messages and recruiter scams.',
+      actions: [
+        'Unpin or delete posts that name internal tools, clients, or conflicts.',
+        'Reduce reaction/comment visibility where the platform allows — it maps your network graph.',
+      ],
+    })
+  }
+
+  items.push(
+    {
+      id: 'audience-defaults',
+      priority: 'standard',
+      title: 'Tighten default audience and discovery settings',
+      howRemovingHelps:
+        'Not everyone needs to see every post: tighter defaults and less “find friends” exposure mean strangers can’t quietly build a full picture to attack you with.',
+      actions: [
+        'Set new posts to followers-only or close friends where that fits your goals.',
+        'Disable “suggest account from contacts” and similar if you are hardening a persona.',
+      ],
+    },
+    {
+      id: 'account-security',
+      priority: 'standard',
+      title: 'Strengthen login and app access',
+      howRemovingHelps:
+        'Even if someone learns about you from social media, strong 2FA and fewer old app logins help prevent them from actually hijacking the account.',
+      actions: [
+        'Enable phishing-resistant 2FA (security keys or passkeys) on every social account you keep.',
+        'Revoke unused third-party apps and review active sessions periodically.',
+      ],
+    },
+  )
+
+  items.sort(
+    (a, b) =>
+      REMEDIATION_PRIO[a.priority] - REMEDIATION_PRIO[b.priority] ||
+      a.title.localeCompare(b.title),
+  )
+
+  return items
+}
+
 export type DataQualityLine = { label: string; value: string; warn?: boolean }
 
 export function buildDataQualityStrip(

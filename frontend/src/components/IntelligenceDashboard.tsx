@@ -18,6 +18,7 @@ import {
 import { useDatasets } from '../context/useDatasets'
 import {
   buildDataQualityStrip,
+  buildRemediationChecklist,
   computeExposureRubric,
   computeIdentityLinkage,
   computeTopicOverlap,
@@ -131,6 +132,16 @@ export function IntelligenceDashboard() {
     )
     const reactors = linkedinReactorConcentration(liPosts)
     const dataQuality = buildDataQualityStrip(data, dataSource, collectErrors)
+    const remediation = buildRemediationChecklist(
+      ig,
+      tw,
+      li,
+      liPosts,
+      pii,
+      topicOverlap,
+      linkSurface,
+      identityLinkage,
+    )
     return {
       topicOverlap,
       hourly,
@@ -140,6 +151,7 @@ export function IntelligenceDashboard() {
       rubric,
       reactors,
       dataQuality,
+      remediation,
     }
   }, [data, linkedinAuthoredPosts, dataSource, collectErrors])
 
@@ -327,6 +339,48 @@ export function IntelligenceDashboard() {
                       </li>
                     </ul>
                   </div>
+                </motion.div>
+
+                <motion.div
+                  variants={itemVariants}
+                  className="intel-remediation"
+                  aria-labelledby="remediation-heading"
+                >
+                  <h3 id="remediation-heading" className="intel-block-label">
+                    What you can remove to avoid attacks
+                  </h3>
+                  <p className="intel-block-lead intel-block-lead--tight">
+                    Public profiles teach strangers how to phish and impersonate you. Each change below is
+                    something you can remove or tighten so those attacks have less to work with — not legal
+                    advice, and not a guarantee, but fewer easy wins for an attacker.
+                  </p>
+                  <ul className="intel-remediation__list">
+                    {privacyAnalytics.remediation.map((item) => (
+                      <li key={item.id} className="intel-remediation__item">
+                        <span
+                          className={`intel-remediation__prio intel-remediation__prio--${item.priority}`}
+                        >
+                          {item.priority === 'critical'
+                            ? 'Critical'
+                            : item.priority === 'high'
+                              ? 'High'
+                              : 'Standard'}
+                        </span>
+                        <h4 className="intel-remediation__title">{item.title}</h4>
+                        <p className="intel-remediation__help">
+                          <span className="intel-remediation__help-label">
+                            How removing this helps protect you
+                          </span>
+                          {item.howRemovingHelps}
+                        </p>
+                        <ol className="intel-remediation__actions">
+                          {item.actions.map((line, idx) => (
+                            <li key={idx}>{line}</li>
+                          ))}
+                        </ol>
+                      </li>
+                    ))}
+                  </ul>
                 </motion.div>
               </>
             )}
