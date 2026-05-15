@@ -48,7 +48,7 @@ export function PatternOfLifeTimeline() {
   const alertInView = useInView(alertRef, { once: true, margin: '-40px' })
 
   return (
-    <section className="pol-section" aria-labelledby="pol-heading">
+    <section className="pol-section" id="pattern-of-life" aria-labelledby="pol-heading">
       <motion.div
         ref={headerRef}
         className="pol-header"

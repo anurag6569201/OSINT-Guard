@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { firstSentence } from '../lib/textDigest'
 import { motion, useInView } from 'framer-motion'
 import { useAiInsights } from '../context/AiInsightsContext'
 import { useScanFlow } from '../context/ScanFlowContext'
@@ -70,11 +71,31 @@ export function ExecutiveSummary() {
   const [failedBannerUrl, setFailedBannerUrl] = useState<string | null>(null)
   const [failedAvatarUrl, setFailedAvatarUrl] = useState<string | null>(null)
 
-  const chips = [
-    { label: 'High risk', cls: 'hero__chip hero__chip--red' },
-    { label: 'Cross-platform exposure', cls: 'hero__chip hero__chip--accent' },
-    { label: 'Social engineering surface', cls: 'hero__chip' },
-  ]
+  const chips = useMemo(() => {
+    const tierChip =
+      executive.riskScore >= 67
+        ? { label: 'High risk', cls: 'hero__chip hero__chip--red' }
+        : executive.riskScore >= 34
+          ? { label: 'Medium risk', cls: 'hero__chip hero__chip--accent' }
+          : { label: 'Lower risk', cls: 'hero__chip hero__chip--teal' }
+    return [
+      tierChip,
+      { label: 'Cross-platform exposure', cls: 'hero__chip hero__chip--accent' },
+      { label: 'Social engineering surface', cls: 'hero__chip' },
+    ]
+  }, [executive.riskScore])
+
+  const [summaryExpanded, setSummaryExpanded] = useState(false)
+  const summaryPreview = useMemo(
+    () => firstSentence(executive.summary, 300),
+    [executive.summary],
+  )
+  const summaryNeedsToggle =
+    executive.summary.trim().length > summaryPreview.length + 24
+
+  useEffect(() => {
+    setSummaryExpanded(false)
+  }, [executive.summary])
 
   const showBannerImage = Boolean(
     banner.url && failedBannerUrl !== banner.url,
@@ -84,7 +105,7 @@ export function ExecutiveSummary() {
   )
 
   return (
-    <section className="hero" aria-labelledby="exec-heading">
+    <section className="hero" id="report-overview" aria-labelledby="exec-heading">
       <div className="hero__banner hero__banner--bleed">
         <div className="hero__banner-canvas">
           {showBannerImage && (
@@ -168,8 +189,8 @@ export function ExecutiveSummary() {
                   </motion.p>
                 )}
 
-                <motion.p
-                  className="hero__sub"
+                <motion.div
+                  className="hero__sub-block"
                   variants={fadeUp}
                   custom={
                     headline
@@ -181,8 +202,22 @@ export function ExecutiveSummary() {
                         : 2
                   }
                 >
-                  {executive.summary}
-                </motion.p>
+                  <p className="hero__sub">
+                    {summaryNeedsToggle && !summaryExpanded
+                      ? summaryPreview
+                      : executive.summary}
+                  </p>
+                  {summaryNeedsToggle && (
+                    <button
+                      type="button"
+                      className="hero__sub-toggle"
+                      onClick={() => setSummaryExpanded((v) => !v)}
+                      aria-expanded={summaryExpanded}
+                    >
+                      {summaryExpanded ? 'Show less' : 'Read full analysis'}
+                    </button>
+                  )}
+                </motion.div>
 
                 <motion.div
                   className="hero__chips"

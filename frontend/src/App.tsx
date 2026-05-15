@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 import { AnalysisCollectError } from './components/AnalysisCollectError'
 import { AnalysisPipelineLoader } from './components/AnalysisPipelineLoader'
+import { AnalysisAtAGlance } from './components/AnalysisAtAGlance'
 import { ExecutiveSummary } from './components/ExecutiveSummary'
 import { InferenceTable } from './components/InferenceTable'
 import { IntelligenceDashboard } from './components/IntelligenceDashboard'
@@ -187,6 +188,7 @@ function AnalysisView() {
     >
       <main>
         <CollectWarnings />
+        <AnalysisAtAGlance />
         <ExecutiveSummary />
         <IntelligenceDashboard />
         <PatternOfLifeTimeline />

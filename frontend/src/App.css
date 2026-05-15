@@ -3008,6 +3008,236 @@
   color: var(--text-dim, #888);
 }
 
+/* ─── At a glance (analysis digest) ───────────────────── */
+.at-a-glance {
+  margin: 0 auto;
+  max-width: 56rem;
+  padding: 1.1rem clamp(16px, 4vw, 28px) 1.25rem;
+}
+
+.at-a-glance__inner {
+  border: 1px solid var(--border-mid);
+  border-radius: 12px;
+  padding: 1.1rem 1.25rem 1rem;
+  background: color-mix(in srgb, var(--accent) 6%, var(--bg));
+}
+
+.at-a-glance__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+
+.at-a-glance__title {
+  margin: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-family: var(--mono);
+  color: var(--accent);
+}
+
+.at-a-glance__meta {
+  margin: 0;
+  font-size: 0.72rem;
+  font-family: var(--mono);
+  color: var(--text-dim);
+}
+
+.at-a-glance__bullets {
+  margin: 0 0 14px;
+  padding-left: 1.15rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text);
+  max-width: 48rem;
+}
+
+.at-a-glance__bullets li {
+  margin-bottom: 6px;
+}
+
+.at-a-glance__bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.at-a-glance__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.at-a-glance__link {
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-family: var(--mono);
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-mid);
+  background: var(--bg);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.at-a-glance__link:hover {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border-mid));
+}
+
+.hero__sub-block {
+  max-width: 38rem;
+  margin-bottom: 28px;
+}
+
+.hero__sub-block .hero__sub {
+  margin-bottom: 10px;
+}
+
+.hero__sub-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: var(--mono);
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero__sub-toggle:hover {
+  color: var(--text-h);
+}
+
+.hero__sub-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.phishing-email__body-disclosure {
+  margin: 0 0 14px;
+  border: 1px solid var(--border-mid);
+  border-radius: 8px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--bg) 92%, var(--border));
+}
+
+.phishing-email__body-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  user-select: none;
+}
+
+.phishing-email__body-summary::-webkit-details-marker {
+  display: none;
+}
+
+.phishing-email__body-summary::before {
+  content: '';
+  display: inline-block;
+  width: 0.35em;
+  height: 0.35em;
+  margin-right: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  vertical-align: 0.15em;
+  transition: transform 0.2s ease;
+}
+
+.phishing-email__body-disclosure[open] .phishing-email__body-summary::before {
+  transform: rotate(45deg);
+  vertical-align: 0.05em;
+}
+
+.phishing-email__body-disclosure .phishing-email__body {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid var(--border-mid);
+}
+
+.method-disclosure {
+  max-width: 72rem;
+  margin: 0 auto;
+  border: 1px solid var(--border-mid);
+  border-radius: 12px;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.method-disclosure__summary {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  padding: 18px clamp(16px, 4vw, 28px);
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.method-disclosure__summary-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(--mono);
+  color: var(--accent);
+}
+
+.method-disclosure__summary-hint {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-h);
+  max-width: 42rem;
+  line-height: 1.45;
+}
+
+.method-disclosure__summary::-webkit-details-marker {
+  display: none;
+}
+
+.method-disclosure__summary::after {
+  content: '▼';
+  position: absolute;
+  right: clamp(16px, 4vw, 28px);
+  top: 50%;
+  transform: translateY(-50%) scaleY(0.85);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+}
+
+.method-disclosure[open] .method-disclosure__summary::after {
+  content: '▲';
+}
+
+.method-inner--disclosure {
+  padding: 0 clamp(16px, 4vw, 28px) clamp(48px, 8vh, 80px);
+  border-top: 1px solid var(--border);
+}
+
 .app__analysis {
   flex: 1;
   display: flex;

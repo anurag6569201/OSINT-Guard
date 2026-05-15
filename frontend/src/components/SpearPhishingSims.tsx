@@ -57,14 +57,17 @@ function PhishingEmail({
         </div>
       </div>
 
-      <motion.pre
-        className="phishing-email__body"
-        initial={{ opacity: 0 }}
-        animate={inView ? { opacity: 1 } : {}}
-        transition={{ delay: index * 0.1 + 0.25, duration: 0.5 }}
-      >
-        {sim.body}
-      </motion.pre>
+      <details className="phishing-email__body-disclosure">
+        <summary className="phishing-email__body-summary">Show mock email body</summary>
+        <motion.pre
+          className="phishing-email__body"
+          initial={{ opacity: 0 }}
+          animate={inView ? { opacity: 1 } : {}}
+          transition={{ delay: index * 0.1 + 0.25, duration: 0.5 }}
+        >
+          {sim.body}
+        </motion.pre>
+      </details>
 
       <div className="phishing-email__why">
         <span className="phishing-email__why-tag">Why it works</span>

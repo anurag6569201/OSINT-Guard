@@ -50,7 +50,7 @@ export function InferenceTable() {
   const headerInView = useInView(headerRef, { once: true, margin: '-60px' })
 
   return (
-    <section className="inference-section" aria-labelledby="pii-heading">
+    <section className="inference-section" id="inference-exposure" aria-labelledby="pii-heading">
       <motion.div
         ref={headerRef}
         className="inference-header"
