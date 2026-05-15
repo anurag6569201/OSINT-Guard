@@ -106,7 +106,7 @@ export function ExecutiveSummary() {
 
   return (
     <section className="hero" id="report-overview" aria-labelledby="exec-heading">
-      <div className="hero__banner hero__banner--bleed">
+      <div className="hero__banner hero__banner--bleed" style={{marginTop:'1rem'}}>
         <div className="hero__banner-canvas">
           {showBannerImage && (
             <img

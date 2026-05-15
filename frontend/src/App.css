@@ -3011,8 +3011,9 @@
 /* ─── At a glance (analysis digest) ───────────────────── */
 .at-a-glance {
   margin: 0 auto;
-  max-width: 56rem;
   padding: 1.1rem clamp(16px, 4vw, 28px) 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 0;
 }
 
 .at-a-glance__inner {
